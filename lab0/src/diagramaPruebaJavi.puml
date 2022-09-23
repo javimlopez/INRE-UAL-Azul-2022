@@ -1,0 +1,10 @@
+@startuml
+
+Javi -> Ángel: Clona el repositorio
+Ángel -> Javi: Ya lo he hecho
+Ángel -> Paco: Paco clónalo tú también
+Paco -> Ángel: Cuando Juanra lo clone, lo clono yo
+Juanra -> Paco: Yo ya lo he clonado
+Paco -> Juanra: Pues lo clono
+
+@enduml
