@@ -1,0 +1,4 @@
+@startuml
+Alice -> Bob : Angel mira el bicho
+Bob -> Alice : SIUUU
+@enduml
