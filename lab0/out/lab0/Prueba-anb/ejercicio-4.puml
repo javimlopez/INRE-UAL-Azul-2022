@@ -1,0 +1,30 @@
+@startuml
+
+ :cliente :
+ :Controlador_de_fotos  :
+ :Vendedor  :
+ :Actor_comun :
+ :Gestor :
+ :Administrador :
+ :Software_facturación :
+ :Gestor_correo :
+ (Visualizar fotos)
+ (Denunciar foto)
+ (Consultar fotos)
+ (Introducir explicación)
+ (Ver ofertas)
+ (Marcar un producto)
+ (Editar información fotos)
+ (Bloquear ofertas)
+ (Emitir factura)
+ (Buscar detalles en fotos)
+ (Verificar información de entrada)
+ (Editar facturas)
+ (Editar elemento)
+ (Editar usuarios)
+ (Hacer oferta)
+ (Crear usuarios)
+ (Enviar correo)
+ (Reducir precio productos)
+
+@enduml
