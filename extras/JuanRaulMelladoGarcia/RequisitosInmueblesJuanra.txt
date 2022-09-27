@@ -1,0 +1,12 @@
+Contrato = numero de contrato + datos sucursal + datos cliente + {caracteristicas inmuebles} + caracteristicas contrato + (observaciones)
+datos sucursal = codigo sucursal + direccion sucursal + datos empleado
+direccion sucursal = calle + ciudad + cp + tlf + fax + otros
+datos empleado = nombre + apellidos
+datos cliente = nombre + apellidos + direccion + (telefono)
+caracteristicas contrato = tipo contrato + comision sucursal + pagador comision + forma pago
+tipo contrato = [compra | venta]
+pagador comision = [comprador | vendedor]
+forma pago = [contado | tarjeta | talon]
+caracteristicas inmuebles = tipo del inmueble + numero habitaciones + dotaciones deportivas + m2 + precio + otros
+tipo del inmueble = [piso | bungalow | chalets | parcela | terreno rustico | otros]
+dotaciones deportivas = [pista de tenis | squash | polideportiva | paddle | piscina | otros]
