@@ -1,0 +1,17 @@
+#Contrato = Nº contrato + Datos sucursal + Datos cliente + {Caracteristicas inmueble} + 
+Caracteristicas contrato + (observaciones)
+
+#DatosSucursal = Código + situación + datos empleado + datos cliente
+
+#Datos Cliente = nombre + apellidos + dirección + (teléfono)
+
+#Datos empleado = nombre + apellidos
+
+#Caracteristicas de contrato = [Compra | venta] + comisión + Pagador 
+
+# Pagador = [Comprador | vendedor]
+
+#Caracteristicas del inmueble = [datosInmuebleCompra | datosInmuebleVenta]
+
+#Inmueble = [Bungalow|chalets|parcela|terrenoRustico]
+
