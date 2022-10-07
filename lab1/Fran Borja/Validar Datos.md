@@ -12,14 +12,13 @@
 
 | IR-01 ||
 |:------------|:----------------|
-| INF-010: |  |
-| Versión: |  |
-| Autor: | 07/10/2022 |
-| Fuente:|  |
-| Referencia:|  |
-| Descripción:|  |
-| Flujo Normal:|  |
-| Datos especificos:|  |
-| Importancia:|  |
-| Estado:|  |
-| Comentarios:|  |
+| INF-010: | PAS |
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco de Borja Gutiérrez |
+| Fuente:| - |
+| Referencia:| - |
+| Descripción:| Se validan los datos insertados por el estudiante |
+| Datos especificos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
