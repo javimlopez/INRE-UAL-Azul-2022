@@ -1,4 +1,4 @@
-|UC-4||
+|UC-1|
 | ----------- | ----------- |
 | Nombere | consultar horarios |
 | Autor |   Angel Nieto Burgos |
