@@ -9,3 +9,15 @@
 | Flujo Normal:| 1. Se introducen los datos del usuario a dar de alta <br>2. Se validan los datos del usuario<br>3. Se guarda el usuario en la base de datos dandole de alta en este proceso |
 | Flujo Alternativo:| 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" <br>3A. Si no se ha podido acceder a la base de datos, se muestra el mensaje: "No se ha podido acceder a la base de datos" |
 | Poscondiciones:| El usuario se ha dado de alta y se ha notificado |
+
+
+| IR-03 ||
+|:------------|:----------------|
+| Nombre: | Dar de alta estudiante |
+| Autor: | Juanra |
+| Version: | 1.0 |
+| Descripcion:| Un usuario verificado como PAS da de alta un usuario estudiante |
+| Datos específicos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentarios:| - |
