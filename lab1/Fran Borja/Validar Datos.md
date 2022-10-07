@@ -8,7 +8,7 @@
 | Precondiciones:| Rellenar el alta de los estudiantes |
 | Flujo Normal:| 1. Se introducen los datos del usuario a dar de alta <br>2. Se validan los datos del usuario |
 | Flujo Alternativo:| 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" |
-| Poscondiciones:| - |
+| Poscondiciones:| Validación de los datos anteriores |
 
 | IR-01 ||
 |:------------|:----------------|
