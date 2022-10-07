@@ -6,6 +6,6 @@
 | Descripcion | En una universidad, el personal del PDI, el personal del PAS y los estudiantes pueden consultar horarios. 
 | actores |   El personal del PDI, el personal del PAS y los estudiantes   |
 | precondicion |   inicio sesion    |
-| flujo normal   |  1  introducir horarios <br>  2  escoger accion <br>  3 consultar horarios <br> 4 Devolver horario <br> |
+| flujo normal   |  1 seleccionar boton <br>  2 consultar horarios <br> 3 Devolver horario <br> |
 | flujo alternativo | 
 | poscondiciones |
