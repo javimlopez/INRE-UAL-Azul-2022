@@ -1,0 +1,17 @@
+
+@startuml supuesto3
+
+:Comercial: --> (Consultar Reservas) as conres
+Comercial as com
+com --> (Realizar ofertas)
+com ---> (Gestionar nuevas reservas)
+
+:Administrador: --> conres
+
+
+
+
+
+
+
+@enduml
