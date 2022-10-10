@@ -6,7 +6,7 @@
 |Descripcion:| Negociación del precio que tendrá el procucto |
 | Actores:| Vendedor y Comprador |
 | Precondiciones:| realizar venta |
-| Flujo Normal:| 1. Se acuerda el precio entre ambos actore <br> 2. Se realiza el producto |
+| Flujo Normal:| 1. Se acuerda el precio entre ambos actores <br> 2. Se realiza venta del producto |
 | Flujo Alternativo:| 1A. En caso de no llegar a un acuerdo entre actores no se realizará la venta |
 | Poscondiciones:| 1. Se realiza la venta <br> 2. Se guarda en la base de datos |
 
@@ -18,7 +18,7 @@
 | Fuente:| - |
 | Referencia:| - |
 | Descripción:| Negociación del precio que tendrá el procucto |
-| Datos especificos:|  <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Datos especificos:|  <ul><li>Comprador</li><li>Nombre articulo</li><li>Vendedor</li><li>Precio default</li><li>Stock</li><li>Disponibilidad</li></ul>  |
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
