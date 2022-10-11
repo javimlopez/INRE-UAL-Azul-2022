@@ -1,14 +1,14 @@
 | UC-01 ||
 |:------------|:----------------|
-| Nombre: |  |
+| Nombre: | Eliminar oferta |
 | Autor: | Francisco de Borja Gutiérrez |
 | Fecha: | 07/10/2022 |
-|Descripcion:|  |
-| Actores:|  |
-| Precondiciones:|  |
-| Flujo Normal:|  |
-| Flujo Alternativo:|  |
-| Poscondiciones:|  |
+|Descripcion:| Proceso por el cual se cancela una oferta de un producto dado por el proovedor |
+| Actores:| Provedor |
+| Precondiciones:| avisar fin de la oferta |
+| Flujo Normal:| 1. Se avisa del final de la oferta <br> 2. Se elimina la oferta del producto |
+| Flujo Alternativo:| - |
+| Poscondiciones:| La oferta quedará eliminada de la lista de ofertas |
 
 | IR-01 ||
 |:------------|:----------------|
