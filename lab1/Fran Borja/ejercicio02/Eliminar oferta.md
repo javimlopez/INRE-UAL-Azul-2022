@@ -17,8 +17,8 @@
 | Autor: | Francisco de Borja Gutiérrez |
 | Fuente:| - |
 | Referencia:| - |
-| Descripción:|  |
-| Datos especificos:|  |
-| Importancia:|  |
+| Descripción:| Proceso por el cual se cancela una oferta de un producto dado por el proovedor |
+| Datos especificos:| <ul><li>Descripción oferta</li><li>Fecha oferta</li><li>Estado oferta</li><li>Identificador oferta</li></ul> |
+| Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
