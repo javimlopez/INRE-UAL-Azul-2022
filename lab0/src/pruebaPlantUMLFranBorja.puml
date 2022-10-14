@@ -1,4 +1,4 @@
 @startuml
-Alice -> Bob : Angel mira el bicho
-Bob -> Alice : SIUUU
+Paco-> Angel : Angel mira el bicho
+Angel -> Paco : SIUUU
 @enduml
