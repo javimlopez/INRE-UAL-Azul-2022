@@ -31,14 +31,14 @@
 (Añadir comentario) as com
 (Gestionar categoria de incidencias) as calc
 
-tec --|> cto
-op --|> cto
-cto --|> cato
-admin --|> cato
-consato --|> cons
-tlft --|> tlf
-otlf --|> tlf
-aord --|> ord
+tec - -|> cto
+op - -|> cto
+cto - -|> cato
+admin - -|> cato
+consato - -|> cons
+tlft - -|> tlf
+otlf - -|> tlf
+aord - -|> ord
 
 correo .> alta : extends
 edit .> consato : extends
@@ -50,20 +50,20 @@ otlf .> new : include
 tlft .> comp : include
 aord .> com : include
 
-gCorreo -- correo
-cto -- alta
-cato -- consato
-tec -- rInforme
-tec -- tlft
-op -- otlf
-op -- dup
-op -- ord
-admin -- aord
-admin -- calc
-invi -- cons
-invi -- posible
-invi -- login
-invi -- lista
+gCorreo - - correo
+cto - - alta
+cato - - consato
+tec - - rInforme
+tec - - tlft
+op - - otlf
+op - - dup
+op - - ord
+admin - - aord
+admin - - calc
+invi - - cons
+invi - - posible
+invi - - login
+invi - - lista
 
 @enduml
 
