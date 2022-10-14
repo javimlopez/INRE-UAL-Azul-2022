@@ -16,8 +16,8 @@
 | Nombre: | Finalizar compra |
 | Autor: | Juanra |
 | Version: | 1.0 |
-| Descripcion:| Un usuario  |
-| Datos específicos:| <ul><li>Usuario</li></ul> |
+| Descripcion:| Un usuario finaliza la compra |
+| Datos específicos:| <ul><li>Usuario</li><li>Lista de objetos a pagar</li><li>Precio total</li></ul> |
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentarios:| - |
