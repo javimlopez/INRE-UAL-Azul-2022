@@ -20,13 +20,26 @@ En una universidad, el **personal del PDI**, el **personal del PAS** y los **est
 
 
 | UC-02|  |
-| :---------- | ------------------------------------: |
+| :---------- | ------------------------------------ |
 | Nombre: | Modificar horarios |
 | Autor:  | Francisco Javier Mota López |
 | Fecha:  | 30-09-22|
 | Descripción:  | Permite modificar los horarios de las asignaturas |
 | Actores: Personal PAS|
 | Precondiciones: | El usuario tiene que estar autentificado en el sistema |
-| Flujo Normal: | 1. El actor pulsa el botón de modificar horario <br> 2. El sistema muestra el horario y  |
+| Flujo Normal: | 1. El actor pulsa el botón de modificar horario <br> 2. El sistema muestra el horario y herramientas para el cambio <br> 3. El actor hace los cambios pertinentes  |
 | Flujo Alternativo: | |
-| Poscondiciones: | |
+| Poscondiciones: | El horario queda correctamente modificado|
+
+
+| UC-6|  |
+| :---------- | ------------------------------------ |
+| Nombre: | Buscar estudiantes |
+| Autor:  | Francisco Javier Mota López |
+| Fecha:  | 07-10-22|
+| Descripción:  | Permite buscar estudiantes en la lista de la clase por asignatura|
+| Actores: Personal PDI|
+| Precondiciones: | El usuario tiene que estar autentificado en el sistema |
+| Flujo Normal: | 1. El actor accede a la asignatura específica <br> 2. El actor accede al listado de la clase <br> 3. El actor busca en la clase el estudiante específico   |
+| Flujo Alternativo: | |
+| Poscondiciones: | Estudiante encontrado|
