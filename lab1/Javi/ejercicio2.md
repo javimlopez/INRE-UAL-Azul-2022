@@ -1,6 +1,6 @@
 
 
-Consultar histórico de ventas
+
 
 | UC-|  |
 | :---------- | ------------------------------------ |
@@ -49,3 +49,15 @@ Consultar histórico de ventas
 | Flujo Normal: | 1. Se marca el producto como bloqueado <br> 2. Una vez que está bloqueado, se agrega el producto al carrito|
 | Flujo Alternativo: | |
 | Poscondiciones: | El producto ha sido añadido correctamente al carrito|
+
+| UC-|  |
+| :---------- | ------------------------------------ |
+| Nombre: | Consultar histórico de ventas |
+| Autor:  | Francisco Javier Mota López |
+| Fecha:  | 14-10-22|
+| Descripción:  | Permite consultar las ventas pasadas durante la realización de una venta |
+| Actores: | Vendedor, Comprador |
+| Precondiciones: | Se está dando una venta entre un vendedor y un comprador |
+| Flujo Normal: |   |
+| Flujo Alternativo: | |
+| Poscondiciones: | |

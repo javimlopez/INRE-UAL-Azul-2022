@@ -1,16 +1,42 @@
+@startuml 
+top to bottom direction
+(Buscar elementos) as be
+(Consultar disponibilidad) as cd
+usecase cr as "Consultar reservas"
 
+Comercial as c
+usecase crc as "Consultar reservas (comercial)"
+c -- crc
+usecase roc as "Realizar ofertas (comercial) 
+----
+*extension points* 
+Buscar temporalmente una reserva"
+c -- roc
+roc ..> (Recalcular precios)
+c -- (Gestionar nuevas reservas)
+roc <.. (Bloquear temporalmente una reserva) 
 
+Administrador as admin
+usecase cra as "Consultar reservas (administrador)"
+admin -- cra
+admin -- (Gestionar nuevas peticiones)
+usecase roa as "Realizar ofertas"
+admin -- roa
+cr <|-- crc
+cr <|-- cra
+cr ..> be
 
+roa <|-- roc
+Cliente as cli
 
-@startuml supuesto3
+cli - cd
+cd ..> be
+cd ..> (Mostrar calendario)
 
-:Comercial: 
+cli - (Visualizar oferta)
 
-:Administrador: 
-
-:Cliente:
-
-
+cli <|--- admin
+cli <|-- c
 
 
 
