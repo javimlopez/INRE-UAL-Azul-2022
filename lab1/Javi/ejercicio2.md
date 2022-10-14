@@ -58,6 +58,20 @@
 | Descripción:  | Permite consultar las ventas pasadas durante la realización de una venta |
 | Actores: | Vendedor, Comprador |
 | Precondiciones: | Se está dando una venta entre un vendedor y un comprador |
-| Flujo Normal: |   |
+| Flujo Normal: | 1. Se accede al histórico de ventas <br> 2. El sistema muestra una lista de las ventas pasadas <br> 3. Consultar ventas|
 | Flujo Alternativo: | |
-| Poscondiciones: | |
+| Poscondiciones: | El sistema muestra correctamente todas las ventas pasadas|
+
+**Requisitos de información**
+
+| INF-010 ||
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| - |
+| Descripción:|  |
+| Datos especificos:|  |
+| Importancia:|  |
+| Estado:| Aceptado |
+| Comentar:| - |
