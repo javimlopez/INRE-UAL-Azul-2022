@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="643px" preserveAspectRatio="none" style="width:769px;height:643px;background:#FFFFFF;" version="1.1" viewBox="0 0 769 643" width="769px" zoomAndPan="magnify"><defs/><g><g id="elem_CHE"><ellipse cx="177.097" cy="183.6194" fill="#F1F1F1" rx="81.097" ry="18.6194" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="118.0843" y="187.4982">Consultar horarios</text></g><g id="elem_MOD"><ellipse cx="439.9775" cy="310.2955" fill="#F1F1F1" rx="79.4775" ry="18.2955" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="382.256" y="314.3709">Modificar horarios</text></g><g id="elem_PROP"><ellipse cx="129.8069" cy="310.6614" fill="#F1F1F1" rx="123.8069" ry="27.1614" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="23.3069" y="314.3899">Proponer cambios en los horarios</text></g><g id="elem_ALTA"><ellipse cx="654.1681" cy="310.7336" fill="#F1F1F1" rx="99.1681" ry="22.2336" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="574.6681" y="314.4621">Dar de alta a estudiantes</text></g><g id="elem_ALTAPDI"><ellipse cx="316.1095" cy="460.2161" fill="#F1F1F1" rx="186.1095" ry="44.7161" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="255" x="188.6095" y="444.3839">Dar de alta a estudiantes (Personal PDI)</text><line style="stroke:#181818;stroke-width:1.0;" x1="138.7332" x2="493.4857" y1="447.4601" y2="447.4601"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="249.1095" y="465.9933">&lt;&lt;extension points&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="207.1095" y="483.6027">Realizar búsqueda lista asignatura</text></g><g id="elem_VER"><ellipse cx="654.0675" cy="460.2135" fill="#F1F1F1" rx="109.0675" ry="24.2135" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="563.5675" y="463.942">Verificar datos de estudiante</text></g><g id="elem_BUS"><ellipse cx="316.1384" cy="610.1277" fill="#F1F1F1" rx="126.1384" ry="27.6277" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="207.1384" y="613.8562">Realizar búsqueda lista asignatura</text></g><!--MD5=[6b6668a306e101c8f0407873c898da86]
+entity pdi--><g id="elem_pdi"><ellipse cx="307" cy="153" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M307,161 L307,188 M294,169 L320,169 M307,188 L294,203 M307,188 L320,203 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="296" y="219.0332">PDI</text></g><!--MD5=[45514bd7040fb8bfdc0bde2912d6864d]
+entity pas--><g id="elem_pas"><ellipse cx="440" cy="153" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M440,161 L440,188 M427,169 L453,169 M440,188 L427,203 M440,188 L453,203 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="426.5" y="219.0332">PAS</text></g><!--MD5=[9104d0ef90c2af8d1092c5b05d6f169d]
+entity estudiante--><g id="elem_estudiante"><ellipse cx="307" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M307,22 L307,49 M294,30 L320,30 M307,49 L294,64 M307,49 L320,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="273.5" y="80.0332">Estudiante</text></g><!--MD5=[eacb2e651190d1795e8c4310a5995643]
+link pdi to PROP--><g id="link_pdi_PROP"><path d="M293.46,203.02 C288.14,209.6 281.7,216.79 275,222.5 C245.61,247.54 208.16,269.81 178.68,285.55 " fill="none" id="pdi-PROP" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[39a90194d5f75b2a549fc0a433b09d09]
+link pdi to ALTAPDI--><g id="link_pdi_ALTAPDI"><path d="M308.25,222.67 C309.91,273.2 312.82,362.09 314.57,415.27 " fill="none" id="pdi-ALTAPDI" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[54256e517efd0caa3630eaa5ac517bc2]
+reverse link ALTAPDI to BUS--><g id="link_ALTAPDI_BUS"><path d="M316,509.7 C316,533.91 316,562.23 316,582.41 " fill="none" id="ALTAPDI-backto-BUS" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="316,504.6,312,513.6,316,509.6,320,513.6,316,504.6" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="317" y="548.9951">«extends»</text></g><!--MD5=[20890607eece2762fcac9c82620ebb0a]
+link pas to MOD--><g id="link_pas_MOD"><path d="M440,222.68 C440,245.66 440,273.83 440,291.72 " fill="none" id="pas-MOD" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1bc098acf88ba6f9493515129bd901a1]
+link pas to ALTA--><g id="link_pas_ALTA"><path d="M453.71,192.51 C486.83,211.85 571.98,261.59 619.91,289.58 " fill="none" id="pas-ALTA" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6233b42791401721546ad09f0d8ca213]
+link ALTA to VER--><g id="link_ALTA_VER"><path d="M654,332.63 C654,358.43 654,402.15 654,430.8 " fill="none" id="ALTA-to-VER" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="654,435.96,658,426.96,654,430.96,650,426.96,654,435.96" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="655" y="381.9951">«include»</text></g><!--MD5=[c1805f2e0f643d3f39cef757bbbaed6a]
+reverse link ALTA to ALTAPDI--><g id="link_ALTA_ALTAPDI"><path d="M592.21,338.46 C539.43,361.5 462.88,394.9 403.75,420.71 " fill="none" id="ALTA-backto-ALTAPDI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="589.72,331.91,610.85,330.33,595.32,344.75,589.72,331.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[39d9ffaa1c71fbc82f0c12e78be24199]
+link estudiante to CHE--><g id="link_estudiante_CHE"><path d="M273.18,81.14 C247.45,108.25 213.18,144.37 193.26,165.36 " fill="none" id="estudiante-CHE" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[304522fc0d628afa9a0bdc3f65ed1567]
+reverse link estudiante to pdi--><g id="link_estudiante_pdi"><path d="M307,103.66 C307,117.32 307,131.53 307,144.07 " fill="none" id="estudiante-backto-pdi" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="300,103.66,307,83.66,314,103.66,300,103.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0b52dfe719a48f108088cc4f9c06657d]
+reverse link estudiante to pas--><g id="link_estudiante_pas"><path d="M354.54,94.47 C379.95,120.64 409.38,150.96 426.24,168.32 " fill="none" id="estudiante-backto-pas" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="349.47,99.3,340.56,80.07,359.52,89.55,349.47,99.3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6e5277f3527199afab2926a82e89da2e]
+@startuml
+
+usecase CHE as "Consultar horarios"
+usecase MOD as "Modificar horarios"
+usecase PROP as "Proponer cambios en los horarios"
+usecase ALTA as "Dar de alta a estudiantes"
+usecase ALTAPDI as "Dar de alta a estudiantes (Personal PDI)
+----
+<<extension points>>
+Realizar búsqueda lista asignatura"
+usecase VER as "Verificar datos de estudiante"
+usecase BUS as "Realizar búsqueda lista asignatura"
+:PDI: as pdi
+pdi -- PROP
+pdi -- ALTAPDI
+ALTAPDI <.. BUS #line.dashed;text:black : <<extends>>
+:PAS: as pas
+pas -- MOD
+pas -- ALTA
+ALTA ..> VER #line.dashed;text:black : <<include>>
+ALTA <|-- ALTAPDI
+:Estudiante: as estudiante
+estudiante -- CHE
+estudiante <|-- pdi
+estudiante <|-- pas
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

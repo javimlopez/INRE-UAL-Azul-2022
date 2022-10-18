@@ -1,0 +1,28 @@
+
+@startuml
+
+usecase CHE as "Consultar horarios"
+usecase MOD as "Modificar horarios"
+usecase PROP as "Proponer cambios en los horarios"
+usecase ALTA as "Dar de alta a estudiantes"
+usecase ALTAPDI as "Dar de alta a estudiantes (Personal PDI)
+----
+<<extension points>>
+Realizar búsqueda lista asignatura"
+usecase VER as "Verificar datos de estudiante"
+usecase BUS as "Realizar búsqueda lista asignatura"
+:PDI: as pdi
+pdi -- PROP
+pdi -- ALTAPDI
+ALTAPDI <.. BUS #line.dashed;text:black : <<extends>>
+:PAS: as pas
+pas -- MOD
+pas -- ALTA
+ALTA ..> VER #line.dashed;text:black : <<include>>
+ALTA <|-- ALTAPDI
+:Estudiante: as estudiante
+estudiante -- CHE
+estudiante <|-- pdi
+estudiante <|-- pas
+
+@enduml

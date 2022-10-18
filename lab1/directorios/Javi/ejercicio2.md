@@ -1,17 +1,3 @@
-
-
-| UC-|  |
-| :---------- | ------------------------------------ |
-| Nombre: |  |
-| Autor:  | Francisco Javier Mota López |
-| Fecha:  | 07-10-22|
-| Descripción:  | |
-| Actores: | |
-| Precondiciones: |  |
-| Flujo Normal: |   |
-| Flujo Alternativo: | |
-| Poscondiciones: | |
-
 | UC-|  |
 | :---------- | ------------------------------------ |
 | Nombre: |  Buscar productos|
@@ -24,6 +10,18 @@
 | Flujo Alternativo: | |
 | Poscondiciones: |La búsqueda ofrece productos que coinciden con la búsqueda con mucha certeza |
 
+| INF- ||
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Buscar productos |
+| Descripción:| El sistema deberá mostrar una lista de productos que coincidan con la búsqueda realizada y las especificaciones de cada uno |
+| Datos especificos:| -Nombre del producto <br> -Precio del producto <br> -Imagen del producto <br> -Breve descripción del producto <br> -Disponibilidad del producto |
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
 | UC-|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Avisar de fin de oferta |
@@ -35,6 +33,18 @@
 | Flujo Normal: |1. Se elimina la oferta <br> 2. Se manda una notificación con el aviso de oferta terminada |
 | Flujo Alternativo: | |
 | Poscondiciones: | La oferta se ha eliminado correctamente y se ha avisado correctamente de ello|
+
+| INF-010 ||
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Avisar de fin de oferta |
+| Descripción:| El proveedor deberá informar sobre la oferta que ha finalizado |
+| Datos especificos:| -Nombre de oferta <br> -Fecha de fin <br> - |
+| Importancia:|  |
+| Estado:| Aceptado |
+| Comentar:| - |
 
 | UC-|  |
 | :---------- | ------------------------------------ |
