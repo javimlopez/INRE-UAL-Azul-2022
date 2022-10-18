@@ -1,0 +1,40 @@
+
+"Comprador" as comp 
+"Vendedor" as vend
+"Proveedor" as prov
+"Adminsitrador" as admin
+"ActorAux1" as aa1
+"ActorAux2" as aa2
+
+aa1 --> (Consultar precio)
+aa1 --> (Consultar oferta)
+(Consultar precio) --> (Buscar producto)
+(Consultar oferta) --> (Verificar disponibilidad)
+
+aa2 --> (Realizar venta)
+
+comp --> (Finalizar compra)
+comp --> (Agregar producto)
+(Agregar producto)..>(Marcar como bloqueado)#line.dashed;text:black : <<include>>
+
+(Realizar venta) --> (Llegar acuerdo)
+(Realizar venta) <..(Consultar historico de venta)#line.dashed;text:black : <<include>>
+
+prov --> (Avisar nuevos producto)
+prov --> (Avisar fin oferta)
+
+(Avisar nuevos producto)<..(Incorporacion oferta)#line.dashed;text:black : <<extends>>
+(Avisar fin oferta)..>(Eliminar oferta) #line.dashed;text:black : <<include>>
+
+(Avisar nuevos producto) --> (Enviar notificacion)
+(Avisar fin oferta) --> (Enviar notificacion)
+
+admin --> (Eliminar producto)
+
+aa1 <|-- comp
+aa1 <|-- vend
+aa1 <|-- prov
+aa1 <|-- admin
+
+aa2 <|-- comp
+aa2 <|-- vend
