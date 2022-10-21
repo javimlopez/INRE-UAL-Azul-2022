@@ -1,4 +1,4 @@
-|UC-1|
+|UC-1||
 | ----------- | ----------- |
 | Nombere | consultar horarios |
 | Autor |   Angel Nieto Burgos |
@@ -10,7 +10,7 @@
 | flujo alternativo | 
 | poscondiciones |
 
-|UC-1 DatosHorario|
+|UC-1 DatosHorario||
 | ----------- | ----------- |
 | Nombre |  Horarios |  
 |Referencia| consultar horarios,proponer cambios en los horarios|

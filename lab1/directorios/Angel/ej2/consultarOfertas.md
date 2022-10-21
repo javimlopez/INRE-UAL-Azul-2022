@@ -1,4 +1,4 @@
-|UC-1|
+|UC-1||
 | ----------- | ----------- |
 | Nombere | consultar ofertas |
 | Autor |   Angel Nieto Burgos |
