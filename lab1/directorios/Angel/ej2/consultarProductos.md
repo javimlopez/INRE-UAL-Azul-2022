@@ -15,7 +15,7 @@
 | Nombre |  Productos |  
 |Referencia| Consultar ofertas,Consultar Productos|
 |Informacion|Los datos que son necesarios para el funcionamiento de los productos  |
-|Datos especificos|1 IdProducto <br>  2 Nombre <br> 3 Descripcion <br> 4 Precio <br> 5 Oferta <br>6 Stock <br> 7 Fecha  Introduccion<br> |
+|Datos especificos|1 IdProducto <br>  2 Nombre <br> 3 Descripcion <br> 4 Precio <br> 5 Oferta <br>6 rebajaPrecio <br> 7 DuracionOferta <br>8  Stock <br>9 Fecha Introduccion <br>10 Lista Emails Interesados en el producto <br> 11 Primer Envio|
 |Importancia|Muy Importantes|
 |Estado||
 |Comentarios||
