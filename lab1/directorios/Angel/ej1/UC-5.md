@@ -9,3 +9,14 @@
 | flujo normal   |  1 dar al boton  <br>  2  Rellenar datos <br>  3 Dar de alta datos <br> 4 Verificar datos del estudiante <br> |
 | flujo alternativo | 1 Posibilidad de realizar busqueda  la búsqueda en las listas de clase de sus asignaturas si es del PDI <br> 2 datos repetidos en base
 | poscondiciones   |  Datos introducidos en la base correctamente.
+
+
+|UC-1 DatosUsuario||
+| ----------- | ----------- |
+| Nombre |  Horarios |  
+|Referencia| consultar horarios,proponer cambios en los horarios,Dar de alta datos|
+|Informacion|Los datos que son necesarios para el funcionamiento de los inicios de sesion  |
+|Datos especificos|1 nombre y apelllidos <br>  ID <br> Asignatiras<br>,fecha matriculacion <br>,cargo<br>|
+|Importancia|Muy Importantes|
+|Estado||
+|Comentarios||
