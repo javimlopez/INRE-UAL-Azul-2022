@@ -1,0 +1,33 @@
+
+@startuml
+
+actor Alumno as al
+usecase RA as "Rellenar automatrícula"
+usecase PM as "Pagar matrícula"
+usecase EA as "Elegir asignaturas
+----
+<<extension points>>
+
+Elegir grupo docente"
+usecase EB as "Elegir becas"
+usecase FA as "Finalizar automatrícula"
+usecase RP as "Rellenar datos personales"
+usecase ED as "Elegir grupo docente
+----
+<<extension points>>
+
+Elegir grupo de trabajo"
+PM ..> (Elegir plan de pago)#line.dashed;text:black : <<include>>
+PM ..> (Añadir cuenta bancaria)#line.dashed;text:black : <<include>>
+RA .right.> (Iniciar sesión aula virtual)#line.dashed;text:black : <<include>>
+FA ..> (Rellenar todos los campos)#line.dashed;text:black : <<include>>
+EB ..> (Tener beca)#line.dashed;text:black : <<include>>
+EA <.left. ED#line.dashed;text:black : <<extends>>
+ED <.left. (Elegir grupo de trabajo)#line.dashed;text:black : <<extends>>
+al -left- EA
+al -- EB
+al -- FA
+al -right- RA
+al -up- RP
+al -- PM
+@enduml
