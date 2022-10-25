@@ -1,4 +1,4 @@
-|UC-1|
+|UC-1||
 | ----------- | ----------- |
 | Nombere | consultar horarios |
 | Autor |   Angel Nieto Burgos |
@@ -9,3 +9,13 @@
 | flujo normal   |  1 seleccionar boton <br>  2 consultar horarios <br> 3 Devolver horario <br> |
 | flujo alternativo | 
 | poscondiciones |
+
+|UC-1 DatosHorario||
+| ----------- | ----------- |
+| Nombre |  Horarios |  
+|Referencia| consultar horarios,proponer cambios en los horarios|
+|Informacion|Los datos que son necesarios para el funcionamiento de los horarios  |
+|Datos especificos|1 Hora y Fecha <br>  asignaturas <br> Aulas <br>|
+|Importancia|Muy Importantes|
+|Estado||
+|Comentarios||
