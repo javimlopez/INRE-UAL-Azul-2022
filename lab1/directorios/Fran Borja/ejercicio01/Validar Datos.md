@@ -10,15 +10,3 @@
 | Flujo Alternativo:| 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" |
 | Poscondiciones:| Validación de los datos anteriores |
 
-| IR-01 ||
-|:------------|:----------------|
-| INF-010: | PAS |
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Se validan los datos insertados por el estudiante |
-| Datos especificos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
