@@ -1,3 +1,5 @@
+
+@startuml
 :cliente :--> (Visualizar fotos)  
  (Visualizar fotos)  <|-- (Consultar fotos)
  (Visualizar fotos)  <|-- (Buscar detalles en fotos)
@@ -26,3 +28,4 @@
  (Crear usuarios) -->(Enviar correo)#line.dashed;text:black :  <<Include>>
  (Hacer oferta) <--(Reducir precio productos)#line.dashed;text:black : <<Extend>>
 (Visualizar fotos) as "-extension points-"
+@enduml
