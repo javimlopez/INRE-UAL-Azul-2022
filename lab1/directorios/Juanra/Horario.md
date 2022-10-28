@@ -11,13 +11,12 @@
 | Poscondiciones:| El usuario se ha dado de alta y se ha notificado |
 
 
-| IR-03 ||
-|:------------|:----------------|
-| Nombre: | Dar de alta estudiante |
-| Autor: | Juanra |
-| Version: | 1.0 |
-| Descripcion:| Un usuario verificado como PAS da de alta un usuario estudiante |
-| Datos específicos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentarios:| - |
+|UC-1 DatosUsuario||
+| ----------- | ----------- |
+| Nombre |  Horarios |  
+|Referencia| consultar horarios,proponer cambios en los horarios,Dar de alta datos,validar datos.|
+|Informacion|Los datos que son necesarios para el funcionamiento de los inicios de sesion  |
+|Datos especificos|1 nombre y apelllidos <br>  ID <br> Asignatiras<br> fecha matriculacion <br> cargo<br> DNI estudiante<br> Fecha de nacimiento<br> correo electrico<br> Direccion<br> telefono<br> sexo<br>|
+|Importancia|Muy Importantes|
+|Estado||
+|Comentarios||
