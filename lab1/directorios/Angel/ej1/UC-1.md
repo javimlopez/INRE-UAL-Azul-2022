@@ -15,7 +15,27 @@
 | Nombre |  Horarios |  
 |Referencia| consultar horarios,proponer cambios en los horarios|
 |Informacion|Los datos que son necesarios para el funcionamiento de los horarios  |
-|Datos especificos|1 Hora y Fecha <br>  asignaturas <br> Aulas <br>|
+|Datos especificos|1 Hora <br> 2 Fecha <br> 3 asignaturas <br> 4 Aulas <br>|
+|Importancia|Muy Importantes|
+|Estado||
+|Comentarios||
+
+|UC-1 DatosHorario op2||
+| ----------- | ----------- |
+| Nombre |  Horarios |  
+|Referencia| consultar horarios,proponer cambios en los horarios|
+|Informacion|Los datos que son necesarios para el funcionamiento de los horarios  |
+|Datos especificos|1 Hora <br> 2 Fecha <br> 3 Aulas <br>IdAsignatura <br>| 
+|Importancia|Muy Importantes|
+|Estado||
+|Comentarios||
+
+|UC-1 DatosAsignatura||
+| ----------- | ----------- |
+| Nombre |  Horarios |  
+|Referencia| consultar horarios,proponer cambios en los horarios|
+|Informacion|Los datos que son necesarios para el funcionamiento de los horarios  |
+|Datos especificos|1 IdAsignatura <br> 2 asignaturabNombre <br>|
 |Importancia|Muy Importantes|
 |Estado||
 |Comentarios||
