@@ -95,6 +95,81 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
+| UC-05 ||
+|:------------|:----------------|
+| Nombre: | Validar disponibilidad |
+| Autor: | Francisco de Borja Gutiérrez |
+| Fecha: | 07/10/2022 |
+| Descripcion:| Proceso por el cual el producto consultado muestra su estado de disponibilidad |
+| Actores:| Comprador |
+| Precondiciones:| Consultar producto |
+| Flujo Normal:| 1. Consultar producto <br> 2. Verificar disponibilidad |
+| Flujo Alternativo:| 1A. Producto no encontrado |
+| Poscondiciones:| El producto consultado muestra su disponibildad en el momento de la consulta |
+
+
+| INF-005: |  |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco de Borja Gutiérrez |
+| Fuente:| - |
+| Referencia:| - |
+| Descripción:| Proceso por el cual el producto consultado muestra su estado de disponibilidad |
+| Datos especificos:| <ul><li>Datos productos</li><li>Fecha producto</li><li>Estado producto</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+|UC-06||
+| ----------- | ----------- |
+| Nombre | Enviar Notificación |
+| Autor |   Angel Nieto Burgos |
+| Fecha |14/10/2022   |
+| Descripcion | Notificación de proveedores cuando se termina una ofeta o cuando se avisa  que le queda poco. 
+| actores |   proveedores.|
+| precondicion |  Tener que realizar un aviso  |
+| flujo normal   |  1 seleccionar tipo de notificacion  <br>  2 preparar notificacion de fin de oferta   <br> 3 enviarla <br> |
+| flujo alternativo | 2b preparar notificacion elminacion de oferta 
+| poscondiciones |
+
+
+| INF-006: |  |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco de Borja Gutiérrez |
+| Fuente:| - |
+| Referencia:| - |
+| Descripción:| Proceso por el cual el producto consultado muestra su estado de disponibilidad |
+| Datos especificos:| <ul><li>Datos productos</li><li>Fecha producto</li><li>Estado producto</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+|UC-7||
+| ----------- | ----------- |
+| Nombre | Consultar ofertas |
+| Autor |   Angel Nieto Burgos |
+| Fecha |21/10/2022   |
+| Descripcion | En una universidad, el personal del PDI, el personal del PAS y los estudiantes pueden consultar horarios. 
+| actores |   El comprador, el vendedor, los proveedores  y los administradores   |
+| precondicion ||
+| flujo normal   |  1 seleccionar boton <br>  2 recopilar ofertas <br> 3 Devolver horario <br> |
+| flujo alternativo | 
+| poscondiciones |
+
+|UC-8||
+| ----------- | ----------- |
+| Nombre | consultar Productos |
+| Autor |   Angel Nieto Burgos |
+| Fecha |07/10/2022   |
+| Descripcion | comprador y administrador pueden ver ofertas. 
+| actores |   comprador y administrador.|
+| precondicion |   inicio sesion y consultar precios   |
+| flujo normal   |  1 seleccionar boton <br>  2 consultar productos <br> 3 mostrar datos productos <br> |
+| flujo alternativo || 
+| poscondiciones ||
+
+
 | UC-10|  |
 | :---------- | ------------------------------------ |
 | Nombre: |  Buscar productos|
@@ -191,4 +266,98 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
+| UC-14 ||
+|:------------|:----------------|
+| Nombre: | Avisar de nuevos productos |
+| Autor: | Juanra |
+| Fecha: | 30/09/2022 |
+|Descripcion:| Un usuario puede agregar nuevos productos |
+| Actores:| Proveedor |
+| Precondiciones:| Articulos no registrados |
+| Flujo Normal:| 1. Se indica que existen nuevos objetos para añadir |
+| Flujo Alternativo:| 1A. Los objetos se ponen de oferta |
+| Poscondiciones:| Se añaden los objetos al listado |
 
+
+| IR-014 ||
+|:------------|:----------------|
+| Nombre: | Avisar de nuevos productos |
+| Autor: | Juanra |
+| Version: | 1.0 |
+| Descripcion:| Un proveedor indica que tiene nuevos articulos |
+| Datos específicos:| <ul><li>Proveedor</li><li>Lista de nuevos articulos</li><li>Precio de cada articulo</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentarios:| - |
+
+| UC-15 ||
+|:------------|:----------------|
+| Nombre: | Bloquear productos |
+| Autor: | Juanra |
+| Fecha: | 30/09/2022 |
+|Descripcion:| Un usuario puede bloquear un producto |
+| Actores:| Comprador |
+| Precondiciones:| Existencia del articulo a bloquear |
+| Flujo Normal:| 1. Se busca el articulo a bloquear <br> 2. Se selecciona el articulo a bloquear <br> 3. Se marca el articulo como bloqueado |
+| Flujo Alternativo:| - |
+| Poscondiciones:| El articulo bloqueado no aparece en la lista de articulos disponibles |
+
+
+| INF-015 ||
+|:------------|:----------------|
+| Nombre: | Bloquear productos |
+| Autor: | Juanra |
+| Version: | 1.0 |
+| Descripcion:| Un comprador bloquea un articulo |
+| Datos específicos:| <ul><li>Comprador</li><li>articulo</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentarios:| - |
+
+| UC-16 ||
+|:------------|:----------------|
+| Nombre: | Consultar precio |
+| Autor: | Juanra |
+| Fecha: | 30/09/2022 |
+|Descripcion:| Un usuario puede visualizar el precio de un producto |
+| Actores:| Comprador, Vendedor, Administrador, Proveedor |
+| Precondiciones:| Articulos existente |
+| Flujo Normal:| 1. Se busca el producto a consultar <br> 2. Se selecciona el producto <br> 3. Se muestra el precio del producto |
+| Flujo Alternativo:| - |
+| Poscondiciones:| - |
+
+
+| IR-016 ||
+|:------------|:----------------|
+| Nombre: | Consultar precio |
+| Autor: | Juanra |
+| Version: | 1.0 |
+| Descripcion:| Un usuario consulta el precio de un articulo |
+| Datos específicos:| <ul><li>Usuario</li><li>Articulo a consultar</li><li>Precio del articulo</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentarios:| - |
+
+| UC-17 ||
+|:------------|:----------------|
+| Nombre: | Finalizar compra |
+| Autor: | Juanra |
+| Fecha: | 30/09/2022 |
+|Descripcion:| Un usuario puede finalizar la compra |
+| Actores:| Comprador, Vendedor, Administrador, Proveedor |
+| Precondiciones:| Ha de tener articulos en la cesta de la compra |
+| Flujo Normal:| 1. Se pulsa el boton de pagos <br>2. Se accede a la pasarela de pagos<br>3. Se rellenan los datos de la pasarela de pagos<br>4. Se pulsa el boton para pagar<br>5. Se verifica el pago<br>6. Se crea el pedido |
+| Flujo Alternativo:| 1A. Si la cesta esta vacia, se muestra el mensaje: "Cesta vacia" <br>5A. Si no se ha verificado la compra, se muestra el mensaje: "No se ha podido verificar la compra" |
+| Poscondiciones:| Se registra la compra en la base de datos |
+
+
+| IR-017 ||
+|:------------|:----------------|
+| Nombre: | Finalizar compra |
+| Autor: | Juanra |
+| Version: | 1.0 |
+| Descripcion:| Un usuario finaliza la compra |
+| Datos específicos:| <ul><li>Usuario</li><li>Lista de objetos a pagar</li><li>Precio total</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentarios:| - |
