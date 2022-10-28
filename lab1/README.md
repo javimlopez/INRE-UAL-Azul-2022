@@ -152,8 +152,6 @@
 | Flujo Alternativo:| 1A. En caso de no llegar a un acuerdo entre actores no se realizará la venta |
 | Poscondiciones:| 1. Se realiza la venta <br> 2. Se guarda en la base de datos |
 
-<br>
-
 | INF-001: |  |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -165,8 +163,6 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
-
-<br>
 
 | UC-02 ||
 |:------------|:----------------|
@@ -180,8 +176,6 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| La oferta quedará eliminada de la lista de ofertas |
 
-<br>
-
 | INF-002: |  |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -193,8 +187,6 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
-
-<br>
 
 | UC-03 ||
 |:------------|:----------------|
@@ -208,8 +200,6 @@
 | Flujo Alternativo:|  |
 | Poscondiciones:| El producto que teniamos ha sido borrado |
 
-<br>
-
 | INF-003: |  |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -221,8 +211,6 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
-
-<br>
 
 | UC-04 ||
 |:------------|:----------------|
@@ -236,7 +224,6 @@
 | Flujo Alternativo:| 1A. No hay aviso de oferta |
 | Poscondiciones:| La oferta queda incorporada |
 
-<br>
 
 | INF-004: |  |
 |:------------|:----------------|
@@ -250,8 +237,6 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
-
 | UC-05 ||
 |:------------|:----------------|
 | Nombre: | Validar disponibilidad |
@@ -264,7 +249,6 @@
 | Flujo Alternativo:| 1A. Producto no encontrado |
 | Poscondiciones:| El producto consultado muestra su disponibildad en el momento de la consulta |
 
-<br>
 
 | INF-005: |  |
 |:------------|:----------------|
@@ -278,8 +262,6 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
-
 |UC-06||
 | ----------- | ----------- |
 | Nombre | Enviar Notificación |
@@ -292,7 +274,6 @@
 | flujo alternativo | 2b preparar notificacion elminacion de oferta 
 | poscondiciones |
 
-<br>
 
 | INF-006: |  |
 |:------------|:----------------|
@@ -306,8 +287,6 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
-
 |UC-7||
 | ----------- | ----------- |
 | Nombre | Consultar ofertas |
@@ -319,8 +298,6 @@
 | flujo normal   |  1 seleccionar boton <br>  2 recopilar ofertas <br> 3 Devolver horario <br> |
 | flujo alternativo | 
 | poscondiciones |
-
-<br>
 
 |UC-8||
 | ----------- | ----------- |
@@ -334,7 +311,6 @@
 | flujo alternativo || 
 | poscondiciones ||
 
-<br>
 
 | UC-10|  |
 | :---------- | ------------------------------------ |
@@ -348,8 +324,6 @@
 | Flujo Alternativo: | 3. El sistema no encuentra ningún producto que coincida con el criterio de búsqueda y permite al usuario volver a realizar una búsqueda|
 | Poscondiciones: |La búsqueda ofrece productos que coinciden con la búsqueda con mucha certeza |
 
-<br>
-
 | INF-010| Buscar productos|
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -361,8 +335,6 @@
 | Importancia:| Muy importante |
 | Estado:| Aceptado |
 | Comentar:| - |
-
-<br>
 
 | UC-11|  |
 | :---------- | ------------------------------------ |
@@ -376,8 +348,6 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | La oferta se ha eliminado correctamente y se ha avisado correctamente de ello|
 
-<br>
-
 | INF-011 | Fin de ofertas |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -389,8 +359,6 @@
 | Importancia:|  |
 | Estado:| Aceptado |
 | Comentar:| - |
-
-<br>
 
 | UC-12|  |
 | :---------- | ------------------------------------ |
@@ -404,21 +372,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El producto ha sido añadido correctamente al carrito|
 
-<br>
 
-| INF-012 | Producto |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| - |
-| Referencia:| Agregar productos |
-| Descripción:| El comprador selecciona un producto y lo agrega al carrito |
-| Datos especificos:| -Nombre del producto <br> -Imagen del producto <br> -Tipo de producto <br > -Precio del producto <br> -Especificaciones del producto <br> -Disponibilidad del producto |
-| Importancia:| Muy importante |
-| Estado:| Aceptado |
-| Comentar:| - |
-
-<br>
 
 | UC-13|  |
 | :---------- | ------------------------------------ |
@@ -432,8 +386,6 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El sistema muestra correctamente todas las ventas pasadas|
 
-<br>
-
 | INF-013 | Histórico de ventas |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -445,8 +397,6 @@
 | Importancia:| Muy importante |
 | Estado:| Aceptado |
 | Comentar:| - |
-
-<br>
 
 | UC-14 ||
 |:------------|:----------------|
@@ -460,7 +410,6 @@
 | Flujo Alternativo:| 1A. Los objetos se ponen de oferta |
 | Poscondiciones:| Se añaden los objetos al listado |
 
-<br>
 
 | IR-014 ||
 |:------------|:----------------|
@@ -472,8 +421,6 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentarios:| - |
-
-<br>
 
 | UC-15 ||
 |:------------|:----------------|
@@ -487,7 +434,6 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| El articulo bloqueado no aparece en la lista de articulos disponibles |
 
-<br>
 
 | INF-015 ||
 |:------------|:----------------|
@@ -499,8 +445,6 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentarios:| - |
-
-<br>
 
 | UC-16 ||
 |:------------|:----------------|
@@ -514,7 +458,6 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| - |
 
-<br>
 
 | IR-016 ||
 |:------------|:----------------|
@@ -526,8 +469,6 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentarios:| - |
-
-<br>
 
 | UC-17 ||
 |:------------|:----------------|
@@ -541,7 +482,6 @@
 | Flujo Alternativo:| 1A. Si la cesta esta vacia, se muestra el mensaje: "Cesta vacia" <br>5A. Si no se ha verificado la compra, se muestra el mensaje: "No se ha podido verificar la compra" |
 | Poscondiciones:| Se registra la compra en la base de datos |
 
-<br>
 
 | IR-017 ||
 |:------------|:----------------|
@@ -553,3 +493,113 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentarios:| - |
+
+**Requisitos de información**
+
+| INF-001 | Producto |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Agregar productos, Buscar productos, Eliminar productos, Consultar precios, Avisar de nuevos productos, Bloquear productos, Consultar productos, Finalizar compra, Verificar disponibilidad, Realizar venta, Consultar histórico de ventas|
+| Descripción:| Información importante de los productos |
+| Datos especificos:| <ul> <li> ID producto </li> <li>Nombre del producto </li> <li> Imagen del producto </li>  <li>Tipo de producto </li> <li>Precio del producto </li> <li> Descripción del producto </li> <li>Disponibilidad del producto </li> <li> Valoración del producto</li> <li> ID de oferta </li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-002 | Vendedor |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Realizar venta, Acordar precio, Consultar histórico de ventas, Buscar productos, Consultar precios, Consultar ofertas|
+| Descripción:| Datos del vendedor |
+| Datos especificos:| <ul> <li> ID vendedor</li> <li> Nombre del vendedor</li> <li>Imagen del vendedor</li> <li>ID producto</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-003 | Comprador |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Agregar productos, Bloquear productos, Consultar productos, Verificar disponibilidad, Finalizar compra, Realizar venta|
+| Descripción:| Información importante del comprador|
+| Datos especificos:| <ul> <li> ID comprador</li> <li> Nombre del comprador</li> <li>Imagen del comprador</li> <li>ID carrito</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-004 | Proveedor |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Consultar precios, Consultar ofertas, Buscar productos, Avisar de nuevos productos, Incorporar oferta, Avisar, Avisar de fin de oferta, Eliminar oferta, Enviar notificación |
+| Descripción:| |
+| Datos especificos:| <ul> <li> ID proveedor</li> <li> Nombre del proveedor</li> <li>Imagen del proveedor</li> <li>Lista productos</li> <li>ID oferta</li> <li>ID notificación</li></ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-005 | Administrador |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Eliminar productos |
+| Descripción:| Datos importantes del administrador |
+| Datos especificos:| <ul> <li> ID Administrador</li> <li> Nombre administrador</li> <li>Imagen del administrador</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-006 | Oferta |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Incorporar oferta, Eliminar oferta, Avisar de fin de oferta, Avisar de nuevos productos, Consultar productos, Buscar productos, Realizar venta, Consultar ofertas |
+| Descripción:| Información importante que tiene cada oferta|
+| Datos especificos:| <ul> <li> ID Oferta</li> <li> Nombre de la oferta</li> <li>Lista de productos con la oferta</li> <li> Descuento aplicado </li> <li> Fecha de inicio de oferta </li> <li> Fecha final de la oferta </li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-007 | Notificación |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Enviar notificación, Avisar, Avisar de fin de oferta, Avisar de nuevos productos |
+| Descripción:| Información importante sobre el contenido de una notificación|
+| Datos especificos:| <ul> <li> ID Notificación</li> <li> Asunto de la notificación</li> <li>Contenido notificación</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-008 | Ventas |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Realizar venta, Acordar precio, Consultar histórico de ventas |
+| Descripción:| Información esencial sobre las ventas |
+| Datos especificos:| <ul> <li> ID Venta</li> <li> Lista productos</li> <li>Coste total de la venta</li> <li>ID Comprador</li> <li> ID Vendedor</li></ul> |
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-009 | Carrito |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Agregar productos, Bloquear productos |
+| Descripción:| Datos necesarios para el carrito |
+| Datos especificos:| <ul> <li> ID Carrito</li> <li> Lista productos</li> <li>Coste total del carrito</li> <li>ID Comprador</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
