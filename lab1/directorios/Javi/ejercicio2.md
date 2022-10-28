@@ -230,17 +230,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El producto ha sido añadido correctamente al carrito|
 
-| INF-012 | Producto |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| - |
-| Referencia:| Agregar productos |
-| Descripción:| El comprador selecciona un producto y lo agrega al carrito |
-| Datos especificos:| -Nombre del producto <br> -Imagen del producto <br> -Tipo de producto <br > -Precio del producto <br> -Especificaciones del producto <br> -Disponibilidad del producto |
-| Importancia:| Muy importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+
 
 | UC-13|  |
 | :---------- | ------------------------------------ |
@@ -361,3 +351,115 @@
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentarios:| - |
+
+**Requisitos de información**
+
+| INF-001 | Producto |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Agregar productos, Buscar productos, Eliminar productos, Consultar precios, Avisar de nuevos productos, Bloquear productos, Consultar productos, Finalizar compra, Verificar disponibilidad, Realizar venta, Consultar histórico de ventas|
+| Descripción:| Información importante de los productos |
+| Datos especificos:| <ul> <li> ID producto </li> <li>Nombre del producto </li> <li> Imagen del producto </li>  <li>Tipo de producto </li> <li>Precio del producto </li> <li> Descripción del producto </li> <li>Disponibilidad del producto </li> <li> Valoración del producto</li> <li> ID de oferta </li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-002 | Vendedor |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Realizar venta, Acordar precio, Consultar histórico de ventas, Buscar productos, Consultar precios, Consultar ofertas|
+| Descripción:| Datos del vendedor |
+| Datos especificos:| <ul> <li> ID vendedor</li> <li> Nombre del vendedor</li> <li>Imagen del vendedor</li> <li>ID producto</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-003 | Comprador |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Agregar productos, Bloquear productos, Consultar productos, Verificar disponibilidad, Finalizar compra, Realizar venta|
+| Descripción:| Información importante del comprador|
+| Datos especificos:| <ul> <li> ID comprador</li> <li> Nombre del comprador</li> <li>Imagen del comprador</li> <li>ID carrito</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-004 | Proveedor |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Consultar precios, Consultar ofertas, Buscar productos, Avisar de nuevos productos, Incorporar oferta, Avisar, Avisar de fin de oferta, Eliminar oferta, Enviar notificación |
+| Descripción:| |
+| Datos especificos:| <ul> <li> ID proveedor</li> <li> Nombre del proveedor</li> <li>Imagen del proveedor</li> <li>Lista productos</li> <li>ID oferta</li> <li>ID notificación</li></ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-005 | Administrador |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Eliminar productos |
+| Descripción:| Datos importantes del administrador |
+| Datos especificos:| <ul> <li> ID Administrador</li> <li> Nombre administrador</li> <li>Imagen del administrador</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-006 | Oferta |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Incorporar oferta, Eliminar oferta, Avisar de fin de oferta, Avisar de nuevos productos, Consultar productos, Buscar productos, Realizar venta, Consultar ofertas |
+| Descripción:| Información importante que tiene cada oferta|
+| Datos especificos:| <ul> <li> ID Oferta</li> <li> Nombre de la oferta</li> <li>Lista de productos con la oferta</li> <li> Descuento aplicado </li> <li> Fecha de inicio de oferta </li> <li> Fecha final de la oferta </li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-007 | Notificación |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Enviar notificación, Avisar, Avisar de fin de oferta, Avisar de nuevos productos |
+| Descripción:| Información importante sobre el contenido de una notificación|
+| Datos especificos:| <ul> <li> ID Notificación</li> <li> Asunto de la notificación</li> <li>Contenido notificación</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-008 | Ventas |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Realizar venta, Acordar precio, Consultar histórico de ventas |
+| Descripción:| Información esencial sobre las ventas |
+| Datos especificos:| <ul> <li> ID Venta</li> <li> Lista productos</li> <li>Coste total de la venta</li> <li>ID Comprador</li> <li> ID Vendedor</li></ul> |
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-009 | Carrito |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Agregar productos, Bloquear productos |
+| Descripción:| Datos necesarios para el carrito |
+| Datos especificos:| <ul> <li> ID Carrito</li> <li> Lista productos</li> <li>Coste total del carrito</li> <li>ID Comprador</li> </ul>|
+| Importancia:| Muy importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+
