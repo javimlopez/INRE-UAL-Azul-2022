@@ -14,7 +14,7 @@
 |UC-1 DatosUsuario||
 | ----------- | ----------- |
 | Nombre |  Horarios |  
-|Referencia| consultar horarios,proponer cambios en los horarios,Dar de alta datos,validar datos.|
+|Referencia| consultar horarios,proponer cambios en los horarios,Dar de alta estudiantes y validar datos.|
 |Informacion|Los datos que son necesarios para el funcionamiento de los inicios de sesion  |
 |Datos especificos|1 nombre y apelllidos <br>  ID <br> Asignatiras<br> fecha matriculacion <br> cargo<br> DNI estudiante<br> Fecha de nacimiento<br> correo electrico<br> Direccion<br> telefono<br> sexo<br>|
 |Importancia|Muy Importantes|
