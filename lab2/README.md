@@ -46,10 +46,10 @@ Un empleado envía una información para ser revisada. A un gerente se le envía
 
 ## Autores
 
-1. FRANCISCO JAVIER MOTA LOPEZ
+**1.** FRANCISCO JAVIER MOTA LOPEZ :large_blue_circle:
 
-2. ANGEL NIETO BURGOS
+**2.** ANGEL NIETO BURGOS :large_blue_circle:
 
-3. FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO
+**3.** FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO :large_blue_circle:
 
-4. JUAN RAUL MELLADO GARCIA
+**4.** JUAN RAUL MELLADO GARCIA :large_blue_circle:
