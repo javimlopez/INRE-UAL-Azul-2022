@@ -2,7 +2,6 @@
 
 ## A1E1 - Casos de uso
 
-
 | UC-02|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Modificar horarios |
@@ -14,8 +13,6 @@
 | Flujo Normal: | 1. El actor pulsa el botón de modificar horario <br> 2. El sistema muestra el horario y herramientas para el cambio <br> 3. El actor hace los cambios pertinentes  |
 | Flujo Alternativo: | |
 | Poscondiciones: | El horario queda correctamente modificado|
-
-
 
 <br>
 
@@ -31,8 +28,6 @@
 | flujo alternativo | 
 | poscondiciones |
 
-
-
 <br>
 
 | UC-04 ||
@@ -46,8 +41,6 @@
 | Flujo Normal:| 1. Se introducen los datos del usuario a dar de alta <br>2. Se validan los datos del usuario<br>3. Se guarda el usuario en la base de datos dandole de alta en este proceso |
 | Flujo Alternativo:| 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" <br>3A. Si no se ha podido acceder a la base de datos, se muestra el mensaje: "No se ha podido acceder a la base de datos" |
 | Poscondiciones:| El usuario se ha dado de alta y se ha notificado |
-
-
 
 <br>
 
@@ -90,7 +83,6 @@
 | flujo normal   |  1  introducir cambios<br>  2  seleccionar boton  <br>  3 proponer cambios en los horarios <br> 4 verificación de los datos del estudiante <br>|
 | flujo alternativo | |
 | poscondiciones |   Se ha realizado la propuesta correctamente
-
 
 <br>
 
@@ -163,6 +155,7 @@
 | Flujo Alternativo:| 1A. En caso de no llegar a un acuerdo entre actores no se realizará la venta |
 | Poscondiciones:| 1. Se realiza la venta <br> 2. Se guarda en la base de datos |
 
+<br>
 
 | UC-02 ||
 |:------------|:----------------|
@@ -176,7 +169,7 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| La oferta quedará eliminada de la lista de ofertas |
 
-
+<br>
 
 | UC-03 ||
 |:------------|:----------------|
@@ -190,6 +183,7 @@
 | Flujo Alternativo:|  |
 | Poscondiciones:| El producto que teniamos ha sido borrado |
 
+<br>
 
 | UC-04 ||
 |:------------|:----------------|
@@ -203,6 +197,7 @@
 | Flujo Alternativo:| 1A. No hay aviso de oferta |
 | Poscondiciones:| La oferta queda incorporada |
 
+<br>
 
 | UC-05 ||
 |:------------|:----------------|
@@ -216,6 +211,8 @@
 | Flujo Alternativo:| 1A. Producto no encontrado |
 | Poscondiciones:| El producto consultado muestra su disponibildad en el momento de la consulta |
 
+<br>
+
 |UC-06||
 | ----------- | ----------- |
 | Nombre | Enviar Notificación |
@@ -228,7 +225,7 @@
 | flujo alternativo | 2b preparar notificacion elminacion de oferta 
 | poscondiciones |
 
-
+<br>
 
 |UC-7||
 | ----------- | ----------- |
@@ -242,6 +239,8 @@
 | flujo alternativo | 
 | poscondiciones |
 
+<br>
+
 |UC-8||
 | ----------- | ----------- |
 | Nombre | consultar Productos |
@@ -254,6 +253,7 @@
 | flujo alternativo || 
 | poscondiciones ||
 
+<br>
 
 | UC-10|  |
 | :---------- | ------------------------------------ |
@@ -267,7 +267,7 @@
 | Flujo Alternativo: | 3. El sistema no encuentra ningún producto que coincida con el criterio de búsqueda y permite al usuario volver a realizar una búsqueda|
 | Poscondiciones: |La búsqueda ofrece productos que coinciden con la búsqueda con mucha certeza |
 
-
+<br>
 
 | UC-11|  |
 | :---------- | ------------------------------------ |
@@ -281,6 +281,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | La oferta se ha eliminado correctamente y se ha avisado correctamente de ello|
 
+<br>
 
 | UC-12|  |
 | :---------- | ------------------------------------ |
@@ -294,7 +295,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El producto ha sido añadido correctamente al carrito|
 
-
+<br>
 
 | UC-13|  |
 | :---------- | ------------------------------------ |
@@ -308,6 +309,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El sistema muestra correctamente todas las ventas pasadas|
 
+<br>
 
 | UC-14 ||
 |:------------|:----------------|
@@ -321,7 +323,7 @@
 | Flujo Alternativo:| 1A. Los objetos se ponen de oferta |
 | Poscondiciones:| Se añaden los objetos al listado |
 
-
+<br>
 
 | UC-15 ||
 |:------------|:----------------|
@@ -335,7 +337,7 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| El articulo bloqueado no aparece en la lista de articulos disponibles |
 
-
+<br>
 
 | UC-16 ||
 |:------------|:----------------|
@@ -349,6 +351,7 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| - |
 
+<br>
 
 | UC-17 ||
 |:------------|:----------------|
@@ -361,8 +364,6 @@
 | Flujo Normal:| 1. Se pulsa el boton de pagos <br>2. Se accede a la pasarela de pagos<br>3. Se rellenan los datos de la pasarela de pagos<br>4. Se pulsa el boton para pagar<br>5. Se verifica el pago<br>6. Se crea el pedido |
 | Flujo Alternativo:| 1A. Si la cesta esta vacia, se muestra el mensaje: "Cesta vacia" <br>5A. Si no se ha verificado la compra, se muestra el mensaje: "No se ha podido verificar la compra" |
 | Poscondiciones:| Se registra la compra en la base de datos |
-
-
 
 ## A1E2 - Requisitos de Información
 
@@ -406,6 +407,8 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
+<br>
+
 | INF-004 | Proveedor |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -417,6 +420,8 @@
 | Importancia:| Muy importante |
 | Estado:| Aceptado |
 | Comentar:| - |
+
+<br>
 
 | INF-005 | Administrador |
 |:------------|:----------------|
@@ -430,6 +435,8 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
+<br>
+
 | INF-006 | Oferta |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -441,6 +448,8 @@
 | Importancia:| Muy importante |
 | Estado:| Aceptado |
 | Comentar:| - |
+
+<br>
 
 | INF-007 | Notificación |
 |:------------|:----------------|
@@ -454,6 +463,8 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
+<br>
+
 | INF-008 | Ventas |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -465,6 +476,8 @@
 | Importancia:| Muy importante |
 | Estado:| Aceptado |
 | Comentar:| - |
+
+<br>
 
 | INF-009 | Carrito |
 |:------------|:----------------|
