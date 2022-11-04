@@ -46,7 +46,7 @@ Un empleado envía una información para ser revisada. A un gerente se le envía
 
 ## Autores
 
-:small_blue_diamond: FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO<br>
-:small_blue_diamond: FRANCISCO JAVIER MOTA LOPEZ<br>
-:small_blue_diamond: JUAN RAUL MELLADO GARCIA<br>
-:small_blue_diamond: ANGEL NIETO BURGOS
+:large_blue_diamond: FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO<br>
+:large_blue_diamond: FRANCISCO JAVIER MOTA LOPEZ<br>
+:large_blue_diamond: JUAN RAUL MELLADO GARCIA<br>
+:large_blue_diamond: ANGEL NIETO BURGOS
