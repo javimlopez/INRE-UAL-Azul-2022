@@ -46,10 +46,7 @@ Un empleado envía una información para ser revisada. A un gerente se le envía
 
 ## Autores
 
-**1.** FRANCISCO JAVIER MOTA LOPEZ :large_blue_circle:
-
-**2.** ANGEL NIETO BURGOS :large_blue_circle:
-
-**3.** FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO :large_blue_circle:
-
-**4.** JUAN RAUL MELLADO GARCIA :large_blue_circle:
+:large_blue_circle: FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO<br>
+:large_blue_circle: FRANCISCO JAVIER MOTA LOPEZ<br>
+:large_blue_circle: JUAN RAUL MELLADO GARCIA<br>
+:large_blue_circle: ANGEL NIETO BURGOS
