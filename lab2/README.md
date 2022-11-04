@@ -43,3 +43,13 @@ Un empleado envía una información para ser revisada. A un gerente se le envía
 ### Diagrama solución
 
 <img src=./svgs/supuesto3.svg>
+
+## Autores
+
+1. FRANCISCO JAVIER MOTA LOPEZ
+
+2. ANGEL NIETO BURGOS
+
+3. FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO
+
+4. JUAN RAUL MELLADO GARCIA
