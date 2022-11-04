@@ -19,7 +19,7 @@ actor Alumno as al
 usecase RA as "Rellenar automatrícula"
 usecase PM as "Pagar matrícula"
 usecase EA as "Elegir asignaturas
-----
+- - - -
 <<extension points>>
 
 Elegir grupo docente"
@@ -27,7 +27,7 @@ usecase EB as "Elegir becas"
 usecase FA as "Finalizar automatrícula"
 usecase RP as "Rellenar datos personales"
 usecase ED as "Elegir grupo docente
-----
+- - - -
 <<extension points>>
 
 Elegir grupo de trabajo"
@@ -39,11 +39,11 @@ EB ..> (Tener beca)#line.dashed;text:black : <<include>>
 EA <.left. ED#line.dashed;text:black : <<extends>>
 ED <.left. (Elegir grupo de trabajo)#line.dashed;text:black : <<extends>>
 al -left- EA
-al -- EB
-al -- FA
+al - - EB
+al - - FA
 al -right- RA
 al -up- RP
-al -- PM
+al - - PM
 @enduml
 
 PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
