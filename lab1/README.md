@@ -1,18 +1,7 @@
 # A1E1
 
-| INF-001: | PAS |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Se validan los datos insertados por el estudiante |
-| Datos especificos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+## A1E1 - Casos de uso
 
-<br>
 
 | UC-02|  |
 | :---------- | ------------------------------------ |
@@ -26,19 +15,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El horario queda correctamente modificado|
 
-<br>
 
-| INF-002: | PDI |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| - |
-| Referencia:| Dar de alta estudiantes, Buscar estudiantes en la lista de clase, Proponer cambios en los horarios |
-| Descripción:| Se validan los datos insertados por el estudiante |
-| Datos especificos:| <ul><li>DNI Usuario PDI</li><li>Contraseña</li><li>Nombre y apellidos</li><li>Fecha de nacimiento </li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
 
 <br>
 
@@ -54,17 +31,7 @@
 | flujo alternativo | 
 | poscondiciones |
 
-<br>
 
-|INF-003 | DatosHorario |
-| ----------- | ----------- |
-| Nombre |  Horarios |  
-|Referencia| consultar horarios,proponer cambios en los horarios, modificar horarios|
-|Informacion|Los datos que son necesarios para el funcionamiento de los horarios  |
-|Datos especificos|<ul> <li>Fecha y Hora</li> <li>  Asignaturas </li> <li>Aula </li></ul> |
-|Importancia|Muy Importante|
-|Estado| Aceptado|
-|Comentarios| - |
 
 <br>
 
@@ -80,18 +47,7 @@
 | Flujo Alternativo:| 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" <br>3A. Si no se ha podido acceder a la base de datos, se muestra el mensaje: "No se ha podido acceder a la base de datos" |
 | Poscondiciones:| El usuario se ha dado de alta y se ha notificado |
 
-<br>
 
-| INF-004 ||
-|:------------|:----------------|
-| Nombre: | Dar de alta estudiante |
-| Autor: | Juanra |
-| Version: | 1.0 |
-| Descripcion:| Un usuario verificado como PAS da de alta un usuario estudiante |
-| Datos específicos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentarios:| - |
 
 <br>
 
@@ -109,7 +65,7 @@
 
 <br>
 
-| UC-6|  |
+| UC-06|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Buscar estudiantes en la lista de clase|
 | Autor:  | Francisco Javier Mota López |
@@ -123,7 +79,7 @@
 
 <br>
 
-|UC-7||
+|UC-07||
 | ----------- | ----------- |
 | Nombre | Proponer cambios en los horarios |
 | Autor |   Angel Nieto Burgos |
@@ -138,7 +94,62 @@
 
 <br>
 
+## A1E1 - Requisitos de información
+
+| INF-001: | PAS |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco de Borja Gutiérrez |
+| Fuente:| - |
+| Referencia:| - |
+| Descripción:| Se validan los datos insertados por el estudiante |
+| Datos especificos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+<br>
+
+| INF-002: | PDI |
+|:------------|:----------------|
+| Versión: | 1.0 (Octubre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Dar de alta estudiantes, Buscar estudiantes en la lista de clase, Proponer cambios en los horarios |
+| Descripción:| Se validan los datos insertados por el estudiante |
+| Datos especificos:| <ul><li>DNI Usuario PDI</li><li>Contraseña</li><li>Nombre y apellidos</li><li>Fecha de nacimiento </li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+<br>
+
+|INF-003 | DatosHorario |
+| ----------- | ----------- |
+| Nombre |  Horarios |  
+|Referencia| consultar horarios,proponer cambios en los horarios, modificar horarios|
+|Informacion|Los datos que son necesarios para el funcionamiento de los horarios  |
+|Datos especificos|<ul> <li>Fecha y Hora</li> <li>  Asignaturas </li> <li>Aula </li></ul> |
+|Importancia|Muy Importante|
+|Estado| Aceptado|
+|Comentarios| - |
+
+<br>
+
+| INF-004 ||
+|:------------|:----------------|
+| Nombre: | Dar de alta estudiante |
+| Autor: | Juanra |
+| Version: | 1.0 |
+| Descripcion:| Un usuario verificado como PAS da de alta un usuario estudiante |
+| Datos específicos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul> |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentarios:| - |
+
 # A1E2
+
+## A1E2 - Casos de uso
 
 | UC-01 ||
 |:------------|:----------------|
@@ -152,17 +163,6 @@
 | Flujo Alternativo:| 1A. En caso de no llegar a un acuerdo entre actores no se realizará la venta |
 | Poscondiciones:| 1. Se realiza la venta <br> 2. Se guarda en la base de datos |
 
-| INF-001: |  |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Negociación del precio que tendrá el procucto |
-| Datos especificos:|  <ul><li>Comprador</li><li>Nombre articulo</li><li>Vendedor</li><li>Precio default</li><li>Stock</li><li>Disponibilidad</li></ul>  |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
 
 | UC-02 ||
 |:------------|:----------------|
@@ -176,17 +176,7 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| La oferta quedará eliminada de la lista de ofertas |
 
-| INF-002: |  |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Proceso por el cual se cancela una oferta de un producto dado por el proovedor |
-| Datos especificos:| <ul><li>Descripción oferta</li><li>Fecha oferta</li><li>Estado oferta</li><li>Identificador oferta</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+
 
 | UC-03 ||
 |:------------|:----------------|
@@ -200,17 +190,6 @@
 | Flujo Alternativo:|  |
 | Poscondiciones:| El producto que teniamos ha sido borrado |
 
-| INF-003: |  |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Proceso por el cual el administrador elimina productos existentes |
-| Datos especificos:| <ul><li>Datos producto</li><li>Identificador producto</li><li>Estado producto</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
 
 | UC-04 ||
 |:------------|:----------------|
@@ -225,18 +204,6 @@
 | Poscondiciones:| La oferta queda incorporada |
 
 
-| INF-004: |  |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Consiste en tras un aviso incorporar una oferta a la lista de ofertas |
-| Datos especificos:| <ul><li>Descripción oferta</li><li>Fecha oferta</li><li>Estado oferta</li><li>Identificador oferta</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
-
 | UC-05 ||
 |:------------|:----------------|
 | Nombre: | Validar disponibilidad |
@@ -248,19 +215,6 @@
 | Flujo Normal:| 1. Consultar producto <br> 2. Verificar disponibilidad |
 | Flujo Alternativo:| 1A. Producto no encontrado |
 | Poscondiciones:| El producto consultado muestra su disponibildad en el momento de la consulta |
-
-
-| INF-005: |  |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Proceso por el cual el producto consultado muestra su estado de disponibilidad |
-| Datos especificos:| <ul><li>Datos productos</li><li>Fecha producto</li><li>Estado producto</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
 
 |UC-06||
 | ----------- | ----------- |
@@ -275,17 +229,6 @@
 | poscondiciones |
 
 
-| INF-006: |  |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco de Borja Gutiérrez |
-| Fuente:| - |
-| Referencia:| - |
-| Descripción:| Proceso por el cual el producto consultado muestra su estado de disponibilidad |
-| Datos especificos:| <ul><li>Datos productos</li><li>Fecha producto</li><li>Estado producto</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
 
 |UC-7||
 | ----------- | ----------- |
@@ -324,17 +267,7 @@
 | Flujo Alternativo: | 3. El sistema no encuentra ningún producto que coincida con el criterio de búsqueda y permite al usuario volver a realizar una búsqueda|
 | Poscondiciones: |La búsqueda ofrece productos que coinciden con la búsqueda con mucha certeza |
 
-| INF-010| Buscar productos|
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| - |
-| Referencia:| Buscar productos |
-| Descripción:| El sistema deberá mostrar una lista de productos que coincidan con la búsqueda realizada y las especificaciones de cada uno |
-| Datos especificos:| -Nombre del producto <br> -Precio del producto <br> -Imagen del producto <br> -Tipo de producto <br> -Especificaciones del producto <br> -Disponibilidad del producto |
-| Importancia:| Muy importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+
 
 | UC-11|  |
 | :---------- | ------------------------------------ |
@@ -348,17 +281,6 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | La oferta se ha eliminado correctamente y se ha avisado correctamente de ello|
 
-| INF-011 | Fin de ofertas |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| - |
-| Referencia:| Avisar de fin de oferta |
-| Descripción:| El proveedor deberá informar sobre la oferta que ha finalizado |
-| Datos especificos:| -Nombre de oferta <br> -Fecha de inicio de oferta <br> -Fecha de fin de oferta <br> -Productos afectados por la oferta <br > -Porcentaje de descuento <br> -Precio antiguo de los productos <br> -Precio de los productos en oferta |
-| Importancia:|  |
-| Estado:| Aceptado |
-| Comentar:| - |
 
 | UC-12|  |
 | :---------- | ------------------------------------ |
@@ -386,17 +308,6 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El sistema muestra correctamente todas las ventas pasadas|
 
-| INF-013 | Histórico de ventas |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| - |
-| Referencia:| Consultar histórico de ventas |
-| Descripción:| Permite consultar el histórico de ventas durante la realización de una|
-| Datos especificos:| <ul><li>ID venta actual</li> <li>Identificador de venta</li><li>Productos vendidos</li><li>Nombre productos</li><li>Cantidad del producto</li><li>Precio de cada producto</li><li>Precio total de la venta</li></ul> |
-| Importancia:| Muy importante |
-| Estado:| Aceptado |
-| Comentar:| - |
 
 | UC-14 ||
 |:------------|:----------------|
@@ -411,16 +322,6 @@
 | Poscondiciones:| Se añaden los objetos al listado |
 
 
-| IR-014 ||
-|:------------|:----------------|
-| Nombre: | Avisar de nuevos productos |
-| Autor: | Juanra |
-| Version: | 1.0 |
-| Descripcion:| Un proveedor indica que tiene nuevos articulos |
-| Datos específicos:| <ul><li>Proveedor</li><li>Lista de nuevos articulos</li><li>Precio de cada articulo</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentarios:| - |
 
 | UC-15 ||
 |:------------|:----------------|
@@ -435,16 +336,6 @@
 | Poscondiciones:| El articulo bloqueado no aparece en la lista de articulos disponibles |
 
 
-| INF-015 ||
-|:------------|:----------------|
-| Nombre: | Bloquear productos |
-| Autor: | Juanra |
-| Version: | 1.0 |
-| Descripcion:| Un comprador bloquea un articulo |
-| Datos específicos:| <ul><li>Comprador</li><li>articulo</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentarios:| - |
 
 | UC-16 ||
 |:------------|:----------------|
@@ -459,17 +350,6 @@
 | Poscondiciones:| - |
 
 
-| IR-016 ||
-|:------------|:----------------|
-| Nombre: | Consultar precio |
-| Autor: | Juanra |
-| Version: | 1.0 |
-| Descripcion:| Un usuario consulta el precio de un articulo |
-| Datos específicos:| <ul><li>Usuario</li><li>Articulo a consultar</li><li>Precio del articulo</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentarios:| - |
-
 | UC-17 ||
 |:------------|:----------------|
 | Nombre: | Finalizar compra |
@@ -483,18 +363,8 @@
 | Poscondiciones:| Se registra la compra en la base de datos |
 
 
-| IR-017 ||
-|:------------|:----------------|
-| Nombre: | Finalizar compra |
-| Autor: | Juanra |
-| Version: | 1.0 |
-| Descripcion:| Un usuario finaliza la compra |
-| Datos específicos:| <ul><li>Usuario</li><li>Lista de objetos a pagar</li><li>Precio total</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentarios:| - |
 
-**Requisitos de información**
+## A1E2 - Requisitos de Información
 
 | INF-001 | Producto |
 |:------------|:----------------|
@@ -508,6 +378,8 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
+<br>
+
 | INF-002 | Vendedor |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
@@ -519,6 +391,8 @@
 | Importancia:| Muy importante |
 | Estado:| Aceptado |
 | Comentar:| - |
+
+<br>
 
 | INF-003 | Comprador |
 |:------------|:----------------|
