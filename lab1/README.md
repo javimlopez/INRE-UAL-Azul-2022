@@ -2,7 +2,6 @@
 
 ## A1E1 - Casos de uso
 
-<<<<<<< HEAD
 | UC-01|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Validar Datos |
@@ -17,10 +16,6 @@
 
 
 
-<br>
-
-=======
->>>>>>> 0ed46e3a5c0a76698f512f5dc38fcfd23b641de3
 | UC-02|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Modificar horarios |
@@ -33,7 +28,8 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El horario queda correctamente modificado|
 
-<br>
+
+
 
 |UC-03||
 | ----------- | ----------- |
@@ -47,7 +43,7 @@
 | flujo alternativo | 
 | poscondiciones |
 
-<br>
+
 
 | UC-04 ||
 |:------------|:----------------|
@@ -61,7 +57,7 @@
 | Flujo Alternativo:| 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" <br>3A. Si no se ha podido acceder a la base de datos, se muestra el mensaje: "No se ha podido acceder a la base de datos" |
 | Poscondiciones:| El usuario se ha dado de alta y se ha notificado |
 
-<br>
+
 
 | UC-05 ||
 |:------------|:----------------|
@@ -75,7 +71,7 @@
 | Flujo Alternativo:| 1b. Se busca en la lista de la clase al estudiante <br> 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" <br>3A. Si no se ha podido acceder a la base de datos, se muestra el mensaje: "No se ha podido acceder a la base de datos" |
 | Poscondiciones:| El usuario se ha dado de alta y se ha notificado |
 
-<br>
+
 
 | UC-06|  |
 | :---------- | ------------------------------------ |
@@ -89,7 +85,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | Estudiante encontrado|
 
-<br>
+
 
 |UC-07||
 | ----------- | ----------- |
@@ -103,7 +99,6 @@
 | flujo alternativo | |
 | poscondiciones |   Se ha realizado la propuesta correctamente
 
-<br>
 
 ## A1E1 - Requisitos de información
 
@@ -140,7 +135,7 @@
 | Fuente:| - |
 | Referencia:| Consultar horarios |
 | Descripción:| Datos personales de los estudiantes |
-| Datos especificos:| <ul><li>Usuario</li><li>DNI estudiante</li><li>Nombre</li><li>Apellidos</li><li>Fecha de nacimiento </li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Datos especificos:| <ul><li>Usuario</li><li>DNI estudiante</li><li>Nombre</li><li>Apellidos</li><li>Fecha de nacimiento </li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li><li>Asignaturas</li></ul>  |
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
@@ -151,14 +146,24 @@
 | Versión: | 1.0 (Noviembre-2022) |
 | Autor: | Francisco Javier Mota López |  
 | Fuente: | - |
-|Referencia| Consultar horarios, Proponer cambios en los horarios Modificar horarios|
+|Referencia| Consultar horarios, Proponer cambios en los horarios, Modificar horarios|
 | Descripción |Los datos que son necesarios para el funcionamiento de los horarios  |
 |Datos especificos| <ul> <li>Fecha</li> <li>Hora</li><li>Asignatura</li> <li>Aula </li></ul> |
 |Importancia|Muy Importante|
 |Estado| Aceptado|
 |Comentarios| - |
 
-
+|INF-005 | Asignatura |
+| ----------- | ----------- |
+| Versión: | 1.0 (Noviembre-2022) |
+| Autor: | Francisco Javier Mota López |  
+| Fuente: | - |
+|Referencia| Consultar horarios, Proponer cambios en los horarios, Modificar horarios|
+| Descripción |Los datos que son necesarios para el funcionamiento de los horarios  |
+|Datos especificos| <ul> <li>Fecha</li> <li>Hora</li><li>Asignatura</li> <li>Aula </li></ul> |
+|Importancia|Muy Importante|
+|Estado| Aceptado|
+|Comentarios| - |
 
 # A1E2
 
@@ -176,7 +181,6 @@
 | Flujo Alternativo:| 1A. En caso de no llegar a un acuerdo entre actores no se realizará la venta |
 | Poscondiciones:| 1. Se realiza la venta <br> 2. Se guarda en la base de datos |
 
-<br>
 
 | UC-02 ||
 |:------------|:----------------|
@@ -218,7 +222,6 @@
 | Flujo Alternativo:| 1A. No hay aviso de oferta |
 | Poscondiciones:| La oferta queda incorporada |
 
-<br>
 
 | UC-05 ||
 |:------------|:----------------|
@@ -232,8 +235,6 @@
 | Flujo Alternativo:| 1A. Producto no encontrado |
 | Poscondiciones:| El producto consultado muestra su disponibildad en el momento de la consulta |
 
-<br>
-
 |UC-06||
 | ----------- | ----------- |
 | Nombre | Enviar Notificación |
@@ -246,7 +247,7 @@
 | flujo alternativo | 2b preparar notificacion elminacion de oferta 
 | poscondiciones |
 
-<br>
+
 
 |UC-7||
 | ----------- | ----------- |
@@ -260,8 +261,6 @@
 | flujo alternativo | 
 | poscondiciones |
 
-<br>
-
 |UC-8||
 | ----------- | ----------- |
 | Nombre | consultar Productos |
@@ -274,7 +273,6 @@
 | flujo alternativo || 
 | poscondiciones ||
 
-<br>
 
 | UC-10|  |
 | :---------- | ------------------------------------ |
@@ -288,7 +286,7 @@
 | Flujo Alternativo: | 3. El sistema no encuentra ningún producto que coincida con el criterio de búsqueda y permite al usuario volver a realizar una búsqueda|
 | Poscondiciones: |La búsqueda ofrece productos que coinciden con la búsqueda con mucha certeza |
 
-<br>
+
 
 | UC-11|  |
 | :---------- | ------------------------------------ |
@@ -316,7 +314,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El producto ha sido añadido correctamente al carrito|
 
-<br>
+
 
 | UC-13|  |
 | :---------- | ------------------------------------ |
