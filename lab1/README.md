@@ -2,6 +2,21 @@
 
 ## A1E1 - Casos de uso
 
+| UC-01|  |
+| :---------- | ------------------------------------ |
+| Nombre: | Validar Datos |
+| Autor:  | Francisco Javier Mota López |
+| Fecha:  | 04-11-22|
+| Descripción:  | Valida los datos para permitir dar de alta a los estudiantes |
+| Actores: Personal PAS|
+| Precondiciones: | El usuario tiene que estar autentificado en el sistema |
+| Flujo Normal: | 1. El actor pulsa el botón de modificar horario <br> 2. El sistema muestra el horario y herramientas para el cambio <br> 3. El actor hace los cambios pertinentes  |
+| Flujo Alternativo: | |
+| Poscondiciones: | El horario queda correctamente modificado|
+
+
+
+<br>
 
 | UC-02|  |
 | :---------- | ------------------------------------ |
@@ -101,14 +116,13 @@
 | Versión: | 1.0 (Octubre-2022) |
 | Autor: | Francisco de Borja Gutiérrez |
 | Fuente:| - |
-| Referencia:| - |
-| Descripción:| Se validan los datos insertados por el estudiante |
-| Datos especificos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Referencia:| Modificar horarios, Dar de alta estudiantes, Validar datos, Consultar horarios |
+| Descripción:| Datos personales de los usuarios del PAS |
+| Datos especificos:| <ul><li>Usuario PAS</li><li>DNI</li><li>Nombre</li> <li>Apellidos</li><li>Fecha de nacimiento</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
 
 | INF-002: | PDI |
 |:------------|:----------------|
@@ -116,36 +130,39 @@
 | Autor: | Francisco Javier Mota López |
 | Fuente:| - |
 | Referencia:| Dar de alta estudiantes, Buscar estudiantes en la lista de clase, Proponer cambios en los horarios |
-| Descripción:| Se validan los datos insertados por el estudiante |
-| Datos especificos:| <ul><li>DNI Usuario PDI</li><li>Contraseña</li><li>Nombre y apellidos</li><li>Fecha de nacimiento </li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Descripción:| Datos personales de los usuarios del PDI |
+| Datos especificos:| <ul><li>Usuario PDI</li><li>DNI</li><li>Nombre</li><li>Apellidos</li><li>Fecha de nacimiento </li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
 | Importancia:| Importante |
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
 
-|INF-003 | DatosHorario |
+| INF-003: | Estudiante |
+|:------------|:----------------|
+| Versión: | 1.0 (Noviembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| - |
+| Referencia:| Consultar horarios |
+| Descripción:| Datos personales de los estudiantes |
+| Datos especificos:| <ul><li>Usuario</li><li>DNI estudiante</li><li>Nombre</li><li>Apellidos</li><li>Fecha de nacimiento </li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
+| Importancia:| Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+
+|INF-004 | Horario |
 | ----------- | ----------- |
-| Nombre |  Horarios |  
-|Referencia| consultar horarios,proponer cambios en los horarios, modificar horarios|
-|Informacion|Los datos que son necesarios para el funcionamiento de los horarios  |
-|Datos especificos|<ul> <li>Fecha y Hora</li> <li>  Asignaturas </li> <li>Aula </li></ul> |
+| Versión: | 1.0 (Noviembre-2022) |
+| Autor: | Francisco Javier Mota López |  
+| Fuente: | - |
+|Referencia| Consultar horarios, Proponer cambios en los horarios Modificar horarios|
+| Descripción |Los datos que son necesarios para el funcionamiento de los horarios  |
+|Datos especificos| <ul> <li>Fecha</li> <li>Hora</li><li>Asignatura</li> <li>Aula </li></ul> |
 |Importancia|Muy Importante|
 |Estado| Aceptado|
 |Comentarios| - |
 
-<br>
 
-| INF-004 ||
-|:------------|:----------------|
-| Nombre: | Dar de alta estudiante |
-| Autor: | Juanra |
-| Version: | 1.0 |
-| Descripcion:| Un usuario verificado como PAS da de alta un usuario estudiante |
-| Datos específicos:| <ul><li>Usuario PAS</li><li>DNI estudiante</li><li>Nombre y apellidos estudiante</li><li>Fecha de nacimiento estudiante</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul> |
-| Importancia:| Importante |
-| Estado:| Aceptado |
-| Comentarios:| - |
 
 # A1E2
 
