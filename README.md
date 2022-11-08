@@ -1,8 +1,8 @@
 # :large_blue_circle: INRE-UAL-Azul-2022 :large_blue_circle:
 
-## INGENIERIA INFORMATICA
+## INGENIERIA DEL SOFTWARE
 
-<img src=laimagenmasimportantedelahistoriadelaingenieriainformatica.jpg>
+<img src=extras/laimagenmasimportantedelahistoriadelaingenieriainformatica.jpg>
 
 ## Informacion
 
