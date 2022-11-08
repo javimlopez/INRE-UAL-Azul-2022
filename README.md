@@ -1,10 +1,12 @@
-# INRE-UAL-Azul-2022
+# :large_blue_circle: INRE-UAL-Azul-2022 :large_blue_circle:
+
+Este repositorio se ha creado para la asignatura Ingenieria de requisitos impartido en la Universidad de Almeria en el curso escolar 2022/2023
 
 
-Francisco de Borja José Gutierrez Carrasco ---> fgc367@inlumine.ual.es
 
-Juan Raul Mellado García ---> jmg061@inlumine.ual.es
+## Autores
 
-Francisco Javier Mota López ---> fml200@inlumine.ual.es
-
-Ángel Nieto Burgos ---> anb061@inlumine.ual.es 
+:large_blue_diamond: FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO<br>
+:large_blue_diamond: FRANCISCO JAVIER MOTA LOPEZ<br>
+:large_blue_diamond: JUAN RAUL MELLADO GARCIA<br>
+:large_blue_diamond: ANGEL NIETO BURGOS
