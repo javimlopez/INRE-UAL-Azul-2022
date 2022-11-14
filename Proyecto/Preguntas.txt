@@ -9,19 +9,22 @@ Listas de preguntillas para el manel:
 
 1-¿Que transportes se agrupan en la denominacion de transporte publico canario?
 
+2-¿Que tipos de datos se tendría que tener en cuenta por cada usuario interesado en usar el transporte?
 
-3-¿Que tipos de datos se tendría que tener en cuenta por cada usuario interesado en usar el transporte?
+3-¿Que metodos de pago se pueden contemplar dentro de los servicios ofrecidos?
 
-4-¿Que metodos de pago se pueden contemplar dentro de los servicios ofrecidos?
+4-¿Como enlazamos los aspectos de ocio, cultura y turismo dentro de la aplicación?
 
-5-¿Como enlazamos los aspectos de ocio, cultura y turismo dentro de la aplicación?
+5-¿El sistema de información y monitorización de la explotación de transporte debe de ser trasparente y publico, o por el contrario, exclusivo de la Autoridad Única del Transporte canario?
 
-6-¿El sistema de información y monitorización de la explotación de transporte debe de ser trasparente y publico, o por el contrario, exclusivo de la Autoridad Única del Transporte canario?
+6-¿El buscador tendría que funcionar con eventos, lineas y destinos?
 
-7-¿El buscador tendría que funcionar con eventos, lineas y destinos?
+7-¿Tiene alguna preferencia de diseño, como por ejemplo en cuanto a la paleta de colores?
 
-8-¿Tiene alguna preferencia de diseño, como por ejemplo en cuanto a la paleta de colores?
+8-¿Los itinerarios recomendados incluyen tanto ubicaciones como eventos?
 
-9-¿Los itinerarios recomendados incluyen tanto ubicaciones como eventos?
+9-¿Los usuarios que busquen informacion, deben tener la sesion iniciada?
 
-10-
+10-¿La ubicacion a tiempo real del transporte se hará en la aplicación, o por el contrario el propio transporte tendría un sistema propio?
+
+11-¿A que se refiere con observaciones dentro del resultado de consultas?
