@@ -1,7 +1,10 @@
-# A1E1
+# :large_blue_circle: LAB1 :large_blue_circle: EQUIPO AZUL :large_blue_circle:
 
-## A1E1 - Casos de uso
+## A1E1
 
+### A1E1 - Casos de uso
+
+<<<<<<< HEAD
 | UC-01|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Validar Datos |
@@ -16,6 +19,10 @@
 
 
 
+<br>
+
+=======
+>>>>>>> 0ed46e3a5c0a76698f512f5dc38fcfd23b641de3
 | UC-02|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Modificar horarios |
@@ -144,7 +151,7 @@
 |INF-004 | Horario |
 | ----------- | ----------- |
 | Versión: | 1.0 (Noviembre-2022) |
-| Autor: | Francisco Javier Mota López |  
+| Autor: | Francisco Javier Mota López | 
 | Fuente: | - |
 |Referencia| Consultar horarios, Proponer cambios en los horarios, Modificar horarios|
 | Descripción |Los datos que son necesarios para el funcionamiento de los horarios  |
@@ -165,9 +172,9 @@
 |Estado| Aceptado|
 |Comentarios| - |
 
-# A1E2
+## A1E2
 
-## A1E2 - Casos de uso
+### A1E2 - Casos de uso
 
 | UC-01 ||
 |:------------|:----------------|
