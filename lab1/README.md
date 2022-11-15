@@ -10,9 +10,9 @@
 | Descripción:  | Valida los datos para permitir dar de alta a los estudiantes |
 | Actores: Personal PAS|
 | Precondiciones: | El usuario tiene que estar autentificado en el sistema |
-| Flujo Normal: | 1. El actor pulsa el botón de modificar horario <br> 2. El sistema muestra el horario y herramientas para el cambio <br> 3. El actor hace los cambios pertinentes  |
+| Flujo Normal: | 1. Se accede a los datos del estudiante <br> 2. Se comprueba la validez de los datos del estudiante |
 | Flujo Alternativo: | |
-| Poscondiciones: | El horario queda correctamente modificado|
+| Poscondiciones: | Los datos son correctos |
 
 
 
@@ -95,7 +95,7 @@
 | Descripcion | En una universidad, el personal del PDI pueden proponer cambios en los horarios. 
 | Actores |   El personal del PDI  |
 | precondicion |   Inicio sesion  y datos verificados  |
-| flujo normal   |  1  introducir cambios<br>  2  seleccionar boton  <br>  3 proponer cambios en los horarios <br> 4 verificación de los datos del estudiante <br>|
+| flujo normal   |  1  introducir cambios<br>  2  seleccionar boton  <br>  3 proponer cambios en los horarios <br> 4 verificación de los datos del estudiante |
 | flujo alternativo | |
 | poscondiciones |   Se ha realizado la propuesta correctamente
 
@@ -159,8 +159,8 @@
 | Autor: | Francisco Javier Mota López |  
 | Fuente: | - |
 |Referencia| Consultar horarios, Proponer cambios en los horarios, Modificar horarios|
-| Descripción |Los datos que son necesarios para el funcionamiento de los horarios  |
-|Datos especificos| <ul> <li>Fecha</li> <li>Hora</li><li>Asignatura</li> <li>Aula </li></ul> |
+| Descripción | Lista de los datos de las asignaturas |
+|Datos especificos| <ul> <li> Código asignatura </li> <li>Nombre asignatura</li> <li>Profesor</li> <li>Horario</li> <li>Aula</li></ul> |
 |Importancia|Muy Importante|
 |Estado| Aceptado|
 |Comentarios| - |
