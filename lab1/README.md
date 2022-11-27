@@ -51,7 +51,7 @@
 | UC-04 ||
 |:------------|:----------------|
 | Nombre: | Dar de alta estudiante |
-| Autor: | Juanra |
+| Autor: | Juan Raul Mellado Garcia |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un actor puede dar de alta a un usuario|
 | Actores:| PAS |
@@ -336,7 +336,7 @@
 | UC-14 ||
 |:------------|:----------------|
 | Nombre: | Avisar de nuevos productos |
-| Autor: | Juanra |
+| Autor: | Juan Raul Mellado Garcia |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede agregar nuevos productos |
 | Actores:| Proveedor |
@@ -350,7 +350,7 @@
 | UC-15 ||
 |:------------|:----------------|
 | Nombre: | Bloquear productos |
-| Autor: | Juanra |
+| Autor: | Juan Raul Mellado Garcia |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede bloquear un producto |
 | Actores:| Comprador |
@@ -364,7 +364,7 @@
 | UC-16 ||
 |:------------|:----------------|
 | Nombre: | Consultar precio |
-| Autor: | Juanra |
+| Autor: | Juan Raul Mellado Garcia |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede visualizar el precio de un producto |
 | Actores:| Comprador, Vendedor, Administrador, Proveedor |
@@ -378,7 +378,7 @@
 | UC-17 ||
 |:------------|:----------------|
 | Nombre: | Finalizar compra |
-| Autor: | Juanra |
+| Autor: | Juan Raul Mellado Garcia |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede finalizar la compra |
 | Actores:| Comprador, Vendedor, Administrador, Proveedor |
