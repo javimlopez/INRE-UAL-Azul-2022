@@ -198,7 +198,7 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| La oferta quedará eliminada de la lista de ofertas |
 
-<br>
+
 
 | UC-03 ||
 |:------------|:----------------|
@@ -212,7 +212,7 @@
 | Flujo Alternativo:|  |
 | Poscondiciones:| El producto que teniamos ha sido borrado |
 
-<br>
+
 
 | UC-04 ||
 |:------------|:----------------|
@@ -304,7 +304,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | La oferta se ha eliminado correctamente y se ha avisado correctamente de ello|
 
-<br>
+
 
 | UC-12|  |
 | :---------- | ------------------------------------ |
@@ -332,7 +332,7 @@
 | Flujo Alternativo: | |
 | Poscondiciones: | El sistema muestra correctamente todas las ventas pasadas|
 
-<br>
+
 
 | UC-14 ||
 |:------------|:----------------|
@@ -346,7 +346,7 @@
 | Flujo Alternativo:| 1A. Los objetos se ponen de oferta |
 | Poscondiciones:| Se añaden los objetos al listado |
 
-<br>
+
 
 | UC-15 ||
 |:------------|:----------------|
@@ -360,7 +360,7 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| El articulo bloqueado no aparece en la lista de articulos disponibles |
 
-<br>
+
 
 | UC-16 ||
 |:------------|:----------------|
@@ -374,7 +374,7 @@
 | Flujo Alternativo:| - |
 | Poscondiciones:| - |
 
-<br>
+
 
 | UC-17 ||
 |:------------|:----------------|
@@ -402,7 +402,7 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
+
 
 | INF-002 | Vendedor |
 |:------------|:----------------|
@@ -416,7 +416,7 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
+
 
 | INF-003 | Comprador |
 |:------------|:----------------|
@@ -430,7 +430,7 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
+
 
 | INF-004 | Proveedor |
 |:------------|:----------------|
@@ -444,7 +444,7 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
+
 
 | INF-005 | Administrador |
 |:------------|:----------------|
@@ -458,7 +458,7 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
+
 
 | INF-006 | Oferta |
 |:------------|:----------------|
@@ -472,7 +472,7 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
+
 
 
 | INF-008 | Ventas |
@@ -487,7 +487,7 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-<br>
+
 
 | INF-009 | Carrito |
 |:------------|:----------------|
