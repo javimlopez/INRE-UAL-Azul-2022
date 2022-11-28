@@ -169,7 +169,7 @@
 |Estado| Aceptado|
 |Comentarios| - |
 
-### Diagrama entidad-relacion
+### A1E1 - Diagrama entidad-relacion
 
 <img src=./svgs/Entidad-Relacion-1.drawio.svg>
 
@@ -505,6 +505,6 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-### Diagrama entidad-relacion
+### A1E1 - Diagrama entidad-relacion
 
 <img src=./svgs/Entidad-Relacion-2.drawio.svg>
