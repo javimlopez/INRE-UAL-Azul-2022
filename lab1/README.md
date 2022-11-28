@@ -169,6 +169,10 @@
 |Estado| Aceptado|
 |Comentarios| - |
 
+### Diagrama entidad-relacion
+
+<img src=./svgs/Entidad-Relacion-1.drawio.svg>
+
 ## A1E2
 
 ### A1E2 - Casos de uso
@@ -500,3 +504,7 @@
 | Importancia:| Muy importante |
 | Estado:| Aceptado |
 | Comentar:| - |
+
+### Diagrama entidad-relacion
+
+<img src=./svgs/Entidad-Relacion-2.drawio.svg>
