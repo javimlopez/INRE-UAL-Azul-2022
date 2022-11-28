@@ -505,6 +505,6 @@
 | Estado:| Aceptado |
 | Comentar:| - |
 
-### A1E1 - Diagrama entidad-relacion
+### A1E2 - Diagrama entidad-relacion
 
 <img src=./svgs/Entidad-Relacion-2.drawio.svg>
