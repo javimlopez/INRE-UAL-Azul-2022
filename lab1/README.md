@@ -19,6 +19,8 @@
 
 
 
+<br>
+
 | UC-02|  |
 | :---------- | ------------------------------------ |
 | Nombre: | Modificar horarios |
@@ -51,7 +53,7 @@
 | UC-04 ||
 |:------------|:----------------|
 | Nombre: | Dar de alta estudiante |
-| Autor: | Juan Raul Mellado Garcia |
+| Autor: | Juanra |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un actor puede dar de alta a un usuario|
 | Actores:| PAS |
@@ -114,7 +116,7 @@
 | Descripción:| Datos personales de los usuarios del PAS |
 | Datos especificos:| <ul><li>Usuario PAS</li><li>DNI</li><li>Nombre</li> <li>Apellidos</li><li>Fecha de nacimiento</li><li>Sexo</li><li>Dirección</li><li>Telefono</li><li>Correo electronico</li></ul>  |
 | Importancia:| Importante |
-| Estado:| Aceptado |
+| Estado:| Aceptado |   
 | Comentar:| - |
 
 
@@ -336,7 +338,7 @@
 | UC-14 ||
 |:------------|:----------------|
 | Nombre: | Avisar de nuevos productos |
-| Autor: | Juan Raul Mellado Garcia |
+| Autor: | Juanra |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede agregar nuevos productos |
 | Actores:| Proveedor |
@@ -350,7 +352,7 @@
 | UC-15 ||
 |:------------|:----------------|
 | Nombre: | Bloquear productos |
-| Autor: | Juan Raul Mellado Garcia |
+| Autor: | Juanra |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede bloquear un producto |
 | Actores:| Comprador |
@@ -364,7 +366,7 @@
 | UC-16 ||
 |:------------|:----------------|
 | Nombre: | Consultar precio |
-| Autor: | Juan Raul Mellado Garcia |
+| Autor: | Juanra |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede visualizar el precio de un producto |
 | Actores:| Comprador, Vendedor, Administrador, Proveedor |
@@ -378,7 +380,7 @@
 | UC-17 ||
 |:------------|:----------------|
 | Nombre: | Finalizar compra |
-| Autor: | Juan Raul Mellado Garcia |
+| Autor: | Juanra |
 | Fecha: | 30/09/2022 |
 |Descripcion:| Un usuario puede finalizar la compra |
 | Actores:| Comprador, Vendedor, Administrador, Proveedor |
@@ -473,19 +475,6 @@
 
 <br>
 
-| INF-007 | Notificación |
-|:------------|:----------------|
-| Versión: | 1.0 (Octubre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| - |
-| Referencia:| Enviar notificación, Avisar, Avisar de fin de oferta, Avisar de nuevos productos |
-| Descripción:| Información importante sobre el contenido de una notificación|
-| Datos especificos:| <ul> <li> ID Notificación</li> <li> Asunto de la notificación</li> <li>Contenido notificación</li> </ul>|
-| Importancia:| Muy importante |
-| Estado:| Aceptado |
-| Comentar:| - |
-
-<br>
 
 | INF-008 | Ventas |
 |:------------|:----------------|
