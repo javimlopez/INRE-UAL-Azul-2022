@@ -35,7 +35,7 @@
 
 
 
-|UC-03||
+| UC-03||
 | ----------- | ----------- |
 | Nombre | Consultar horarios |
 | Autor |   Angel Nieto Burgos |
