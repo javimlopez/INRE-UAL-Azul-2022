@@ -70,7 +70,7 @@
 | Fecha: | 28/10/2022 |
 |Descripcion:| Un actor puede dar de alta a un usuario|
 | Actores:| PDI |
-| Precondiciones:| Usuario registrado como usuario PAS |
+| Precondiciones:| Usuario registrado como usuario PDI |
 | Flujo Normal:| 1a. Se introducen los datos del usuario a dar de alta <br>2. Se validan los datos del usuario<br>3. Se guarda el usuario en la base de datos dandole de alta en este proceso |
 | Flujo Alternativo:| 1b. Se busca en la lista de la clase al estudiante <br> 2A. Si los datos no son validos, se muestra el mensaje: "Datos invalidos" <br>3A. Si no se ha podido acceder a la base de datos, se muestra el mensaje: "No se ha podido acceder a la base de datos" |
 | Poscondiciones:| El usuario se ha dado de alta y se ha notificado |
