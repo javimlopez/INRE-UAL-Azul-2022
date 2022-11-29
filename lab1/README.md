@@ -157,17 +157,6 @@
 |Estado| Aceptado|
 |Comentarios| - |
 
-|INF-005 | Asignatura |
-| ----------- | ----------- |
-| Versión: | 1.0 (Noviembre-2022) |
-| Autor: | Francisco Javier Mota López |  
-| Fuente: | - |
-|Referencia| Consultar horarios, Proponer cambios en los horarios, Modificar horarios|
-| Descripción | Lista de los datos de las asignaturas |
-|Datos especificos| <ul> <li> Código asignatura </li> <li>Nombre asignatura</li> <li>Profesor</li> <li>Horario</li> <li>Aula</li></ul> |
-|Importancia|Muy Importante|
-|Estado| Aceptado|
-|Comentarios| - |
 
 ### A1E1 - Diagrama entidad-relacion
 
@@ -479,7 +468,7 @@
 
 
 
-| INF-008 | Ventas |
+| INF-007 | Ventas |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
 | Autor: | Francisco Javier Mota López |
@@ -493,7 +482,7 @@
 
 
 
-| INF-009 | Carrito |
+| INF-008 | Carrito |
 |:------------|:----------------|
 | Versión: | 1.0 (Octubre-2022) |
 | Autor: | Francisco Javier Mota López |
