@@ -27,5 +27,5 @@
  (Editar elemento) --|> (Editar facturas) 
  (Crear usuarios) -->(Enviar correo)#line.dashed;text:black :  <<Include>>
  (Hacer oferta) <--(Reducir precio productos)#line.dashed;text:black : <<Extend>>
-(Visualizar fotos) as "-extension points-"
+(Visualizar fotos)
 @enduml
