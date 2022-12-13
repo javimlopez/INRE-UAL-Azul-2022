@@ -1,8 +1,5 @@
 
 @startuml
-
-
-
 :cliente :--> (Visualizar fotos)  
  (Visualizar fotos)  <|-- (Consultar fotos)
  (Visualizar fotos)  <|-- (Buscar detalles en fotos)
@@ -23,12 +20,15 @@
  :Software_facturación :--> (Emitir factura)
  :Gestor_correo : -->  (Enviar correo)
  (Denunciar foto)--|>   (Marcar un producto)
- (Denunciar foto)--> Visualizar fotos#line.dashed;text:black : <<Extend>>
+ (Denunciar foto)--> (Visualizar fotos)#line.dashed;text:black : <<Extend>>
  (Denunciar foto)-->  (Introducir explicación)#line.dashed;text:black : <<Include>>
  (Buscar detalles en fotos) -->   (Verificar información de entrada)#line.dashed;text:black : <<Include>>
  (Editar elemento) --|> (Editar usuarios)
  (Editar elemento) --|> (Editar facturas) 
  (Crear usuarios) -->(Enviar correo)#line.dashed;text:black :  <<Include>>
  (Hacer oferta) <--(Reducir precio productos)#line.dashed;text:black : <<Extend>>
-(Visualizar fotos)
+(Visualizar fotos) as "Dar de alta a estudiantes (Personal PDI)
+----
+<<extension points>>
+Realizar búsqueda lista asignatura"
 @enduml
