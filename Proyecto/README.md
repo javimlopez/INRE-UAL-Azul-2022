@@ -14,7 +14,7 @@
 
 # Hoja de revisión
 | Fecha | Versión | Descripción | Autor |
-|:--|:--|:--|:--|
+|:--:|:--:|:--:|:--:|
 |08/11/2022|1.0|Preparar preguntas para el entrevistador|Francisco de Borja José Gutiérrez Carrasco|
 |11/11/2022|1.0|Resaltado del pliego de condiciones|Francisco de Borja José Gutiérrez Carrasco|
 |18/11/2022|1.0|Resaltado del pliego de condiciones |Francisco de Borja José Gutiérrez Carrasco|
@@ -68,19 +68,19 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 #### Objetivos del negocio
 |OBJ-1| SIIT |
-|:--|:--|
+|:--:|:--:|
 |Versión|1.0|
 |Descripción|Montar un sistema interactivo de información por el que los usuarios podrán conocer y disponer de las prestaciones que ofrece el servicio integrado de transporte público de viajeros de Gran Canaria relacionándolas con otras materias de ocio, turismo, cultura, etc. |
 |Comentarios|La información deberá ser accesible desde el portal web de la AUTGC.|
 
 |OBJ-2| SMET |
-|:--|:--|
+|:--:|:--:|
 |Versión|1.0|
 |Descripción|Montar un sistema de información y monitorización de la explotación del transporte para la AUTGC que facilite reconocer, registrar y monitorizar en todo momento el grado de cumplimiento de las obligaciones de servicio de los operadores en base a una serie de condiciones parametrizables|
 |Comentarios|Ninguno|
 
 |OBJ-3| Portal Web |
-|:--|:--|
+|:--:|:--:|
 |Versión|1.0|
 |Descripción|Se pide montar un portal web que abarque los aspectos de: identificar necesidades (contenidos, servicios, audiencias, etc), definir la estructura (arquitectura de la información, mapa web, etc) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
 |Comentarios|Forma parte del sistema SIIT, que se divide en dos partes: una el sistema de información y otra el portal web y ambos están interrelacionados|
