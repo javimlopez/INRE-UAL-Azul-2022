@@ -89,12 +89,6 @@ En este documento se va a tratar la recopilación de toda la información necesa
 | Descripción | Se pide montar un portal web que abarque los aspectos de: identificar necesidades (contenidos, servicios, audiencias, etc), definir la estructura (arquitectura de la información, mapa web, etc) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
 | Comentarios |                                                                            Forma parte del sistema SIIT, que se divide en dos partes: una el sistema de información y otra el portal web y ambos están interrelacionados                                                                            |
 
-#### Modelo de Procesos de Negocio
-
-##### Subprocesos
-
-##### Tareas
-
 # Requisitos del sistema a desarrollar
 
 #### Requisitos
