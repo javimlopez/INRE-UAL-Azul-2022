@@ -104,7 +104,8 @@ En este documento se va a tratar la recopilación de toda la información necesa
 # Lista de diagrama de casos de uso del modelo
 
 # Diagramas de casos de uso
-
+## Diagrama SMET
+<img src="./svgs/DiagramaSMET.svg">
 # Lista general de casos de uso y actores del proyecto
 
 Diagrama SMET
