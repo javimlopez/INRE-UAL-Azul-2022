@@ -118,12 +118,111 @@ Diagrama SMET
 |Operador||
 |Cliente||
 
-
-
-
-|Autor: ||
+|Nombre: ||
 |:--:|:--:|
-|Fecha: ||
+|Autor: ||
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+### Diagrama SMET
+
+|Nombre: |Enviar alarma|
+|:--:|:--:|
+|Autor: | Francisco de Borja GC |
+|Fecha: |26/11/2022|
+|Descripcion: |Envia una alarma|
+|Actores: |Sistema|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Recabar informacion en tiempo real de operadores|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Toma de datos operador a operador|
+|Actores: |Sistema|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Mostrar mapa
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Enseña el contenido de los mapas|
+|Actores: |Sistema, administrador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
 |Descripcion: ||
 |Actores: ||
 |Precondiciones: ||
