@@ -1,7 +1,7 @@
 | UC-01               |   |
 | :----------------- | - |
 | Nombre:            | Enviar alarma  |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la creación y envio de alarmas del sistema|
 | Actores:           | Sistema  |
@@ -13,7 +13,7 @@
 | UC-02                |   |
 | :----------------- | - |
 | Nombre:            | Recabar informacion en tiempo real Operadores  |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la funcionalidad del sistema para conocer los datos en tiempo real de los operadores de transporte  |
 | Actores:           | Sistema  |
@@ -25,7 +25,7 @@
 | UC-03                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar mapa  |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la funcionalidad del sistema de mostrar el mapa  |
 | Actores:           | Sistema, Administrador  |
@@ -37,7 +37,7 @@
 | UC-04                |   |
 | :----------------- | - |
 | Nombre:            | Gestion de pagos  |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la gestion que realiza el sistema al recibir un pago  |
 | Actores:           | Sistema  |
@@ -49,7 +49,7 @@
 | UC-05                |   |
 | :----------------- | - |
 | Nombre:            | Visualizar Mapa (Admin)  |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la funcionalidad del administrador de ver el mapa |
 | Actores:           | Administrador  |
@@ -61,7 +61,7 @@
 | UC-06                |   |
 | :----------------- | - |
 | Nombre:            | Registrar periodos  |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la funcionalidad de registrar un periodo concreto  |
 | Actores:           | Administrador  |
@@ -73,7 +73,7 @@
 | UC-07                |   |
 | :----------------- | - |
 | Nombre:            | Registrar situaciones  |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
 | Actores:           |   |
@@ -85,7 +85,7 @@
 | UC-                |   |
 | :----------------- | - |
 | Nombre:            |   |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
 | Actores:           |   |
@@ -97,7 +97,7 @@
 | UC-                |   |
 | :----------------- | - |
 | Nombre:            |   |
-| Autor:             | :large_blue_diamond: Equipo Azu :large_blue_diamond:  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
 | Actores:           |   |
