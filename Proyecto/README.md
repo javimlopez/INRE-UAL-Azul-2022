@@ -117,9 +117,8 @@ Diagrama Portal
 # Actores
 ## Diagrama SMET
 
-|Detalles de los actores|  |
-|:--:|:--:|
 |Actor|Descripción|
+|:--:|:--:|
 |Sistema|Este actor puede tomar informacion en tiempo real de los operadores, enviar alarmas, mostrar mapa a los demas actores|
 |Administrador|Este actor mostrará el mapa heredado, la cual tambien registra situaciones y periodos, define enventos lo cual implica generar avisos, ademas de poder hacer todo lo que el operador|
 |Operador|Tiene ayuda en linea, visualiza alarmas, las cuales se pueden recibir de forma sonora o sms|
@@ -274,9 +273,8 @@ Diagrama Portal
 # Actores
 ## Diagrama SIIT
 
-|Detalles de los actores|  |
-|:--:|:--:|
 |Actor|Descripción|
+|:--:|:--:|
 |Auxiliar Edicion||
 |Operador de transporte(SIIT)||
 |Cliente(SIIT)||
@@ -300,9 +298,8 @@ Diagrama Portal
 # Actores
 ## Diagrama SIIT
 
-|Detalles de los actores|  |
-|:--:|:--:|
 |Actor|Descripción|
+|:--:|:--:|
 |Auxiliar Edicion||
 |Operador de transporte(SIIT)||
 |Cliente(SIIT)||
