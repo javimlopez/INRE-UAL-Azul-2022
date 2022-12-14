@@ -97,17 +97,6 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 #### Requisitos
 
-|RF-0X|Descripción|Tipo|
-|:--:|:--:||:--:|
-||||
-
-|RF-01|Descripción|Tipo|
-|:--:|:--:||:--:|
-|Monitorizar información||Funcional|
-|RF-02|Descripción|Tipo|
-|:--:|:--:||:--:|
-||||
-
 #### Caso de uso
 
 #### Especificacion de Diagramas
@@ -116,7 +105,7 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 # Diagramas de casos de uso
 ## Diagrama SMET
-<img src="./svgs/DiagramaSmet.svg">
+<img src="./svgs/DiagramaSMET.svg">
 # Lista general de casos de uso y actores del proyecto
 
 Diagrama SMET
@@ -130,9 +119,10 @@ Diagrama SMET
 |Cliente||
 
 
-|Nombre: |Descripción|
-|:--:|:--:|
+
+
 |Autor: ||
+|:--:|:--:|
 |Fecha: ||
 |Descripcion: ||
 |Actores: ||
