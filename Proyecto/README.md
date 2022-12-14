@@ -114,6 +114,9 @@ Diagrama Portal
 
 # Lista general de casos de uso y actores del proyecto
 
+
+# Detalle de los casos de uso
+
 # Actores
 ## Diagrama SMET
 
@@ -306,7 +309,7 @@ Diagrama Portal
 # Casos de uso
 ## Diagrama Portal
 
-|Nombre: ||
+|Nombre: |Editor|
 |:--:|:--:|
 |Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
@@ -503,8 +506,6 @@ Diagrama Portal
 |Flujo normal: ||
 |Flujo alternativo: ||
 |Post condiciones: ||
-
-# Detalle de los casos de uso
 
 # Diagramas de clases asociados a los requisitos de información
 
