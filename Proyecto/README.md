@@ -144,6 +144,101 @@ Diagrama SMET
 
 # Diagramas de clases asociados a los requisitos de información
 
+| INF-001: | Administrador |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| Información sobre el usuario Administrador|
+| Datos especificos:| <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-002: | Líneas |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-003: | Recorrido |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-004: | Parada |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-005: | Horario |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-006: | Tarifa |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-007: | Incidencias |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-008: | Itinerario |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
 # Apéndices
 
 ## Detalles de entrevista
