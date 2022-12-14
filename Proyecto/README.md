@@ -21,6 +21,7 @@ En este documento se va a tratar la recopilación de toda la información necesa
 # Información del Dominio del problema
 
 #### Organigrama
+
 <img src=./svgs/Organigrama.svg>
 
 #### Glosario de terminos
@@ -55,40 +56,62 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 #### Objetivos del negocio
 
-
 #### Modelo de Procesos de Negocio
-
 
 ##### Subprocesos
 
-
 ##### Tareas
-
 
 # Requisitos del sistema a desarrollar
 
 #### Requisitos
 
-
 #### Caso de uso
-
 
 #### Especificacion de Diagramas
 
-
 # Lista de diagrama de casos de uso del modelo
-
 
 # Diagramas de casos de uso
 
-
 # Lista general de casos de uso y actores del proyecto
-
 
 # Detalle de los casos de uso
 
-
 # Diagramas de clases asociados a los requisitos de información
 
-
 # Apéndices
+
+###### Detalles de entrevista
+
+| Ficha entrevista |                                                |
+| :--------------: | ---------------------------------------------- |
+|   Entrevistado   | Juan Palomo (Conductor de autobuses)           |
+|      Fecha      | 15 de noviembre de 2022                        |
+|       Hora       | 9:10                                           |
+|      Lugar      | Laboratorio de análisis y diseño de software |
+|      Asunto      | Sistema de Transporte Público Canario         |
+
+###### Desarrollo de la entrevista
+
+| Ficha entrevista |                                                |            |
+| :--------------: | :--------------------------------------------: | :--------: |
+|      Tiempo      |                   Preguntas                   | Respuestas |
+| 1 min | ¿Qué transportes se agrupan en la denominación de transporte público canario? | Autobuses, barcos entre distintas islas, taxis públicos, carros turísticos tirados de caballos (forman parte del transporte publico canario) |
+| 1 min | ¿Qué tipos de datos se debería tener en cuenta por cada usuario interesado en usar el transporte? | Ninguno adicional al que viene en el pliego de condiciones. |
+| 2 min | ¿Qué métodos de pago se pueden contemplar dentro de los servicios ofrecidos? | Pago en efectivo, pago con tarjeta de transporte del gobierno de las islas canarias (cada persona empadronada en la isla puede sacarse esa tarjeta y sale con un descuento, recargable). Se recarga yendo al kiosco con tarjeta o efectivo y en los autobuses con dinero en efectivo. Uso exclusivo de la tarjeta para personas empadronadas. |
+| 1 min | ¿Como enlazamos los aspectos de ocio, cultura y turismo dentro de la aplicación? | En el portal por medio de noticias mientras que en las paradas y rutas se indicarán en el apartado de observaciones |
+| 30 seg | ¿El sistema de información y monitorización de la explotación de transporte debe de ser trasparente y público, o por el contrario, exclusivo de la Autoridad Única del Transporte canario? | En principio es público. |
+| 20 seg |¿El buscador tendría que funcionar con eventos, líneas y destinos? | Sí |
+| 1 min | ¿Tiene alguna preferencia de diseño, como por ejemplo en cuanto a la paleta de colores? | La mayoría de las páginas del ayuntamiento de las islas canarias se hace con colores muy claros (azul muy claro por ejemplo). |
+| 2 min | ¿Los itinerarios recomendados incluyen tanto ubicaciones como eventos? |  La idea es que cuando alguien busque una ruta (Punto A a punto B) pueda tener la ruta más corta posible/ rápida, una ruta turística. Tener filtros. En principio no se informa sobre el turismo de las islas Canarias. Horario de autobuses subido en la página web con las paradas. Nosotros tendríamos que ajustar y definir bien las paradas, fotos a las paradas, mapa, por donde va el autobús, etc. |
+| 1 min | ¿Los usuarios que busquen información, deben tener la sesión iniciada? |  No, accesible a todo el mundo porque es un engorro iniciar sesión para consultar como va un autobús |
+| 1 min | ¿La ubicación a tiempo real del transporte se hará en la aplicación, o por el contrario el propio transporte tendría un sistema propio? |  Normalmente, las aplicaciones del móvil hacen que la batería dure poco, es preferente un dispositivo dentro del autobús o un móvil con una aplicación solo para ello. |
+| 1 min | ¿A qué se refiere con observaciones dentro del resultado de consultas? |  Cuando tú hagas el pedido de paradas o rutas, en observaciones pondrán cosas como lugares turísticos más cercanos, caminos cortados, etc. |
+
+#### Conclusiones de la entrevista
+
+* Conclusion 1
+* Conclusion 2
+* Conclusion 3
+
