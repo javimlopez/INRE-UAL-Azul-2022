@@ -23,7 +23,7 @@
 | 26/11/2022 | 1.0      | Aclaracion en casos de uso                                                  | Juan Raul Mellado Garcia                    |
 | 29/11/2022 | 1.1      | Revision de casos de uso                                                    | Juan Raul Mellado Garcia                    |
 | 2/12/2022  | 1.0      | Diagramas casos de uso + Diagrama ER                                        | Ángel Nieto Burgos                          |
-| 13/12/2022 | 1.0      | Defensa con Manel + Arreglo del ERS en el repo + Revision de lo que tenemos |                                              |
+| 13/12/2022 | 1.0      | Defensa con Manel + Arreglo del ERS en el repo + Revision de lo que tenemos | Francisco Javier Mota |
 
 
 # Introducción
@@ -97,42 +97,200 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 #### Requisitos
 
-|RF-0X|Descripción|Tipo|
-|:--:|:--:||:--:|
-||||
-
-|RF-01|Descripción|Tipo|
-|:--:|:--:||:--:|
-|Monitorizar información||Funcional|
-|RF-02|Descripción|Tipo|
-|:--:|:--:||:--:|
-||||
-
 #### Caso de uso
 
 #### Especificacion de Diagramas
 
 # Lista de diagrama de casos de uso del modelo
 
-# Diagramas de casos de uso
-## Diagrama SMET
-<img src="./svgs/DiagramaSmet.svg">
+Diagrama SMET
+<img src="./svgs/DiagramaSMET.svg">
+
+Diagrama SIIT
+<img src="./svgs/DiagramaSMET.svg">
+
+Diagrama Portal
+<img src="./svgs/DiagramaSMET.svg">
+
 # Lista general de casos de uso y actores del proyecto
 
-Diagrama SMET
 
-|Detalles de los actores|  |
-|:--:|:--:|
+# Detalle de los casos de uso
+
+# Actores
+## Diagrama SMET
+
 |Actor|Descripción|
-|Sistema||
-|Administrador||
-|Operador||
-|Cliente||
-
 |:--:|:--:|
-|Nombre: |Descripción|
+|Sistema|Este actor puede tomar informacion en tiempo real de los operadores, enviar alarmas, mostrar mapa a los demas actores|
+|Administrador|Este actor mostrará el mapa heredado, la cual tambien registra situaciones y periodos, define enventos lo cual implica generar avisos, ademas de poder hacer todo lo que el operador|
+|Operador|Tiene ayuda en linea, visualiza alarmas, las cuales se pueden recibir de forma sonora o sms|
+|Cliente|Puede hacer lo mismo que operador y ver mapa de una forma especifica|
+
+# Casos de uso
+## Diagrama SMET
+
+|Nombre: |Enviar alarma|
+|:--:|:--:|
+|Autor: | Francisco de Borja GC |
+|Fecha: |26/11/2022|
+|Descripcion: |Envia una alarma|
+|Actores: |Sistema|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Recabar informacion en tiempo real de operadores|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Toma de datos operador a operador|
+|Actores: |Sistema|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Mostrar mapa
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Enseña el contenido de los mapas|
+|Actores: |Sistema, administrador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |mostrar Mapa (admin)|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Clase que hereda de mostrar mapa, pero da funcionalidades extra al admin|
+|Actores: |Administrador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Registrar pedidos|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Se guardan los periodos del mapa|
+|Actores: |Administrador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Registrar situaciones|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Se guardan las situaciones que hay en el mapa|
+|Actores: |Administrador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Definir evento|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Dota de una breve descripcion a los eventos dentro de la app|
+|Actores: |Administrador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Generar aviso|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Cada vez que se genere una nueva definicion de un evento será notificado|
+|Actores: |Administrador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |sms|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |La alarma se visualiza vía sms|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Visualizar alarma|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |El operador puede ver la alarma|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Aviso sonoro|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Para visualizar la alarma se avisará mediante sonido|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Ayuda en linea|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |El operador cuenta con ayuda en linea|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |mostrar Mapa (cliente)|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |El cliente tendra una visualizacion expecifica del mapa|
+|Actores: |Cliente|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+# Actores
+## Diagrama SIIT
+
+|Actor|Descripción|
+|:--:|:--:|
+|Auxiliar Edicion||
+|Operador de transporte(SIIT)||
+|Cliente(SIIT)||
+|Administrador(SIIT)||
+|Sistema de informacion||
+
+# Casos de uso
+## Diagrama SIIT
+
+|Nombre: ||
+|:--:|:--:|
 |Autor: ||
-|Fecha: ||
+|Fecha: |26/11/2022|
 |Descripcion: ||
 |Actores: ||
 |Precondiciones: ||
@@ -140,7 +298,214 @@ Diagrama SMET
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-# Detalle de los casos de uso
+# Actores
+## Diagrama Portal
+
+|Actor|Descripción|
+|:--:|:--:|
+|Administrador||
+|Clientes||
+
+# Casos de uso
+## Diagrama Portal
+
+|Nombre: |Editor|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
 
 # Diagramas de clases asociados a los requisitos de información
 
