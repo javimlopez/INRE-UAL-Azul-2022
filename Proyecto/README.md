@@ -103,7 +103,7 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 # Lista de diagrama de casos de uso del modelo
 
-# Diagramas de casos de uso
+# Actores
 ## Diagrama SMET
 <img src="./svgs/DiagramaSMET.svg">
 # Lista general de casos de uso y actores del proyecto
@@ -113,10 +113,10 @@ Diagrama SMET
 |Detalles de los actores|  |
 |:--:|:--:|
 |Actor|Descripción|
-|Sistema||
-|Administrador||
-|Operador||
-|Cliente||
+|Sistema|Este actor puede tomar informacion en tiempo real de los operadores, enviar alarmas, mostrar mapa a los demas actores|
+|Administrador|Este actor mostrará el mapa heredado, la cual tambien registra situaciones y periodos, define enventos lo cual implica generar avisos, ademas de poder hacer todo lo que el operador|
+|Operador|Tiene ayuda en linea, visualiza alarmas, las cuales se pueden recibir de forma sonora o sms|
+|Cliente|Puede hacer lo mismo que operador y ver mapa de una forma especifica|
 
 |Nombre: ||
 |:--:|:--:|
@@ -129,7 +129,8 @@ Diagrama SMET
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-### Diagrama SMET
+# Casos de uso
+## Diagrama SMET
 
 |Nombre: |Enviar alarma|
 |:--:|:--:|
@@ -164,67 +165,111 @@ Diagrama SMET
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-|Nombre: ||
+|Nombre: |mostrar Mapa (admin)|
 |:--:|:--:|
 |Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
-|Descripcion: ||
-|Actores: ||
+|Descripcion: |Clase que hereda de mostrar mapa, pero da funcionalidades extra al admin|
+|Actores: |Administrador|
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-|Nombre: ||
+|Nombre: |Registrar pedidos|
 |:--:|:--:|
 |Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
-|Descripcion: ||
-|Actores: ||
+|Descripcion: |Se guardan los periodos del mapa|
+|Actores: |Administrador|
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-|Nombre: ||
+|Nombre: |Registrar situaciones|
 |:--:|:--:|
 |Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
-|Descripcion: ||
-|Actores: ||
+|Descripcion: |Se guardan las situaciones que hay en el mapa|
+|Actores: |Administrador|
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-|Nombre: ||
+|Nombre: |Definir evento|
 |:--:|:--:|
 |Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
-|Descripcion: ||
-|Actores: ||
+|Descripcion: |Dota de una breve descripcion a los eventos dentro de la app|
+|Actores: |Administrador|
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-|Nombre: ||
+|Nombre: |Generar aviso|
 |:--:|:--:|
 |Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
-|Descripcion: ||
-|Actores: ||
+|Descripcion: |Cada vez que se genere una nueva definicion de un evento será notificado|
+|Actores: |Administrador|
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
 |Post condiciones: ||
 
-|Nombre: ||
+|Nombre: |sms|
 |:--:|:--:|
 |Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
-|Descripcion: ||
-|Actores: ||
+|Descripcion: |La alarma se visualiza vía sms|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Visualizar alarma|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |El operador puede ver la alarma|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Aviso sonoro|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |Para visualizar la alarma se avisará mediante sonido|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |Ayuda en linea|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |El operador cuenta con ayuda en linea|
+|Actores: |Operador|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: |mostrar Mapa (cliente)|
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: |El cliente tendra una visualizacion expecifica del mapa|
+|Actores: |Cliente|
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
