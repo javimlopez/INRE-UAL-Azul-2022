@@ -13,6 +13,7 @@
 🔷 ANGEL NIETO BURGOS
 
 # Hoja de revisión
+
 | Fecha      | Versión | Descripción                                                                | Autor                                        |
 | :--------- | :------- | :-------------------------------------------------------------------------- | :------------------------------------------- |
 | 08/11/2022 | 1.0      | Preparar preguntas para el entrevistador                                    | Francisco de Borja José Gutiérrez Carrasco |
@@ -20,11 +21,10 @@
 | 15/11/2022 | 1.0      | Organigrama, glosario de datos, y especificación de los diagramas          | Francisco Javier Mota López                 |
 | 18/11/2022 | 1.0      | Objetivos del negocio                                                       | Francisco de Borja José Gutiérrez Carrasco |
 | 22/11/2022 | 1.0      | Toma de requisitos                                                          | Francisco Javier Mota López                 |
-| 26/11/2022 | 1.0      | Aclaracion en casos de uso                                                  | Juan Raul Mellado Garcia                    |
-| 29/11/2022 | 1.1      | Revision de casos de uso                                                    | Juan Raul Mellado Garcia                    |
+| 26/11/2022 | 1.0      | Aclaracion en casos de uso                                                  | Juan Raul Mellado Garcia                     |
+| 29/11/2022 | 1.1      | Revision de casos de uso                                                    | Juan Raul Mellado Garcia                     |
 | 2/12/2022  | 1.0      | Diagramas casos de uso + Diagrama ER                                        | Ángel Nieto Burgos                          |
 | 13/12/2022 | 1.0      | Defensa con Manel + Arreglo del ERS en el repo + Revision de lo que tenemos |                                              |
-
 
 # Introducción
 
@@ -40,6 +40,7 @@ En este documento se va a tratar la recopilación de toda la información necesa
 <img src=./svgs/Organigrama.svg>
 
 #### Glosario de terminos
+
 |                    Término                    | Descripción                                                                                                                                                                   |
 | :--------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |                     Guagua                     | Referido a autobús                                                                                                                                                            |
@@ -69,23 +70,24 @@ En este documento se va a tratar la recopilación de toda la información necesa
 # Necesidades del negocio
 
 #### Objetivos del negocio
-|OBJ-1| SIIT |
-|:--:|:--:|
-|Versión|1.0|
-|Descripción|Montar un sistema interactivo de información por el que los usuarios podrán conocer y disponer de las prestaciones que ofrece el servicio integrado de transporte público de viajeros de Gran Canaria relacionándolas con otras materias de ocio, turismo, cultura, etc. |
-|Comentarios|La información deberá ser accesible desde el portal web de la AUTGC.|
 
-|OBJ-2| SMET |
-|:--:|:--:|
-|Versión|1.0|
-|Descripción|Montar un sistema de información y monitorización de la explotación del transporte para la AUTGC que facilite reconocer, registrar y monitorizar en todo momento el grado de cumplimiento de las obligaciones de servicio de los operadores en base a una serie de condiciones parametrizables|
-|Comentarios|Ninguno|
+|    OBJ-1    |                                                                                                                                     SIIT                                                                                                                                     |
+| :----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Versión   |                                                                                                                                     1.0                                                                                                                                     |
+| Descripción | Montar un sistema interactivo de información por el que los usuarios podrán conocer y disponer de las prestaciones que ofrece el servicio integrado de transporte público de viajeros de Gran Canaria relacionándolas con otras materias de ocio, turismo, cultura, etc. |
+| Comentarios |                                                                                                    La información deberá ser accesible desde el portal web de la AUTGC.                                                                                                    |
 
-|OBJ-3| Portal Web |
-|:--:|:--:|
-|Versión|1.0|
-|Descripción|Se pide montar un portal web que abarque los aspectos de: identificar necesidades (contenidos, servicios, audiencias, etc), definir la estructura (arquitectura de la información, mapa web, etc) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
-|Comentarios|Forma parte del sistema SIIT, que se divide en dos partes: una el sistema de información y otra el portal web y ambos están interrelacionados|
+|    OBJ-2    |                                                                                                                                               SMET                                                                                                                                               |
+| :----------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Versión   |                                                                                                                                                1.0                                                                                                                                                |
+| Descripción | Montar un sistema de información y monitorización de la explotación del transporte para la AUTGC que facilite reconocer, registrar y monitorizar en todo momento el grado de cumplimiento de las obligaciones de servicio de los operadores en base a una serie de condiciones parametrizables |
+| Comentarios |                                                                                                                                              Ninguno                                                                                                                                              |
+
+|    OBJ-3    |                                                                                                                                              Portal Web                                                                                                                                              |
+| :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Versión   |                                                                                                                                                  1.0                                                                                                                                                  |
+| Descripción | Se pide montar un portal web que abarque los aspectos de: identificar necesidades (contenidos, servicios, audiencias, etc), definir la estructura (arquitectura de la información, mapa web, etc) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
+| Comentarios |                                                                            Forma parte del sistema SIIT, que se divide en dos partes: una el sistema de información y otra el portal web y ambos están interrelacionados                                                                            |
 
 #### Modelo de Procesos de Negocio
 
@@ -97,100 +99,103 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 #### Requisitos
 
-|Requisito|Descripción|Tipo|
-|:--:|:--:|:--:|
-||||
+| Requisito | Descripción | Tipo |
+| :-------: | :----------: | :--: |
+|          |              |      |
 
 #### Caso de uso
-|Código|Casos de uso|Descripción|
-|:--:|:--:|:--:|
-|UC-01|Enviar alarma||
-|UC-02|Recabar informacion en tiempo real de operadores||
-|UC-03|Mostrar mapa||
-|UC-04|Gestion de pagos||
-|UC-05|mostrar Mapa (admin)||
-|UC-06|Registrar pedidos||
-|UC-07|Registrar situaciones||
-|UC-08|Definir evento||
-|UC-09|Generar aviso||
-|UC-10|sms||
-|UC-11|Visualizar alarma||
-|UC-12|Aviso sonoro||
-|UC-13|Ayuda en linea||
-|UC-14|Realizar pagos||
-|UC-15|mostrar Mapa (cliente)||
-|UC-16|Previsualizacion||
-|UC-17|Edicion sencilla||
-|UC-18|AÃ±adir pagina||
-|UC-19|Mostrar paradas general||
-|UC-20|Mostrar mapa general||
-|UC-21|Definir transbordo||
-|UC-22|Calcular distancia entre paradas||
-|UC-23|Calculo de itinerarios recomendados tiempo real||
-|UC-24|Mostrar parada inicio y fin||
-|UC-25|Calcular tiempos de recorrido||
-|UC-26|Ayuda en linea(SIT)||
-|UC-27|Localizacion||
-|UC-28|Consulta||
-|UC-29|Gestion||
-|UC-30|Herramienta de analisis||
-|UC-31|Definir inicio y fin||
-|UC-32|Ubicar zonas de interes||
-|UC-33|Consultar de forma dinamica la informacion de servicio||
-|UC-34|Mostrar itinerario de mapa||
-|UC-35|Definir zonas||
-|UC-36|Introduccion manual de datos||
-|UC-37|Control y edicion de la informacion ||
-|UC-38|Modificacion de datos||
-|UC-39|Datos asociados||
-|UC-40|Mostrar paradas||
-|UC-41|Lista de datos||
-|UC-42|Identificar zonas no transitables||
-|UC-43|Recoger informacion no recogida||
-|UC-44|Centrar||
-|UC-45|Mostar informacion linea||
-|UC-46|Presentar recorrido cierta linea||
-|UC-47|Acecar||
-|UC-48|Ir a mapa base||
-|UC-49|Mostrar mapa||
-|UC-50|Desplazar||
-|UC-51|Alejar||
-|UC-52|Editor WYSYWYG||
-|UC-53|Modificar||
-|UC-54|Buscador||
-|UC-55|Mostrar estadisticas||
-|UC-56|Retirar||
-|UC-57|Publicar||
-|UC-58|Acceso Web||
-|UC-59|Creacion de pagina sencilla||
-|UC-60|Modificacion general||
-|UC-61|Previsualizacion||
-|UC-62|Entorno de colaboracion cliente||
-|UC-63|Blog||
-|UC-64|CloudTag||
-|UC-65|Entorno de colaboracion||
-|UC-66|Foro||
-|UC-67|Acceso Web Cliente||
-|UC-68|Buscador cliente||
+
+| Código |                      Casos de uso                      | Descripción |
+| :-----: | :----------------------------------------------------: | :----------: |
+|  UC-01  |                     Enviar alarma                     |              |
+|  UC-02  |    Recabar informacion en tiempo real de operadores    |              |
+|  UC-03  |                      Mostrar mapa                      |              |
+|  UC-04  |                    Gestion de pagos                    |              |
+|  UC-05  |                  mostrar Mapa (admin)                  |              |
+|  UC-06  |                   Registrar periodos                   |              |
+|  UC-07  |                 Registrar situaciones                 |              |
+|  UC-08  |                     Definir evento                     |              |
+|  UC-09  |                     Generar aviso                     |              |
+|  UC-10  |                          sms                          |              |
+|  UC-11  |                   Visualizar alarma                   |              |
+|  UC-12  |                      Aviso sonoro                      |              |
+|  UC-13  |                     Ayuda en linea                     |              |
+|  UC-14  |                     Realizar pagos                     |              |
+|  UC-15  |                 mostrar Mapa (cliente)                 |              |
+|  UC-16  |                    Previsualizacion                    |              |
+|  UC-17  |                    Edicion sencilla                    |              |
+|  UC-18  |                    AÃ±adir pagina                    |              |
+|  UC-19  |                Mostrar paradas general                |              |
+|  UC-20  |                  Mostrar mapa general                  |              |
+|  UC-21  |                   Definir transbordo                   |              |
+|  UC-22  |            Calcular distancia entre paradas            |              |
+|  UC-23  |    Calculo de itinerarios recomendados tiempo real    |              |
+|  UC-24  |              Mostrar parada inicio y fin              |              |
+|  UC-25  |             Calcular tiempos de recorrido             |              |
+|  UC-26  |                  Ayuda en linea(SIT)                  |              |
+|  UC-27  |                      Localizacion                      |              |
+|  UC-28  |                        Consulta                        |              |
+|  UC-29  |                        Gestion                        |              |
+|  UC-30  |                Herramienta de analisis                |              |
+|  UC-31  |                  Definir inicio y fin                  |              |
+|  UC-32  |                Ubicar zonas de interes                |              |
+|  UC-33  | Consultar de forma dinamica la informacion de servicio |              |
+|  UC-34  |               Mostrar itinerario de mapa               |              |
+|  UC-35  |                     Definir zonas                     |              |
+|  UC-36  |              Introduccion manual de datos              |              |
+|  UC-37  |          Control y edicion de la informacion          |              |
+|  UC-38  |                 Modificacion de datos                 |              |
+|  UC-39  |                    Datos asociados                    |              |
+|  UC-40  |                    Mostrar paradas                    |              |
+|  UC-41  |                     Lista de datos                     |              |
+|  UC-42  |           Identificar zonas no transitables           |              |
+|  UC-43  |            Recoger informacion no recogida            |              |
+|  UC-44  |                        Centrar                        |              |
+|  UC-45  |                Mostar informacion linea                |              |
+|  UC-46  |            Presentar recorrido cierta linea            |              |
+|  UC-47  |                         Acecar                         |              |
+|  UC-48  |                     Ir a mapa base                     |              |
+|  UC-49  |                      Mostrar mapa                      |              |
+|  UC-50  |                       Desplazar                       |              |
+|  UC-51  |                         Alejar                         |              |
+|  UC-52  |                     Editor WYSYWYG                     |              |
+|  UC-53  |                       Modificar                       |              |
+|  UC-54  |                        Buscador                        |              |
+|  UC-55  |                  Mostrar estadisticas                  |              |
+|  UC-56  |                        Retirar                        |              |
+|  UC-57  |                        Publicar                        |              |
+|  UC-58  |                       Acceso Web                       |              |
+|  UC-59  |              Creacion de pagina sencilla              |              |
+|  UC-60  |                  Modificacion general                  |              |
+|  UC-61  |                    Previsualizacion                    |              |
+|  UC-62  |            Entorno de colaboracion cliente            |              |
+|  UC-63  |                          Blog                          |              |
+|  UC-64  |                        CloudTag                        |              |
+|  UC-65  |                Entorno de colaboracion                |              |
+|  UC-66  |                          Foro                          |              |
+|  UC-67  |                   Acceso Web Cliente                   |              |
+|  UC-68  |                    Buscador cliente                    |              |
 
 #### Especificacion de Diagramas
 
 # Lista de diagrama de casos de uso del modelo
 
 # Diagramas de casos de uso
+
 ## Diagrama SMET
+
 <img src="./svgs/DiagramaSmet.svg">
 # Lista general de casos de uso y actores del proyecto
 
 Diagrama SMET
 
-|Detalles de los actores|  |
-|:--:|:--:|
-|Actor|Descripción|
-|Sistema||
-|Administrador||
-|Operador||
-|Cliente||
+| Detalles de los actores |              |
+| :---------------------: | :----------: |
+|          Actor          | Descripción |
+|         Sistema         |              |
+|      Administrador      |              |
+|        Operador        |              |
+|         Cliente         |              |
 
 |:--:|:--:|
 |Nombre: |Descripción|
@@ -209,175 +214,176 @@ Diagrama SMET
 
 ## Requisitos de información del portal
 
-| INF-001: | Administrador |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| Información sobre el usuario Administrador|
-| Datos especificos:| <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-001:           | Administrador                                                                          |
+| :----------------- | :------------------------------------------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                                                   |
+| Autor:             | Francisco Javier Mota López                                                           |
+| Fuente:            | Pliego de condiciones                                                                  |
+| Referencia:        | -                                                                                      |
+| Descripción:      | Información sobre el usuario Administrador                                            |
+| Datos especificos: | `<ul><li>`Nombre`</li><li>`Teléfono`</li><li>`Correo Electrónico`</li></ul>` |
+| Importancia:       | Muy Importante                                                                         |
+| Estado:            | Aceptado                                                                               |
+| Comentar:          | -                                                                                      |
 
-| INF-002: | Cliente |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-002:           | Cliente                                              |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-003: | Operador |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-003:           | Operador                                             |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-004: | Sistema |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-004:           | Sistema                                              |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-005: | Servicio |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-005:           | Servicio                                             |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-006: | Itinerario |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-006:           | Itinerario                                           |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-007: | Datos |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-007:           | Datos                                                |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-008: | Parada |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-008:           | Parada                                               |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-009: | Mapa |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-009:           | Mapa                                                 |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-010: | Línea |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-010:           | Línea                                               |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-010: | Alarma |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-010:           | Alarma                                               |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
 ## Requisitos de información del sistema interactivo de información del transporte (SIIT)
 
-| INF-001: | Administrador |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-001:           | Administrador                                        |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-009: | Usuario logueado |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-009:           | Usuario logueado                                     |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 
-| INF-009: | Usuario invitado |
-|:------------|:----------------|
-| Versión: | 1.0 (Diciembre-2022) |
-| Autor: | Francisco Javier Mota López |
-| Fuente:| Pliego de condiciones |
-| Referencia:| - |
-| Descripción:| |
-| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
-| Importancia:| Muy Importante |
-| Estado:| Aceptado |
-| Comentar:| - |
+| INF-009:           | Usuario invitado                                     |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | Francisco Javier Mota López                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
 # Apéndices
 
 ## Detalles de entrevista
@@ -392,17 +398,17 @@ Diagrama SMET
 
 ## Desarrollo de la entrevista
 
-| Ficha entrevista |                                                |            |
-| :--------------: | :--------------------------------------------: | :--------: |
-|      Tiempo      |                   Preguntas                   | Respuestas |
-| 1 min | ¿Qué transportes se agrupan en la denominación de transporte público canario? | Autobuses, barcos entre distintas islas, taxis públicos, carros turísticos tirados de caballos (forman parte del transporte publico canario) |
-| 1 min | ¿Qué tipos de datos se debería tener en cuenta por cada usuario interesado en usar el transporte? | Ninguno adicional al que viene en el pliego de condiciones. |
-| 2 min | ¿Qué métodos de pago se pueden contemplar dentro de los servicios ofrecidos? | Pago en efectivo, pago con tarjeta de transporte del gobierno de las islas canarias (cada persona empadronada en la isla puede sacarse esa tarjeta y sale con un descuento, recargable). Se recarga yendo al kiosco con tarjeta o efectivo y en los autobuses con dinero en efectivo. Uso exclusivo de la tarjeta para personas empadronadas. |
-| 1 min | ¿Como enlazamos los aspectos de ocio, cultura y turismo dentro de la aplicación? | En el portal por medio de noticias mientras que en las paradas y rutas se indicarán en el apartado de observaciones |
-| 30 seg | ¿El sistema de información y monitorización de la explotación de transporte debe de ser trasparente y público, o por el contrario, exclusivo de la Autoridad Única del Transporte canario? | En principio es público. |
-| 20 seg |¿El buscador tendría que funcionar con eventos, líneas y destginos? | Sí |
-| 1 min | ¿Tiene alguna preferencia de diseño, como por ejemplo en cuanto a la paleta de colores? | La mayoría de las páginas del ayuntamiento de las islas canarias se hace con colores muy claros (azul muy claro por ejemplo). |
-| 2 min | ¿Los itinerarios recomendados incluyen tanto ubicaciones como eventos? |  La idea es que cuando alguien busque una ruta (Punto A a punto B) pueda tener la ruta más corta posible/ rápida, una ruta turística. Tener filtros. En principio no se informa sobre el turismo de las islas Canarias. Horario de autobuses subido en la página web con las paradas. Nosotros tendríamos que ajustar y definir bien las paradas, fotos a las paradas, mapa, por donde va el autobús, etc. |
-| 1 min | ¿Los usuarios que busquen información, deben tener la sesión iniciada? |  No, accesible a todo el mundo porque es un engorro iniciar sesión para consultar como va un autobús |
-| 1 min | ¿La ubicación a tiempo real del transporte se hará en la aplicación, o por el contrario el propio transporte tendría un sistema propio? |  Normalmente, las aplicaciones del móvil hacen que la batería dure poco, es preferente un dispositivo dentro del autobús o un móvil con una aplicación solo para ello. |
-| 1 min | ¿A qué se refiere con observaciones dentro del resultado de consultas? |  Cuando tú hagas el pedido de paradas o rutas, en observaciones pondrán cosas como lugares turísticos más cercanos, caminos cortados, etc. |
+| Ficha entrevista |                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                |
+| :--------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      Tiempo      |                                                                                            Preguntas                                                                                            |                                                                                                                                                                                                   Respuestas                                                                                                                                                                                                   |
+|      1 min      |                                                        ¿Qué transportes se agrupan en la denominación de transporte público canario?                                                        |                                                                                                                                 Autobuses, barcos entre distintas islas, taxis públicos, carros turísticos tirados de caballos (forman parte del transporte publico canario)                                                                                                                                 |
+|      1 min      |                                               ¿Qué tipos de datos se debería tener en cuenta por cada usuario interesado en usar el transporte?                                               |                                                                                                                                                                           Ninguno adicional al que viene en el pliego de condiciones.                                                                                                                                                                           |
+|      2 min      |                                                         ¿Qué métodos de pago se pueden contemplar dentro de los servicios ofrecidos?                                                         |                                  Pago en efectivo, pago con tarjeta de transporte del gobierno de las islas canarias (cada persona empadronada en la isla puede sacarse esa tarjeta y sale con un descuento, recargable). Se recarga yendo al kiosco con tarjeta o efectivo y en los autobuses con dinero en efectivo. Uso exclusivo de la tarjeta para personas empadronadas.                                  |
+|      1 min      |                                                        ¿Como enlazamos los aspectos de ocio, cultura y turismo dentro de la aplicación?                                                        |                                                                                                                                              En el portal por medio de noticias mientras que en las paradas y rutas se indicarán en el apartado de observaciones                                                                                                                                              |
+|      30 seg      | ¿El sistema de información y monitorización de la explotación de transporte debe de ser trasparente y público, o por el contrario, exclusivo de la Autoridad Única del Transporte canario? |                                                                                                                                                                                            En principio es público.                                                                                                                                                                                            |
+|      20 seg      |                                                              ¿El buscador tendría que funcionar con eventos, líneas y destginos?                                                              |                                                                                                                                                                                                       Sí                                                                                                                                                                                                       |
+|      1 min      |                                                    ¿Tiene alguna preferencia de diseño, como por ejemplo en cuanto a la paleta de colores?                                                    |                                                                                                                                         La mayoría de las páginas del ayuntamiento de las islas canarias se hace con colores muy claros (azul muy claro por ejemplo).                                                                                                                                         |
+|      2 min      |                                                             ¿Los itinerarios recomendados incluyen tanto ubicaciones como eventos?                                                             | La idea es que cuando alguien busque una ruta (Punto A a punto B) pueda tener la ruta más corta posible/ rápida, una ruta turística. Tener filtros. En principio no se informa sobre el turismo de las islas Canarias. Horario de autobuses subido en la página web con las paradas. Nosotros tendríamos que ajustar y definir bien las paradas, fotos a las paradas, mapa, por donde va el autobús, etc. |
+|      1 min      |                                                            ¿Los usuarios que busquen información, deben tener la sesión iniciada?                                                            |                                                                                                                                                      No, accesible a todo el mundo porque es un engorro iniciar sesión para consultar como va un autobús                                                                                                                                                      |
+|      1 min      |                           ¿La ubicación a tiempo real del transporte se hará en la aplicación, o por el contrario el propio transporte tendría un sistema propio?                           |                                                                                                                   Normalmente, las aplicaciones del móvil hacen que la batería dure poco, es preferente un dispositivo dentro del autobús o un móvil con una aplicación solo para ello.                                                                                                                   |
+|      1 min      |                                                             ¿A qué se refiere con observaciones dentro del resultado de consultas?                                                             |                                                                                                                                  Cuando tú hagas el pedido de paradas o rutas, en observaciones pondrán cosas como lugares turísticos más cercanos, caminos cortados, etc.                                                                                                                                  |
