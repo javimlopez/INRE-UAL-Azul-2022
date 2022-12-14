@@ -9,10 +9,7 @@
 🔷 JUAN RAUL MELLADO GARCIA `<br>`
 🔷 ANGEL NIETO BURGOS `<br>`
 
-
-
 # Hoja de revisión
-
 
 # Introducción
 
@@ -23,48 +20,44 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 # Información del Dominio del problema
 
+#### Organigrama
 
-# Organigrama
 
-
-# Glosario de términos
+#### Glosario de terminos
 
 
 # Necesidades del negocio
 
-
-# Objetivos del negocio
-
-
-# Modelos de Procesos de Negocio
+#### Objetivos del negocio
 
 
-# Subprocesos
+#### Modelo de Procesos de Negocio
 
 
-# Tareas
+##### Subprocesos
+
+
+##### Tareas
 
 
 # Requisitos del sistema a desarrollar
 
-
-# Requisitos
-
-
-# Casos de uso
+#### Requisitos
 
 
-# Especificación de los diagramas
+#### Caso de uso
 
 
-# Lista de diagramas de casos de uso del modelo
+#### Especificacion de Diagramas
+
+
+# Lista de diagrama de casos de uso del modelo
 
 
 # Diagramas de casos de uso
 
 
 # Lista general de casos de uso y actores del proyecto
-
 
 
 # Detalle de los casos de uso
