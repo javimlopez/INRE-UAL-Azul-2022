@@ -55,7 +55,7 @@
 | Actores:           | Administrador  |
 | Precondiciones:    | Usuario administrador registrado en el sistema. Mapa creado en el sistema. Información sobre el mapa  |
 | Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion que se le ha añadido <br> 3. El usuario clicka en el boton que lleva al mapa <br> 4. El sistema muestra el mapa con la iformacion asociada |
-| Flujo Alternativo: | 2A. El sistema puede no localizar algo en el mapa por un error al introducir los datos <br> 2.1A El sistema muestra que hay un error en la informacion introducida <br> 5A. El usuario registra una situacion <br> 5B. Un administrador accede al mapa <br> 5.1B. Clicka el boton de grabacion <br> 5.2B. El sistema registra toda la informacion de lo que va pasando <br> 5.2B.1. El sistema no tiene espacio para realizar el registro de la informacion. <br> 5.2B.2. El sistema muestra el mensaje "No hay espacio suficiente" <br> 5.3B. Clicka el boton de detener grabacion <br> 5.4B. El sistema guarda la informacion registrada  |
+| Flujo Alternativo: | 2A. El sistema puede no localizar algo en el mapa por un error al introducir los datos <br> 2.1A El sistema muestra que hay un error en la informacion introducida <br> 5A. El administrador recibe el aviso de una situacion inusual/puntual <br> 5A.1. El administrador añade dicha situacion a la informacion del mapa <br> 5A.2. El sistema modifica la informacion que se muestra en el mapa <br> 5B. Un administrador accede al mapa <br> 5.1B. Clicka el boton de grabacion <br> 5.2B. El sistema registra toda la informacion de lo que va pasando <br> 5.2B.1. El sistema no tiene espacio para realizar el registro de la informacion. <br> 5.2B.2. El sistema muestra el mensaje "No hay espacio suficiente" <br> 5.3B. Clicka el boton de detener grabacion <br> 5.4B. El sistema guarda la informacion registrada  |
 | Poscondiciones:    |   |
 
 | UC-06                |   |
@@ -75,12 +75,12 @@
 | Nombre:            | Registrar situaciones  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Flujo alternativo de UC-05. Registra situaciones inusuales/puntuales comunicadas al administrador   |
+| Actores:           | Administrador  |
+| Precondiciones:    | Sucesión de una situacion inusual/puntual y comunicada dicha situacion  |
+| Flujo Normal:      | 1. El administrador recibe el aviso de una situacion inusual/puntual <br> 2. El administrador añade dicha situacion a la informacion del mapa <br> 3. El sistema modifica la informacion que se muestra en el mapa  |
+| Flujo Alternativo: | - |
+| Poscondiciones:    | Se cambia la informacion del mapa  |
 
 | UC-                |   |
 | :----------------- | - |
