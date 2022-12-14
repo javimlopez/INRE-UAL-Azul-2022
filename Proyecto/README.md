@@ -103,12 +103,19 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 # Lista de diagrama de casos de uso del modelo
 
-# Actores
-## Diagrama SMET
+Diagrama SMET
 <img src="./svgs/DiagramaSMET.svg">
+
+Diagrama SIIT
+<img src="./svgs/DiagramaSMET.svg">
+
+Diagrama Portal
+<img src="./svgs/DiagramaSMET.svg">
+
 # Lista general de casos de uso y actores del proyecto
 
-Diagrama SMET
+# Actores
+## Diagrama SMET
 
 |Detalles de los actores|  |
 |:--:|:--:|
@@ -117,17 +124,6 @@ Diagrama SMET
 |Administrador|Este actor mostrará el mapa heredado, la cual tambien registra situaciones y periodos, define enventos lo cual implica generar avisos, ademas de poder hacer todo lo que el operador|
 |Operador|Tiene ayuda en linea, visualiza alarmas, las cuales se pueden recibir de forma sonora o sms|
 |Cliente|Puede hacer lo mismo que operador y ver mapa de una forma especifica|
-
-|Nombre: ||
-|:--:|:--:|
-|Autor: ||
-|Fecha: |26/11/2022|
-|Descripcion: ||
-|Actores: ||
-|Precondiciones: ||
-|Flujo normal: ||
-|Flujo alternativo: ||
-|Post condiciones: ||
 
 # Casos de uso
 ## Diagrama SMET
@@ -270,6 +266,58 @@ Diagrama SMET
 |Fecha: |26/11/2022|
 |Descripcion: |El cliente tendra una visualizacion expecifica del mapa|
 |Actores: |Cliente|
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+# Actores
+## Diagrama SIIT
+
+|Detalles de los actores|  |
+|:--:|:--:|
+|Actor|Descripción|
+|Auxiliar Edicion||
+|Operador de transporte(SIIT)||
+|Cliente(SIIT)||
+|Administrador(SIIT)||
+|Sistema de informacion||
+
+# Casos de uso
+## Diagrama SIIT
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: ||
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+# Actores
+## Diagrama SIIT
+
+|Detalles de los actores|  |
+|:--:|:--:|
+|Actor|Descripción|
+|Auxiliar Edicion||
+|Operador de transporte(SIIT)||
+|Cliente(SIIT)||
+|Administrador(SIIT)||
+|Sistema de informacion||
+
+# Casos de uso
+## Diagrama Portal
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: ||
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
