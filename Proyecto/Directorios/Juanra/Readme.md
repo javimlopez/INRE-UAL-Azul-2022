@@ -30,7 +30,7 @@
 | Descripción:       | Caso de uso referente a la funcionalidad del sistema de mostrar el mapa  |
 | Actores:           | Sistema, Administrador  |
 | Precondiciones:    | Usuario administrador registrado en el sistema. Mapa creado en el sistema. Información sobre el mapa |
-| Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion que se le ha añadido |
+| Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion de los operadores que se le ha añadido |
 | Flujo Alternativo: | 2A. El sistema puede no localizar algo en el mapa por un error al introducir los datos <br> 2.1A El sistema muestra que hay un error en la informacion introducida  |
 | Poscondiciones:    |   |
 
