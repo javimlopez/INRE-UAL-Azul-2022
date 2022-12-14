@@ -101,7 +101,32 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 | Requisito | Descripción | Tipo |
 | :-------: | :----------: | :--: |
-|          |              |      |
+|ACT-01|||
+|ACT-02|||
+|ACT-03|||
+|ACT-04|||
+|ACT-05|||
+|ACT-06|||
+|ACT-07|||
+|ACT-08|||
+|ACT-09|||
+
+
+#### Actores
+
+| Código | Actor | Descripcion |
+| :-------: | :----------: | :--: |
+|ACT-01|Sistema||
+|ACT-02|Cliente||
+|ACT-03|Operadores||
+|ACT-04|Administradores||
+|ACT-05|Administrador(SIT)||
+|ACT-06|Cliente(SIT)||
+|ACT-07|Operador de transporte(SIT)||
+|ACT-08|Auxiliar edicion||
+|ACT-09|Sistema informacion||
+|ACT-10|Cliente||
+|ACT-11|Administrador||
 
 #### Caso de uso
 
