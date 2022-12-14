@@ -118,8 +118,9 @@ Diagrama SMET
 |Operador||
 |Cliente||
 
-|:--:|:--:|
+
 |Nombre: |Descripción|
+|:--:|:--:|
 |Autor: ||
 |Fecha: ||
 |Descripcion: ||
