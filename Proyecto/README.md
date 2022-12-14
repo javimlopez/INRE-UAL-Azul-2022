@@ -296,22 +296,206 @@ Diagrama Portal
 |Post condiciones: ||
 
 # Actores
-## Diagrama SIIT
+## Diagrama Portal
 
 |Actor|Descripción|
 |:--:|:--:|
-|Auxiliar Edicion||
-|Operador de transporte(SIIT)||
-|Cliente(SIIT)||
-|Administrador(SIIT)||
-|Sistema de informacion||
+|Administrador||
+|Clientes||
 
 # Casos de uso
 ## Diagrama Portal
 
 |Nombre: ||
 |:--:|:--:|
-|Autor: ||
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
+|Fecha: |26/11/2022|
+|Descripcion: ||
+|Actores: ||
+|Precondiciones: ||
+|Flujo normal: ||
+|Flujo alternativo: ||
+|Post condiciones: ||
+
+|Nombre: ||
+|:--:|:--:|
+|Autor: |Francisco de Borja GC|
 |Fecha: |26/11/2022|
 |Descripcion: ||
 |Actores: ||
