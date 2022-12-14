@@ -21,7 +21,7 @@ En este documento se va a tratar la recopilación de toda la información necesa
 # Información del Dominio del problema
 
 #### Organigrama
-
+<img src=./svgs/Organigrama.svg>
 
 #### Glosario de terminos
 
