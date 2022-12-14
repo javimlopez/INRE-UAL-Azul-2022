@@ -102,6 +102,76 @@ En este documento se va a tratar la recopilación de toda la información necesa
 ||||
 
 #### Caso de uso
+|Código|Casos de uso|Descripción|
+|:--:|:--:|:--:|
+|UC-01|Enviar alarma||
+|UC-02|Recabar informacion en tiempo real de operadores||
+|UC-03|Mostrar mapa||
+|UC-04|Gestion de pagos||
+|UC-05|mostrar Mapa (admin)||
+|UC-06|Registrar pedidos||
+|UC-07|Registrar situaciones||
+|UC-08|Definir evento||
+|UC-09|Generar aviso||
+|UC-10|sms||
+|UC-11|Visualizar alarma||
+|UC-12|Aviso sonoro||
+|UC-13|Ayuda en linea||
+|UC-14|Realizar pagos||
+|UC-15|mostrar Mapa (cliente)||
+|UC-16|Previsualizacion||
+|UC-17|Edicion sencilla||
+|UC-18|AÃ±adir pagina||
+|UC-19|Mostrar paradas general||
+|UC-20|Mostrar mapa general||
+|UC-21|Definir transbordo||
+|UC-22|Calcular distancia entre paradas||
+|UC-23|Calculo de itinerarios recomendados tiempo real||
+|UC-24|Mostrar parada inicio y fin||
+|UC-25|Calcular tiempos de recorrido||
+|UC-26|Ayuda en linea(SIT)||
+|UC-27|Localizacion||
+|UC-28|Consulta||
+|UC-29|Gestion||
+|UC-30|Herramienta de analisis||
+|UC-31|Definir inicio y fin||
+|UC-32|Ubicar zonas de interes||
+|UC-33|Consultar de forma dinamica la informacion de servicio||
+|UC-34|Mostrar itinerario de mapa||
+|UC-35|Definir zonas||
+|UC-36|Introduccion manual de datos||
+|UC-37|Control y edicion de la informacion ||
+|UC-38|Modificacion de datos||
+|UC-39|Datos asociados||
+|UC-40|Mostrar paradas||
+|UC-41|Lista de datos||
+|UC-42|Identificar zonas no transitables||
+|UC-43|Recoger informacion no recogida||
+|UC-44|Centrar||
+|UC-45|Mostar informacion linea||
+|UC-46|Presentar recorrido cierta linea||
+|UC-47|Acecar||
+|UC-48|Ir a mapa base||
+|UC-49|Mostrar mapa||
+|UC-50|Desplazar||
+|UC-51|Alejar||
+|UC-52|Editor WYSYWYG||
+|UC-53|Modificar||
+|UC-54|Buscador||
+|UC-55|Mostrar estadisticas||
+|UC-56|Retirar||
+|UC-57|Publicar||
+|UC-58|Acceso Web||
+|UC-59|Creacion de pagina sencilla||
+|UC-60|Modificacion general||
+|UC-61|Previsualizacion||
+|UC-62|Entorno de colaboracion cliente||
+|UC-63|Blog||
+|UC-64|CloudTag||
+|UC-65|Entorno de colaboracion||
+|UC-66|Foro||
+|UC-67|Acceso Web Cliente||
+|UC-68|Buscador cliente||
 
 #### Especificacion de Diagramas
 
@@ -137,6 +207,8 @@ Diagrama SMET
 
 # Diagramas de clases asociados a los requisitos de información
 
+## Requisitos de información del portal
+
 | INF-001: | Administrador |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
@@ -149,7 +221,7 @@ Diagrama SMET
 | Estado:| Aceptado |
 | Comentar:| - |
 
-| INF-002: | Líneas |
+| INF-002: | Cliente |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
 | Autor: | Francisco Javier Mota López |
@@ -161,7 +233,7 @@ Diagrama SMET
 | Estado:| Aceptado |
 | Comentar:| - |
 
-| INF-003: | Recorrido |
+| INF-003: | Operador |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
 | Autor: | Francisco Javier Mota López |
@@ -173,7 +245,7 @@ Diagrama SMET
 | Estado:| Aceptado |
 | Comentar:| - |
 
-| INF-004: | Parada |
+| INF-004: | Sistema |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
 | Autor: | Francisco Javier Mota López |
@@ -185,7 +257,7 @@ Diagrama SMET
 | Estado:| Aceptado |
 | Comentar:| - |
 
-| INF-005: | Horario |
+| INF-005: | Servicio |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
 | Autor: | Francisco Javier Mota López |
@@ -197,7 +269,7 @@ Diagrama SMET
 | Estado:| Aceptado |
 | Comentar:| - |
 
-| INF-006: | Tarifa |
+| INF-006: | Itinerario |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
 | Autor: | Francisco Javier Mota López |
@@ -209,7 +281,7 @@ Diagrama SMET
 | Estado:| Aceptado |
 | Comentar:| - |
 
-| INF-007: | Incidencias |
+| INF-007: | Datos |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
 | Autor: | Francisco Javier Mota López |
@@ -221,7 +293,81 @@ Diagrama SMET
 | Estado:| Aceptado |
 | Comentar:| - |
 
-| INF-008: | Itinerario |
+| INF-008: | Parada |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-009: | Mapa |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-010: | Línea |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-010: | Alarma |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+## Requisitos de información del sistema interactivo de información del transporte (SIIT)
+
+| INF-001: | Administrador |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-009: | Usuario logueado |
+|:------------|:----------------|
+| Versión: | 1.0 (Diciembre-2022) |
+| Autor: | Francisco Javier Mota López |
+| Fuente:| Pliego de condiciones |
+| Referencia:| - |
+| Descripción:| |
+| Datos especificos:| <ul><li></li><li></li><li></li></ul>|
+| Importancia:| Muy Importante |
+| Estado:| Aceptado |
+| Comentar:| - |
+
+| INF-009: | Usuario invitado |
 |:------------|:----------------|
 | Versión: | 1.0 (Diciembre-2022) |
 | Autor: | Francisco Javier Mota López |
