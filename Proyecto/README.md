@@ -13,15 +13,17 @@
 🔷 ANGEL NIETO BURGOS
 
 # Hoja de revisión
-| Fecha | Versión | Descripción | Autor |
-|:--:|:--:|:--:|:--:|
-|08/11/2022|1.0|Preparar preguntas para el entrevistador|Francisco de Borja José Gutiérrez Carrasco|
-|11/11/2022|1.0|Resaltado del pliego de condiciones|Francisco de Borja José Gutiérrez Carrasco|
-|18/11/2022|1.0|Resaltado del pliego de condiciones |Francisco de Borja José Gutiérrez Carrasco|
-|22/11/2022|1.0|Organigrama, glosario de datos, y especificación de los diagramas|Francisco de Borja José Gutiérrez Carrasco|
-|29/11/2022|1.0|Finalización de requisitos|Francisco Javier Mota López|
-|||||
-|||||
+| Fecha      | Versión | Descripción                                                                | Autor                                        |
+| :--------- | :------- | :-------------------------------------------------------------------------- | :------------------------------------------- |
+| 08/11/2022 | 1.0      | Preparar preguntas para el entrevistador                                    | Francisco de Borja José Gutiérrez Carrasco |
+| 11/11/2022 | 1.0      | Resaltado del pliego de condiciones, y revision de respuestas               | Francisco de Borja José Gutiérrez Carrasco |
+| 15/11/2022 | 1.0      | Organigrama, glosario de datos, y especificación de los diagramas          | Francisco Javier Mota López                 |
+| 18/11/2022 | 1.0      | Objetivos del negocio                                                       | Francisco de Borja José Gutiérrez Carrasco |
+| 22/11/2022 | 1.0      | Toma de requisitos                                                          | Francisco Javier Mota López                 |
+| 26/11/2022 | 1.0      | Aclaracion en casos de uso                                                  | Juan Raul Mellado Garcia                    |
+| 29/11/2022 | 1.1      | Revision de casos de uso                                                    | Juan Raul Mellado Garcia                    |
+| 2/12/2022  | 1.0      | Diagramas casos de uso + Diagrama ER                                        | Ángel Nieto Burgos                          |
+| 13/12/2022 | 1.0      | Defensa con Manel + Arreglo del ERS en el repo + Revision de lo que tenemos |                                              |
 
 
 # Introducción
