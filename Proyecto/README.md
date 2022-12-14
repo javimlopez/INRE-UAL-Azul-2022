@@ -10,6 +10,16 @@
 🔷 ANGEL NIETO BURGOS `<br>`
 
 # Hoja de revisión
+| Fecha | Versión | Descripción | Autor |
+|:--|:--|:--|:--|
+|08/11/2022|1.0|Preparar preguntas para el entrevistador|Francisco de Borja José Gutiérrez Carrasco|
+|11/11/2022|1.0|Resaltado del pliego de condiciones|Francisco de Borja José Gutiérrez Carrasco|
+|18/11/2022|1.0|Resaltado del pliego de condiciones |Francisco de Borja José Gutiérrez Carrasco|
+|22/11/2022|1.0|Organigrama, glosario de datos, y especificación de los diagramas|Francisco de Borja José Gutiérrez Carrasco|
+|29/11/2022|1.0|Finalización de requisitos|Francisco Javier Mota López|
+|||||
+|||||
+
 
 # Introducción
 
@@ -25,7 +35,6 @@ En este documento se va a tratar la recopilación de toda la información necesa
 <img src=./svgs/Organigrama.svg>
 
 #### Glosario de terminos
-
 |                    Término                    | Descripción                                                                                                                                                                   |
 | :--------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |                     Guagua                     | Referido a autobús                                                                                                                                                            |
