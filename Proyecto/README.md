@@ -25,6 +25,31 @@ En este documento se va a tratar la recopilación de toda la información necesa
 
 #### Glosario de terminos
 
+|                    Término                    | Descripción                                                                                                                                                                   |
+| :--------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|                     Guagua                     | Referido a autobús                                                                                                                                                            |
+|                    Interfaz                    | Es la conexión funcional entre dos sistemas, programas, dispositivos o componentes que comunican de distintos niveles, permitiendo el intercambio de información             |
+|                   CNPA-2002                   | Clasificación Nacional de Productos por Actividades 2002                                                                                                                      |
+|                Libro de estilo                | Documento que ayuda a la comprensión de las partes de un proyecto                                                                                                             |
+|                      CPV                      | Vocabulario Común de Contratos Públicos                                                                                                                                      |
+|               Canales digitales               | Es un canal que sirve para dar servicio, comunicar o vender a través de un ordenador, una tablet o un móvil                                                                  |
+|             Arquitectura software             | Pautas y criterios que se siguen en la elaboración abstracta a nivel de código dentro de un proyecto informático                                                            |
+|                     AUTGC                     | Autoridad Única del Transporte de Gran Canaria                                                                                                                                |
+|                   Licitante                   | Participar en una subasta pública ofreciendo la ejecución de un servicio a cambio de la obtención de dinero u otros beneficios.                                             |
+|             Modificaciones comunes             | Modificación en conjunto de un elemento de múltiples páginas de forma simultánea                                                                                           |
+|                 Editor WYSIWYG                 | Editor para el desarrollo de páginas web con previsualizador                                                                                                                  |
+| Relación de cloud tag en la home del website. | Representación gráfica abstracta formada por múltiples palabras relacionadas con las funcionalidades de la página y con enlaces a ellas                                    |
+|           Maquetación de contenido           | Utilización de una serie de recursos como las negritas, los sumarios y los títulos para favorecer la experiencia de usuario y facilitar la lectura de contenidos en internet |
+|         Estructura de la base de datos         | Forma matemática mediante la cual se trabaja con los datos y las relaciones entre los mismos, de la manera más eficiente posible                                             |
+|              Itinerario de línea              | Define, direcciona y describe el camino que va a ser recorrido o ruta.                                                                                                         |
+|                     Tarifa                     | Cobro de servicios, durante un período determinado, por una cantidad fija y con independencia del tiempo y el tipo de su utilización.                                        |
+|                   Transbordo                   | Trasladar efectos o personas de una embarcación a otra.                                                                                                                       |
+|                  Tiempo Real                  | Un sistema que es capaz de responder y procesar la información al ritmo en que esta entra o se introduce                                                                      |
+|       Consulta de programa informático       | Método que permite acceder a los datos guardados y realizar diversas acciones y operaciones                                                                                   |
+|                Forma dinámica                | Método para reducir el tiempo de ejecución de un algoritmo mediante operaciones y estructuras óptimas                                                                       |
+|                      SMET                      | Sistema de información y Monitorización de la Explotación del Transporte                                                                                                    |
+|                      SIIT                      | Sistema Interactivo  Información Transport                                                                                                                                    |
+|   HelpDesk para la atención de incidencias   | Hace referencia al conjunto de recursos humanos y tecnológicos que se dedican a la gestión de incidencias relacionadas con el soporte o la asistencia a usuarios.            |
 
 # Necesidades del negocio
 
