@@ -115,7 +115,7 @@
 | Actores:           | Sistema  |
 | Precondiciones:    | El cliente ha seleccionado sms como metodo de aviso. Apliacion cerrada  |
 | Flujo Normal:      | 1. Se envia un sms al cliente  |
-| Flujo Alternativo: |   |
+| Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
 | UC-11                |   |
@@ -139,12 +139,12 @@
 | Actores:           | Sistema |
 | Precondiciones:    | El cliente ha seleccionado aviso sonoro como metodo de aviso. Apliacion cerrada  |
 | Flujo Normal:      | 1. Se envia un aviso sonoro al cliente  |
-| Flujo Alternativo: |   |
+| Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
 | UC-13                |   |
 | :----------------- | - |
-| Nombre:            |Ayuda en linea   |
+| Nombre:            |Ayuda en linea (SMET)  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
@@ -166,17 +166,17 @@
 | Flujo Alternativo: | 5A. No se realiza el pago correctamente <br> 5A.1. Se muestra el mensaje "No se ha realizado el pago correctamente"  |
 | Poscondiciones:    | Se asocia el billete al cliente  |
 
-<!---| UC-15                |   |
+| UC-15                |   |
 | :----------------- | - |
-| Nombre:            | Mostrar mapa (Cliente)  |
+| Nombre:            | Mostrar itinerarios en mapa  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   | -->
+| Descripción:       | Una opcion de visualizacion del itinerario ya definido por el cliente  |
+| Actores:           | Cliente  |
+| Precondiciones:    | itinerario definido por el cliente  |
+| Flujo Normal:      | 1. El cliente acciona el boton de mostrar itinerario <br> 2. El itinerario se muestra en el mapa <br> 3. El cliente cierra el mapa   |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-16                |   |
 | :----------------- | - |
@@ -190,17 +190,17 @@
 | Flujo Alternativo: |   |
 | Poscondiciones:    |   |
 
-<!--| UC-17                |   |
+| UC-17                |   |
 | :----------------- | - |
-| Nombre:            | Edicion pagina sencilla  |
+| Nombre:            | Definir itinerario  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
+| Descripción:       | Funcion por la que el cliente introduce los datos de itinerario para que el sistema calcule el itinerario mas recomendable |
+| Actores:           | Cliente  |
+| Precondiciones:    | Itinerarios calculados por el sistema  |
+| Flujo Normal:      | 1. El cliente define inicio <br> 2. El cliente define fin  <br> 3. El cliente guarda los datos <br> 4. El cliente selecciona calcular itinerario <br> 5. Se muestra una representacion sencilla del itinerario |
+| Flujo Alternativo: | 5A. El cliente acciona el boton de mostrar itinerario <br> 5A.1. El itinerario se muestra en el mapa <br> 5A.2. El cliente cierra el mapa   |
+| Poscondiciones:    | -  |
 
 <!---| UC-18                |   |
 | :----------------- | - |
@@ -304,11 +304,11 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Actores:           |Operadores de transporte , Clientes, Administradores  |
+| Precondiciones:    | Informacion de ayuda añadida a la base de datos  |
+| Flujo Normal:      | 1. El usuario accede a la aplicacion <br> 2. El usuario accede al apartado de ayuda en linea <br> 3. El usuario consulta la informacion correspondiente a sus necesidades  |
+| Flujo Alternativo: | 3A. El usuario no encuentra la informacion que necesita <br> 3.1A. El usuario se pone en contacto con AUTGC para indicar su duda <br> 3.2A. Se añade un apartado nuevo  |
+| Poscondiciones:    | -  |
 
 | UC-27                |   |
 | :----------------- | - |
@@ -363,24 +363,24 @@
 | Nombre:            | Definir inicio y fin  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion para introducir el inicio y fin de un itinerario  |
+| Actores:           | Cliente  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El cliente define inicio <br> 2. El cliente define fin  <br> 3. El cliente guarda los datos  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-32                |   |
 | :----------------- | - |
 | Nombre:            | Ubicar zonas de interes  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       | Funcion para localizar zonas marcadas como zonas de interes  |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Parte del flujo alternativo de CU-37. Funcion para introducir zonas marcadas como zonas de interes para el calculo de itinerarios |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El administrador accede a la opcion de ubicar zonas de interes <br> 2. El administrador introduce los datos de la zona de interes <br> 3. El administrador guarda los datos  |
+| Flujo Alternativo: | - |
+| Poscondiciones:    | Los datos de la ubicacion de interes se introducen en la base de datos  |
 
 | UC-33                |   |
 | :----------------- | - |
@@ -394,7 +394,7 @@
 | Flujo Alternativo: |   |
 | Poscondiciones:    |   |
 
-| UC-34                |   |
+<!--| UC-34                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar itinerario de mapa  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -404,7 +404,7 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
 | UC-35                |   |
 | :----------------- | - |
@@ -439,7 +439,7 @@
 | Actores:           | Administrador  |
 | Precondiciones:    |   |
 | Flujo Normal:      | 1. El administrador accede al menu de control y edicion de la informacion <br> 2. Se selecciona una opcion <br> 3. Se cierra el menu  |
-| Flujo Alternativo: | 2A. Se selecciona la opcion de listado de datos <br> 2A.1. Se visualizan los horarios y servicios disponibles <br> 2B. El administrador accede a la opcion de introduccion de datos manual <br> 2B.1. El administrador introduce los datos <br> 2B.2. El administrador guarda los datos <br> 2C. El administrador accede al menu de modificacion de datos <br> 2C.1. El administrador modifica datos <br> 2C.2. El administrador guarda los datos |
+| Flujo Alternativo: | 2A. Se selecciona la opcion de listado de datos <br> 2A.1. Se visualizan los horarios y servicios disponibles <br> 2B. El administrador accede a la opcion de introduccion de datos manual <br> 2B.1. El administrador introduce los datos <br> 2B.2. El administrador guarda los datos <br> 2C. El administrador accede al menu de modificacion de datos <br> 2C.1. El administrador modifica datos <br> 2C.2. El administrador guarda los datos <br> 2D. El administrador accede a la opcion de ubicar zonas de interes <br> 2D.1. El administrador introduce los datos de la zona de interes <br> 2D.2. El administrador guarda los datos|
 | Poscondiciones:    |   |
 
 | UC-38                |   |
