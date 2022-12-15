@@ -415,7 +415,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Datos especificos: | <ul><li>Tipo de billete</li><li>SMS</li><li>Aviso sonoro</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -426,19 +426,20 @@ DIAGRAMAS DE CLASES
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información de los administradores |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
+
 | INF-003:           | Operador de transporte|
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información sobre los operadores de transporte |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -446,47 +447,47 @@ DIAGRAMAS DE CLASES
 | INF-004:           | Cliente |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond: |
+| Fuente:            | Pliego de condiciones |
+| Referencia:        | - |
+| Descripción:      | Información de los clientes|
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
+| Importancia:       | Muy Importante |
+| Estado:            | Aceptado |
+| Comentar:          | - |
 
-| INF-005:           | Evento |
+| INF-005:           | Alarma |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información sobre las alarmas |
+| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-006:           | Pago |
+| INF-006:           | Dato |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
+| Descripción:      | Información sobre datos |
 | Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-007:           | Situación |
+| INF-007:           | Aviso |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      |  |
+| Datos especificos: | <ul><li>Tipo Aviso</li><li></li><li></li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
