@@ -424,7 +424,7 @@ Diagrama SMET
 |      1 min      |                           ¿La ubicación a tiempo real del transporte se hará en la aplicación, o por el contrario el propio transporte tendría un sistema propio?                           |                                                                                                                   Normalmente, las aplicaciones del móvil hacen que la batería dure poco, es preferente un dispositivo dentro del autobús o un móvil con una aplicación solo para ello.                                                                                                                   |
 |      1 min      |                                                             ¿A qué se refiere con observaciones dentro del resultado de consultas?                                                             |                                                                                                                                  Cuando tú hagas el pedido de paradas o rutas, en observaciones pondrán cosas como lugares turísticos más cercanos, caminos cortados, etc.                                                                                                                                  |
 # Miembros del grupo:
-🔷 FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO
-🔷 FRANCISCO JAVIER MOTA LOPEZ
-🔷 JUAN RAUL MELLADO GARCIA
-🔷 ANGEL NIETO BURGOS
+:large_blue_diamond: FRANCISCO DE BORJA JOSE GUTIERREZ CARRASCO<br>
+:large_blue_diamond: FRANCISCO JAVIER MOTA LOPEZ<br>
+:large_blue_diamond: JUAN RAUL MELLADO GARCIA<br>
+:large_blue_diamond: ANGEL NIETO BURGOS
