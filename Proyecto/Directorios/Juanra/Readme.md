@@ -87,11 +87,11 @@
 | Nombre:            | Definir evento  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
+| Descripción:       | Añade un evento al sistema  |
+| Actores:           | Administrador  |
+| Precondiciones:    | Evento existente  |
+| Flujo Normal:      | 1. El administrador accede al sistema <br> 2. El administrador accede al aparatado de creacion de eventos <br> 3. El administrador guarda el evento <br> 4. Se genera un aviso |
+| Flujo Alternativo: | -  |
 | Poscondiciones:    |   |
 
 | UC-09                |   |
