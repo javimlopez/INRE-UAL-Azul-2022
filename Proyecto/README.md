@@ -228,7 +228,7 @@ Diagrama SMET
 | INF-001:           | Administrador                                                                          |
 | :----------------- | :------------------------------------------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                                                   |
-| Autor:             | Francisco Javier Mota López                                                           |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                                                          |
 | Fuente:            | Pliego de condiciones                                                                  |
 | Referencia:        | -                                                                                      |
 | Descripción:      | Información sobre el usuario Administrador                                            |
@@ -240,7 +240,7 @@ Diagrama SMET
 | INF-002:           | Cliente                                              |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -252,7 +252,7 @@ Diagrama SMET
 | INF-003:           | Operador                                             |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -264,7 +264,7 @@ Diagrama SMET
 | INF-004:           | Sistema                                              |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -276,7 +276,7 @@ Diagrama SMET
 | INF-005:           | Servicio                                             |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -288,7 +288,7 @@ Diagrama SMET
 | INF-006:           | Itinerario                                           |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -300,7 +300,7 @@ Diagrama SMET
 | INF-007:           | Datos                                                |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -312,7 +312,7 @@ Diagrama SMET
 | INF-008:           | Parada                                               |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -324,7 +324,7 @@ Diagrama SMET
 | INF-009:           | Mapa                                                 |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -336,7 +336,7 @@ Diagrama SMET
 | INF-010:           | Línea                                               |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -348,7 +348,7 @@ Diagrama SMET
 | INF-010:           | Alarma                                               |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -362,7 +362,7 @@ Diagrama SMET
 | INF-001:           | Administrador                                        |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -374,7 +374,7 @@ Diagrama SMET
 | INF-009:           | Usuario logueado                                     |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -386,7 +386,7 @@ Diagrama SMET
 | INF-009:           | Usuario invitado                                     |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | Francisco Javier Mota López                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
