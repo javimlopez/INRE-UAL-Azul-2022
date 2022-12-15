@@ -359,7 +359,7 @@ Diagrama SMET
 
 ## Requisitos de información del sistema interactivo de información del transporte (SIIT)
 
-| INF-001:           | Administrador                                        |
+| INF-001:           | Administrador (SIIT) |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -371,7 +371,32 @@ Diagrama SMET
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-009:           | Usuario logueado                                     |
+| INF-002:  | Cliente (SIIT) |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | - |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-003:           | Operador de transporte (SIIT) |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+## Requisitos de información del sistema interactivo de información del transporte (SMET)
+
+| INF-001:           | Sistema                                       |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -383,10 +408,21 @@ Diagrama SMET
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-009:           | Usuario invitado                                     |
+| INF-002:           | Administrador                                        |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+| INF-003:           | Operador de transporte|
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
@@ -395,6 +431,53 @@ Diagrama SMET
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
+| INF-004:           | Cliente |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-005:           | Evento |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-006:           | Pago |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-007:           | Situación |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 # Apéndices
 
 ## Detalles de entrevista
