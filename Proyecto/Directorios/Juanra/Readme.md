@@ -17,9 +17,9 @@
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la funcionalidad del sistema para conocer los datos en tiempo real de los operadores de transporte  |
 | Actores:           | Sistema  |
-| Precondiciones:    | Operador habilitado en el sistema  |
-| Flujo Normal:      | 1. El operador activa el dispositivo de seguimiento <br> 2. El dispositivo envia constantemente los datos del operador y su posición <br> 3. El sistema recibe estos datos |
-| Flujo Alternativo: | 3A. El sistema deja de recibir la informacion <br> 3.1A. El sistema muestra el mensaje "operador deslocalizado"  |
+| Precondiciones:    | Operador de transporte habilitado en el sistema  |
+| Flujo Normal:      | 1. El operador de transporte activa el dispositivo de seguimiento <br> 2. El dispositivo envia constantemente los datos del operador de transporte y su posición <br> 3. El sistema recibe estos datos |
+| Flujo Alternativo: | 3A. El sistema deja de recibir la informacion <br> 3.1A. El sistema muestra el mensaje "operador de transporte deslocalizado"  |
 | Poscondiciones:    | -  |
 
 | UC-03                |   |
@@ -30,7 +30,7 @@
 | Descripción:       | Caso de uso referente a la funcionalidad del sistema de mostrar el mapa  |
 | Actores:           | Sistema, Administrador  |
 | Precondiciones:    | Usuario administrador registrado en el sistema. Mapa creado en el sistema. Información sobre el mapa |
-| Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion de los operadores que se le ha añadido |
+| Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion de los operadores de transporte que se le ha añadido |
 | Flujo Alternativo: | 2A. El sistema puede no localizar algo en el mapa por un error al introducir los datos <br> 2.1A El sistema muestra que hay un error en la informacion introducida  |
 | Poscondiciones:    |   |
 
@@ -84,19 +84,727 @@
 
 | UC-08                |   |
 | :----------------- | - |
-| Nombre:            |Ayuda en linea   |
+| Nombre:            | Definir evento  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
-| Actores:           |operadores de transporte ,clientes,administradores  |
+| Actores:           |   |
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
 | Poscondiciones:    |   |
 
-| UC-                |   |
+| UC-09                |   |
 | :----------------- | - |
-| Nombre:            |   |
+| Nombre:            | Generar aviso  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-10                |   |
+| :----------------- | - |
+| Nombre:            | SMS  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-11                |   |
+| :----------------- | - |
+| Nombre:            | Visualizar alarma  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-12                |   |
+| :----------------- | - |
+| Nombre:            | Aviso sonoro  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-13                |   |
+| :----------------- | - |
+| Nombre:            |Ayuda en linea   |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |Operadores de transporte , Clientes, Administradores  |
+| Precondiciones:    | Informacion de ayuda añadida a la base de datos  |
+| Flujo Normal:      | 1. El usuario accede a la aplicacion <br> 2. El usuario accede al apartado de ayuda en linea <br> 3. El usuario consulta la informacion correspondiente a sus necesidades  |
+| Flujo Alternativo: | 3A. El usuario no encuentra la informacion que necesita <br> 3.1A. El usuario se pone en contacto con AUTGC para indicar su duda <br> 3.2A. Se añade un apartado nuevo  |
+| Poscondiciones:    | -  |
+
+| UC-14                |   |
+| :----------------- | - |
+| Nombre:            | Realizar pagos  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-15                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar mapa (Cliente)  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-16                |   |
+| :----------------- | - |
+| Nombre:            | Previsualizacion  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-17                |   |
+| :----------------- | - |
+| Nombre:            | Edicion sencilla  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-18                |   |
+| :----------------- | - |
+| Nombre:            | Añadir pagina  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-19                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar paradas general  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-20                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar mapa general  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-21                |   |
+| :----------------- | - |
+| Nombre:            | Definir transbordo  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-22                |   |
+| :----------------- | - |
+| Nombre:            | Calcular distancia entre paradas  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-23                |   |
+| :----------------- | - |
+| Nombre:            | Calculo de itinerarios recomendados tiempo real  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-24                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar parada inicio y fin  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-25                |   |
+| :----------------- | - |
+| Nombre:            | Calcular tiempos de recorrido  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-26                |   |
+| :----------------- | - |
+| Nombre:            | Ayuda en linea (SIT)  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-27                |   |
+| :----------------- | - |
+| Nombre:            | Localizacion  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-28                |   |
+| :----------------- | - |
+| Nombre:            | Consulta  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-29                |   |
+| :----------------- | - |
+| Nombre:            | Gestion  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-30                |   |
+| :----------------- | - |
+| Nombre:            | Herramienta de analisis  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-31                |   |
+| :----------------- | - |
+| Nombre:            | Definir inicio y fin  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-32                |   |
+| :----------------- | - |
+| Nombre:            | Ubicar zonas de interes  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-33                |   |
+| :----------------- | - |
+| Nombre:            | Consultar de forma dinamica  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-34                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar itinerario de mapa  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-35                |   |
+| :----------------- | - |
+| Nombre:            | Definir zonas  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-36                |   |
+| :----------------- | - |
+| Nombre:            | Introduccion manual de datos  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-37                |   |
+| :----------------- | - |
+| Nombre:            | Control y edicion de la informacion  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-38                |   |
+| :----------------- | - |
+| Nombre:            | Modificacion de datos  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-39                |   |
+| :----------------- | - |
+| Nombre:            | Datos asociados  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-40                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar paradas  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-41                |   |
+| :----------------- | - |
+| Nombre:            | Lista de datos  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-42                |   |
+| :----------------- | - |
+| Nombre:            | Identificar zonas no transitables  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-43                |   |
+| :----------------- | - |
+| Nombre:            | Recoger informacion no recogida  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-44                |   |
+| :----------------- | - |
+| Nombre:            | Centrar  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-45                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar informacion linea  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-46                |   |
+| :----------------- | - |
+| Nombre:            | Presentar recorrido cierta linea  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-47                |   |
+| :----------------- | - |
+| Nombre:            | Acercar  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-48                |   |
+| :----------------- | - |
+| Nombre:            | Ir a mapa base  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-49                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar mapa  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-50                |   |
+| :----------------- | - |
+| Nombre:            | Desplazar  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-51                |   |
+| :----------------- | - |
+| Nombre:            | Alejar  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-52                |   |
+| :----------------- | - |
+| Nombre:            | Editor WYSYWYG  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-53                |   |
+| :----------------- | - |
+| Nombre:            | Modificar  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-54                |   |
+| :----------------- | - |
+| Nombre:            | Buscador  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-55                |   |
+| :----------------- | - |
+| Nombre:            | Mostrar estadisticas  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-56                |   |
+| :----------------- | - |
+| Nombre:            | Retirar  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-57                |   |
+| :----------------- | - |
+| Nombre:            | Publicar  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-58                |   |
+| :----------------- | - |
+| Nombre:            | Acceso web  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-59                |   |
+| :----------------- | - |
+| Nombre:            | Creacion de pagina sencilla  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-60                |   |
+| :----------------- | - |
+| Nombre:            | Modificacion general  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-61               |   |
+| :----------------- | - |
+| Nombre:            | Previsualizacion  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-62                |   |
+| :----------------- | - |
+| Nombre:            | Entorno de colaboracion cliente  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-63                |   |
+| :----------------- | - |
+| Nombre:            | Blog  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-64                |   |
+| :----------------- | - |
+| Nombre:            | CloudTag  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-65                |   |
+| :----------------- | - |
+| Nombre:            | Entorno de colaboracion  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-66                |   |
+| :----------------- | - |
+| Nombre:            | Foro  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-67                |   |
+| :----------------- | - |
+| Nombre:            | Acceso web cliente  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       |   |
+| Actores:           |   |
+| Precondiciones:    |   |
+| Flujo Normal:      |   |
+| Flujo Alternativo: |   |
+| Poscondiciones:    |   |
+
+| UC-68                |   |
+| :----------------- | - |
+| Nombre:            | Buscador cliente  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
