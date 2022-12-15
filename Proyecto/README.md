@@ -81,6 +81,16 @@ En este documento se va a tratar la recopilación de toda la información necesa
 | Descripción | Se pide montar un portal web que abarque los aspectos de: identificar necesidades (contenidos, servicios, audiencias, etc), definir la estructura (arquitectura de la información, mapa web, etc) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
 | Comentarios |                                                                            Forma parte del sistema SIIT, que se divide en dos partes: una el sistema de información y otra el portal web y ambos están interrelacionados                                                                            |
 
+## Modelos de negocio
+
+### Subprocesos
+
+BPM diagramas
+
+### Tareas
+
+Enunciado del bpmn
+
 # Requisitos del sistema a desarrollar
 
 #### Requisitos
@@ -223,6 +233,8 @@ Diagrama SMET
 
 # Diagramas de clases asociados a los requisitos de información
 
+DIAGRAMAS DE CLASES
+
 ## Requisitos de información del portal
 
 | INF-001:           | Administrador                                                                          |
@@ -359,7 +371,7 @@ Diagrama SMET
 
 ## Requisitos de información del sistema interactivo de información del transporte (SIIT)
 
-| INF-001:           | Administrador                                        |
+| INF-001:           | Administrador (SIIT) |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -371,7 +383,19 @@ Diagrama SMET
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-009:           | Usuario logueado                                     |
+| INF-002:  | Cliente (SIIT) |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | - |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-003:           | Operador de transporte (SIIT) |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -382,19 +406,91 @@ Diagrama SMET
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
+## Requisitos de información del sistema interactivo de información del transporte (SMET)
 
-| INF-009:           | Usuario invitado                                     |
+| INF-001:           | Sistema                                       |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
+| Datos especificos: | <ul><li>Tipo de billete</li><li>SMS</li><li>Aviso sonoro</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-002:           | Administrador                                        |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información de los administradores |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-003:           | Operador de transporte|
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los operadores de transporte |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-004:           | Cliente |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond: |
+| Fuente:            | Pliego de condiciones |
+| Referencia:        | - |
+| Descripción:      | Información de los clientes|
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
+| Importancia:       | Muy Importante |
+| Estado:            | Aceptado |
+| Comentar:          | - |
+
+| INF-005:           | Alarma |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre las alarmas |
+| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-006:           | Dato |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre datos |
 | Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
+| INF-007:           | Aviso |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |  |
+| Datos especificos: | <ul><li>Tipo Aviso</li><li></li><li></li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
 # Apéndices
 
 ## Detalles de entrevista
