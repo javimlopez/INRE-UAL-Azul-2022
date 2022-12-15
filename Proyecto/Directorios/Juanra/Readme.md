@@ -178,7 +178,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-16                |   |
+<!--| UC-16                |   |
 | :----------------- | - |
 | Nombre:            | Previsualizacion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -188,7 +188,7 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
 | UC-17                |   |
 | :----------------- | - |
@@ -216,65 +216,65 @@
 
 | UC-19                |   |
 | :----------------- | - |
-| Nombre:            | Mostrar paradas general  |
+| Nombre:            | Ver paradas |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que se pueden ver las paradas y lineas ya organizadas por el sistema  |
+| Actores:           | Cliente, Operador de transporte, Administrador  |
+| Precondiciones:    | El sistema ha de tener organizadas las paradas y lineas  |
+| Flujo Normal:      | 1. El usuario cualquiera selecciona la opcion para ver lineas <br> 2. Se muestran las lineas y paradas <br> 3. Se cierra la vista |
+| Flujo Alternativo: | 2A. Se selecciona una linea <br> 2A.1. Se muestra la informacion de esa linea  |
+| Poscondiciones:    | -  |
 
 | UC-20                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar mapa general  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que los usuario pueden interactuar con el mapa interactivo renderizado por el sistema  |
+| Actores:           | Operador de transporte, Cliente, Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El sistema crea el mapa en base a los datos cartograficos <br> 2. El sistema renderiza el mapa|
+| Flujo Alternativo: | 2A. Se centra el mapa <br> 2B. Se acerca el mapa <br> 2C. Se aleja el mapa  <br> 2D. Se desplaza el mapa en cualquier direccion <br> 2E. Se vuelve a colocar como el mapa en su estado inicial |
+| Poscondiciones:    | -  |
 
 | UC-21                |   |
 | :----------------- | - |
 | Nombre:            | Definir transbordo  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la cual el sistema, mediante los datos de las lineas, calcula los transbordos incluyendo entre vehiculos diferentes  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Datos de la linea presentados  |
+| Flujo Normal:      | 1. El sistema obtiene los datos <br> 2. El sistema organiza los transbordos <br> 3. Los transbordos se guardan |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Los transbordos se guardan en la base de datos  |
 
 | UC-22                |   |
 | :----------------- | - |
 | Nombre:            | Calcular distancia entre paradas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | El sistema calcula la distancia entre las paradas  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Datos de las paradas introducidos manualmente  |
+| Flujo Normal:      | 1. El sistema obtiene los datos <br> 2. Se calcula la distancia <br> 3. Se almacena en la base de datos  |
+| Flujo Alternativo: | 2A. Se identifica que no se puede transitar de una parada a otra <br> 2B. Se ofrece una parada cercana sustituta  |
+| Poscondiciones:    | Se guardan las distancias en la base de datos  |
 
 | UC-23                |   |
 | :----------------- | - |
 | Nombre:            | Calculo de itinerarios recomendados tiempo real  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | El sistema calcula los tiempos de recorrido segun los datos  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Datos introducidos manualmente  |
+| Flujo Normal:      | 1. El sistema define el recorrido <br> 2. El sistema calcula el recorrido |
+| Flujo Alternativo: | 2A. El sistema encuentra que el recorrido no es transitable <br> 2A.1. Se ofrece un recorrido sustituto  |
+| Poscondiciones:    | -  |
 
-| UC-24                |   |
+<!--| UC-24                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar parada inicio y fin  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -284,19 +284,19 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
-| UC-25                |   |
+<!--| UC-25                |   |
 | :----------------- | - |
 | Nombre:            | Calcular tiempos de recorrido  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | El sistema calcula los tiempos de recorrido segun los datos  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Datos introducidos manualmente  |
+| Flujo Normal:      | 1. El sistema define el recorrido <br> 2. El sistema calcula el tiempo de recorrido |
+| Flujo Alternativo: | 2A. El sistema encuentra que el recorrido no es transitable <br> 2A.1. Se ofrece un recorrido sustituto  |
+| Poscondiciones:    | -  |-->
 
 | UC-26                |   |
 | :----------------- | - |
@@ -315,48 +315,48 @@
 | Nombre:            | Localizacion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       |  Funcion por la que el administrador localiza operadores de transporte en el sistema |
+| Actores:           | Administrador  |
+| Precondiciones:    |  - |
+| Flujo Normal:      | 1. El administrador localiza operadores de transporte |
+| Flujo Alternativo: |  - |
+| Poscondiciones:    |  - |
 
 | UC-28                |   |
 | :----------------- | - |
 | Nombre:            | Consulta  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que el administrador consulta datos del servicio  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El administrador consulta datos de servicio  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-29                |   |
 | :----------------- | - |
 | Nombre:            | Gestion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que se gestiona la informacion del servicio |
+| Actores:           | Administrador  |
+| Precondiciones:    |  - |
+| Flujo Normal:      | 1. El administrador gestiona la informacion del servicio   |
+| Flujo Alternativo: |  - |
+| Poscondiciones:    |  - |
 
 | UC-30                |   |
 | :----------------- | - |
 | Nombre:            | Herramienta de analisis  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que permite al administrador gestionar la informacion del servicio de forma dinamica  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El administrador decide las herramientas a usar |
+| Flujo Alternativo: | 2A. El administrador consulta datos del servicio <br> 2B. El administrador localiza operadores de transporte <br> 2C. El administrador gestiona la informacion del servicio  |
+| Poscondiciones:    | -  |
 
 | UC-31                |   |
 | :----------------- | - |
@@ -387,12 +387,12 @@
 | Nombre:            | Consultar de forma dinamica  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que el cliente puede consultar la informacion del servicio de forma dinamica  |
+| Actores:           | Cliente  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Constantemente consulta la informacion del servicio actualizando la informacion que muestra  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 <!--| UC-34                |   |
 | :----------------- | - |
@@ -411,12 +411,12 @@
 | Nombre:            | Definir zonas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | El sistema usa los datos cartograficos para delimitar zonas, municipios y barrios  |
+| Actores:           | Sistema  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El sistema obtiene los datos cartograficos <br> 2. El sistema delimita las zonas <br> 3. El sistema delimita municipios <br> 4. El sistema delimita barrios <br> 5. El sistema guarda los datos en la base de datos |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Se añaden las zonas a la base de datos |
 
 | UC-36                |   |
 | :----------------- | - |
@@ -459,24 +459,24 @@
 | Nombre:            | Datos asociados  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que el sistema comprueba los datos de paradas y lineas introducidos por el administrador  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Datos introducidos manualmente  |
+| Flujo Normal:      | 1. El sistema compureba los datos asociados a las paradas y lineas  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-40                |   |
 | :----------------- | - |
-| Nombre:            | Mostrar paradas  |
+| Nombre:            | Organizar paradas y lineas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la cual el sistema organiza las paradas y lineas segun los datos que le ha dado el administrador  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Datos introducidos manualmente  |
+| Flujo Normal:      | 1. El sistema comprueba los datos asociados a las paradas y lineas <br> 2. Las paradas y lineas se organizan segun los datos asociados <br> 3. Las paradas y lineas se guardan  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Las paradas junto a las lineas se modifican y se guardan |
 
 | UC-41                |   |
 | :----------------- | - |
@@ -490,19 +490,19 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-42                |   |
+<!--| UC-42                |   |
 | :----------------- | - |
 | Nombre:            | Identificar zonas no transitables  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
+| Descripción:       | Funcion por la que el administrador añade zonas no transitables a la base de datos  |
+| Actores:           | Administrador  |
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
-| UC-43                |   |
+<!--| UC-43                |   |
 | :----------------- | - |
 | Nombre:            | Recoger informacion no recogida  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -512,33 +512,33 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
 | UC-44                |   |
 | :----------------- | - |
 | Nombre:            | Centrar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que centra el mapa  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Mostrar mapa  |
+| Flujo Normal:      | 1. Se centra el mapa  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-45                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar informacion linea  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que muestra la informacion de una linea  |
+| Actores:           | Operador de transporte, Cliente, Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1.Se selecciona una linea <br> 2. Se muestra la informacion de esa linea  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
-| UC-46                |   |
+<!--| UC-46                |   |
 | :----------------- | - |
 | Nombre:            | Presentar recorrido cierta linea  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -548,67 +548,67 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
 | UC-47                |   |
 | :----------------- | - |
 | Nombre:            | Acercar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que acerca el mapa |
+| Actores:           | Sistema  |
+| Precondiciones:    | Mostrar mapa  |
+| Flujo Normal:      | 1. Se acerca el mapa  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-48                |   |
 | :----------------- | - |
 | Nombre:            | Ir a mapa base  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que desplaza el mapa  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Mostrar mapa  |
+| Flujo Normal:      | 1. Se vuelve a colocar como el mapa en su estado inicial  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-49                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar mapa  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion encargada de mostrar el mapa interactivo de la aplicacion  |
+| Actores:           | Sistema  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El sistema crea el mapa en base a los datos cartograficos <br> 2. El sistema renderiza el mapa|
+| Flujo Alternativo: | 2A. Se centra el mapa <br> 2B. Se acerca el mapa <br> 2C. Se aleja el mapa  <br> 2D. Se desplaza el mapa en cualquier direccion <br> 2E. Se vuelve a colocar como el mapa en su estado inicial |
+| Poscondiciones:    | -  |
 
 | UC-50                |   |
 | :----------------- | - |
 | Nombre:            | Desplazar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que desplaza el mapa  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Mostrar mapa  |
+| Flujo Normal:      | 1. Se desplaza el mapa en cualquier direccion  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-51                |   |
 | :----------------- | - |
 | Nombre:            | Alejar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que aleja el mapa  |
+| Actores:           | Sistema  |
+| Precondiciones:    | Mostrar mapa  |
+| Flujo Normal:      | 1. Se aleja el mapa  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-52                |   |
 | :----------------- | - |
