@@ -82,13 +82,13 @@
 | Flujo Alternativo: | - |
 | Poscondiciones:    | Se cambia la informacion del mapa  |
 
-| UC-                |   |
+| UC-08                |   |
 | :----------------- | - |
-| Nombre:            |   |
+| Nombre:            |Ayuda en linea   |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
-| Actores:           |   |
+| Actores:           |operadores de transporte ,clientes,administradores  |
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
