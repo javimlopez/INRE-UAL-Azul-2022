@@ -90,57 +90,57 @@
 | Descripción:       | Añade un evento al sistema  |
 | Actores:           | Administrador  |
 | Precondiciones:    | Evento existente  |
-| Flujo Normal:      | 1. El administrador accede al sistema <br> 2. El administrador accede al aparatado de creacion de eventos <br> 3. El administrador guarda el evento <br> 4. Se genera un aviso |
+| Flujo Normal:      | 1. El administrador accede al sistema <br> 2. El administrador accede al aparatado de creacion de eventos <br> 3. El administrador guarda el evento <br> 4. Se cumplen las condiciones del evento <br> 5. Se genera la alarma del aviso <br> 6. Se envia la alarma al sistema |
 | Flujo Alternativo: | -  |
-| Poscondiciones:    |   |
+| Poscondiciones:    | Se añade el evento a la base de datos  |
 
 | UC-09                |   |
 | :----------------- | - |
 | Nombre:            | Generar aviso  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que genera una alarma especifica de un evento  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se cumplen las condiciones del evento <br> 2. Se genera la alarma del aviso <br> 3. Se envia la alarma al sistema  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | - |
 
 | UC-10                |   |
 | :----------------- | - |
 | Nombre:            | SMS  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
+| Descripción:       | Si la apliacion se encuentra cerrada, se envia un sms al cliente  |
+| Actores:           | Sistema  |
+| Precondiciones:    | El cliente ha seleccionado sms como metodo de aviso. Apliacion cerrada  |
+| Flujo Normal:      | 1. Se envia un sms al cliente  |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    | -  |
 
 | UC-11                |   |
 | :----------------- | - |
 | Nombre:            | Visualizar alarma  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Visualiza una alarma recibida  |
+| Actores:           | Operador de transporte, Cliente, Administrador  |
+| Precondiciones:    | Alarma enviada por el sistema  |
+| Flujo Normal:      | 1. Se comprueba que la aplicacion se encuetra abierta <br> 2. Se muestra por pantalla una notificacion visual  |
+| Flujo Alternativo: | 1A. La aplicacion esta cerrada <br> 1A.1. Se envia un aviso sonoro al cliente <br> 1B. La aplicacion esta cerrada <br> 1B.1. Se envia un sms al cliente  |
+| Poscondiciones:    |  - |
 
 | UC-12                |   |
 | :----------------- | - |
 | Nombre:            | Aviso sonoro  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
+| Descripción:       | Si la apliacion se encuentra cerrada, se envia un aviso sonoro al cliente  |
+| Actores:           | Sistema |
+| Precondiciones:    | El cliente ha seleccionado aviso sonoro como metodo de aviso. Apliacion cerrada  |
+| Flujo Normal:      | 1. Se envia un aviso sonoro al cliente  |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    | -  |
 
 | UC-13                |   |
 | :----------------- | - |
@@ -159,14 +159,14 @@
 | Nombre:            | Realizar pagos  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Se realiza el pago de un billete  |
+| Actores:           | Cliente  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se selecciona el tipo de billete a comprar <br> 2. Se accede al portal de pagos <br> 3. Se introducen los datos de pago <br> 4. Se realiza el pago <br> 5. Se verifica que el pago se ha realizado correctamente  |
+| Flujo Alternativo: | 5A. No se realiza el pago correctamente <br> 5A.1. Se muestra el mensaje "No se ha realizado el pago correctamente"  |
+| Poscondiciones:    | Se asocia el billete al cliente  |
 
-| UC-15                |   |
+<!---| UC-15                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar mapa (Cliente)  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -176,7 +176,7 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   | -->
 
 | UC-16                |   |
 | :----------------- | - |
@@ -190,9 +190,9 @@
 | Flujo Alternativo: |   |
 | Poscondiciones:    |   |
 
-| UC-17                |   |
+<!--| UC-17                |   |
 | :----------------- | - |
-| Nombre:            | Edicion sencilla  |
+| Nombre:            | Edicion pagina sencilla  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       |   |
@@ -200,9 +200,9 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
-| UC-18                |   |
+<!---| UC-18                |   |
 | :----------------- | - |
 | Nombre:            | Añadir pagina  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -212,7 +212,7 @@
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
 | Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Poscondiciones:    |   |-->
 
 | UC-19                |   |
 | :----------------- | - |
@@ -375,7 +375,7 @@
 | Nombre:            | Ubicar zonas de interes  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
+| Descripción:       | Funcion para localizar zonas marcadas como zonas de interes  |
 | Actores:           |   |
 | Precondiciones:    |   |
 | Flujo Normal:      |   |
@@ -423,23 +423,23 @@
 | Nombre:            | Introduccion manual de datos  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Parte del flujo alternativo de CU-37. Metodo para la introduccion de datos necesarios para el calculo de itinerarios en el sistema  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El administrador accede a la opcion de introduccion de datos manual <br> 2. El administrador introduce los datos <br> 3. El administrador guarda los datos  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Los datos introducidos se guardan en la base de datos  |
 
 | UC-37                |   |
 | :----------------- | - |
 | Nombre:            | Control y edicion de la informacion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
+| Descripción:       | Desarrollo de los procesos de control, edicion de la informacion, carga inicial y mantenimiento de datos  |
+| Actores:           | Administrador  |
 | Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
+| Flujo Normal:      | 1. El administrador accede al menu de control y edicion de la informacion <br> 2. Se selecciona una opcion <br> 3. Se cierra el menu  |
+| Flujo Alternativo: | 2A. Se selecciona la opcion de listado de datos <br> 2A.1. Se visualizan los horarios y servicios disponibles <br> 2B. El administrador accede a la opcion de introduccion de datos manual <br> 2B.1. El administrador introduce los datos <br> 2B.2. El administrador guarda los datos <br> 2C. El administrador accede al menu de modificacion de datos <br> 2C.1. El administrador modifica datos <br> 2C.2. El administrador guarda los datos |
 | Poscondiciones:    |   |
 
 | UC-38                |   |
@@ -447,12 +447,12 @@
 | Nombre:            | Modificacion de datos  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Parte del flujo alternativo de CU-37. Funcion para modificar los datos necesarios para el calculo de itinerarios  |
+| Actores:           | Adminstrador  |
+| Precondiciones:    | Realizacion de introduccion manual de datos  |
+| Flujo Normal:      | 1. El administrador accede al menu de modificacion de datos <br> 2. El administrador modifica datos <br> 3. El administrador guarda los datos  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Datos se han modificado en la base de datos  |
 
 | UC-39                |   |
 | :----------------- | - |
@@ -480,15 +480,15 @@
 
 | UC-41                |   |
 | :----------------- | - |
-| Nombre:            | Lista de datos  |
+| Nombre:            | Listados de datos  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Parte del flujo alternativo de CU-37. Proceso para visualizar listados de horarios y servicios necesarios para el calculo de itinerarios |
+| Actores:           | Administrador  |
+| Precondiciones:    | Horarios y servicios introducidos en el sistema  |
+| Flujo Normal:      | 1. Se selecciona la opcion de listado de datos <br> 2. Se visualizan los horarios y servicios disponibles  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-42                |   |
 | :----------------- | - |
