@@ -89,7 +89,7 @@
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Añade un evento al sistema  |
 | Actores:           | Administrador  |
-| Precondiciones:    | Evento existente  |
+| Precondiciones:    |   |
 | Flujo Normal:      | 1. El administrador accede al sistema <br> 2. El administrador accede al aparatado de creacion de eventos <br> 3. El administrador guarda el evento <br> 4. Se genera un aviso |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    |   |
