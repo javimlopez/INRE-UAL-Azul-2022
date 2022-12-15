@@ -81,6 +81,16 @@ En este documento se va a tratar la recopilación de toda la información necesa
 | Descripción | Se pide montar un portal web que abarque los aspectos de: identificar necesidades (contenidos, servicios, audiencias, etc), definir la estructura (arquitectura de la información, mapa web, etc) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
 | Comentarios |                                                                            Forma parte del sistema SIIT, que se divide en dos partes: una el sistema de información y otra el portal web y ambos están interrelacionados                                                                            |
 
+## Modelos de negocio
+
+### Subprocesos
+
+BPM diagramas
+
+### Tareas
+
+Enunciado del bpmn
+
 # Requisitos del sistema a desarrollar
 
 #### Requisitos
@@ -222,6 +232,8 @@ Diagrama SMET
 # Detalle de los casos de uso
 
 # Diagramas de clases asociados a los requisitos de información
+
+DIAGRAMAS DE CLASES
 
 ## Requisitos de información del portal
 
