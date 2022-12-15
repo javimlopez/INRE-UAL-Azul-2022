@@ -24,7 +24,7 @@
 | 26/11/2022 | 1.0      | Aclaracion en casos de uso                                                  | Juan Raul Mellado Garcia                     |
 | 29/11/2022 | 1.1      | Revision de casos de uso                                                    | Juan Raul Mellado Garcia                     |
 | 2/12/2022  | 1.0      | Diagramas casos de uso + Diagrama ER                                        | Ángel Nieto Burgos                          |
-| 13/12/2022 | 1.0      | Defensa con Manel + Arreglo del ERS en el repo + Revision de lo que tenemos |                                              |
+| 13/12/2022 | 1.0      | Defensa con Manel + Arreglo del ERS en el repo + Revision de lo que tenemos | Francisco Javier Mota López                 |
 
 # Introducción
 
