@@ -615,201 +615,225 @@
 | Nombre:            | Editor WYSYWYG  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Editor para el desarrollo de paginas web con previsualizador que usan los administradores |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se modifica la pagina con el editor <br> 2. Se previsualizan los cambios realizados en la pagina  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Se guardan los cambios  |
 
 | UC-53                |   |
 | :----------------- | - |
 | Nombre:            | Modificar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       |  Funcion por la cual el administrador puede modificar contenidos del portal |
+| Actores:           | Administrador  |
+| Precondiciones:    |  - |
+| Flujo Normal:      | 1. Se modifican contenidos  |
+| Flujo Alternativo: |  - |
+| Poscondiciones:    |  - |
 
 | UC-54                |   |
 | :----------------- | - |
 | Nombre:            | Buscador  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que permite buscar informacion tanto en el foro como en la pagina  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se introducen los terminos a buscar <br> 2. Se localizan los terminos  |
+| Flujo Alternativo: | 2A. No se localizan los terminos  |
+| Poscondiciones:    | -  |
 
 | UC-55                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar estadisticas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la cual el administrador es capaz de visualizar las estadisticas del sitio  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se obtienen los datos <br> 2. Se calculan las estadisticas en base a los datos  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-56                |   |
 | :----------------- | - |
 | Nombre:            | Retirar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que el administrador puede retirar contenido del portal  |
+| Actores:           |  Administrador |
+| Precondiciones:    |  - |
+| Flujo Normal:      | 1. Se retira contenido  |
+| Flujo Alternativo: |  - |
+| Poscondiciones:    | Se guardan los cambios realizados  |
 
 | UC-57                |   |
 | :----------------- | - |
 | Nombre:            | Publicar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion por la que el administrador puede publicar contenidos en el portal  |
+| Actores:           | Administrador  |
+| Precondiciones:    |  - |
+| Flujo Normal:      | 1. Se publica contenido  |
+| Flujo Alternativo: |  - |
+| Poscondiciones:    |  Se guardan los cambios realizados |
 
 | UC-58                |   |
 | :----------------- | - |
 | Nombre:            | Acceso web  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Acceso web a la informacion de interes tanto turistica como del transporte  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El usuario se conecta al portal de informacion  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-59                |   |
 | :----------------- | - |
 | Nombre:            | Creacion de pagina sencilla  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Interfaz por la que los administradores mas novatos en html pueden editar la pagina de forma sencilla  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se modifica la pagina <br> 2. Se previsualiza la pagina  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Se guardan los cambios  |
 
 | UC-60                |   |
 | :----------------- | - |
 | Nombre:            | Modificacion general  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que permite modificar contenido en varias paginas o todas en general  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se modifican varias paginas  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | Se guardan los cambios  |
 
 | UC-61               |   |
 | :----------------- | - |
 | Nombre:            | Previsualizacion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Previsualizacion de los cambios realizados durante la edicion de una pagina  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se previsualiza la pagina  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-62                |   |
 | :----------------- | - |
 | Nombre:            | Entorno de colaboracion cliente  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Entorno de colaboracion donde se pueden acceder a varias funcionalidades  |
+| Actores:           | Cliente  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se concede acceso al entorno de colaboracion  |
+| Flujo Alternativo: | 2A. Accede al blog <br> 2B. Acceso al cloudtag de la pagina principal del foro <br> 2C. Acceso al foro |
+| Poscondiciones:    | -  |
 
 | UC-63                |   |
 | :----------------- | - |
 | Nombre:            | Blog  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Acceso al Blog   |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Accede al blog  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-64                |   |
 | :----------------- | - |
 | Nombre:            | CloudTag  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Acceso al cloudtag  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Acceso al cloudtag de la pagina principal del foro  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-65                |   |
 | :----------------- | - |
 | Nombre:            | Entorno de colaboracion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Entorno de colaboracion donde se pueden acceder a varias funcionalidades y el administrador puede moderar |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se concede acceso al entorno de colaboracion  |
+| Flujo Alternativo: | 2A. Accede al blog <br> 2B. Acceso al cloudtag de la pagina principal del foro <br> 2C. Acceso al foro |
+| Poscondiciones:    | -  |
 
 | UC-66                |   |
 | :----------------- | - |
 | Nombre:            | Foro  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Acceso al foro  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Acceso al foro  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-67                |   |
 | :----------------- | - |
 | Nombre:            | Acceso web cliente  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Acceso web a la informacion de interes tanto turistica como del transporte  |
+| Actores:           | Cliente  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El usuario se conecta al portal de informacion |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
 
 | UC-68                |   |
 | :----------------- | - |
 | Nombre:            | Buscador cliente  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |
+| Descripción:       | Funcion que permite buscar informacion tanto en el foro como en la pagina  |
+| Actores:           | Cliente  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. Se introducen los terminos a buscar <br> 2. Se localizan los terminos  |
+| Flujo Alternativo: | 2A. No se localizan los terminos  |
+| Poscondiciones:    | -  |
+
+| UC-69                |   |
+| :----------------- | - |
+| Nombre:            | Acceso web sin registro  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       | Acceso web a la informacion de interes tanto turistica como del transporte usuarios no registrados  |
+| Actores:           | Usuario anonimo  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El usuario se conecta al portal de informacion  |
+| Flujo Alternativo: | -  |
+| Poscondiciones:    | -  |
+
+| UC-70                |   |
+| :----------------- | - |
+| Nombre:            | Gestor de contenido  |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
+| Fecha:             | 14/12/2022  |
+| Descripción:       | Gestor por el cual el administrador puede controlar contenidos del portal  |
+| Actores:           | Administrador  |
+| Precondiciones:    | -  |
+| Flujo Normal:      | 1. El administrador escoge una opcion  |
+| Flujo Alternativo: | 2A. Se modifican contenidos <br> 2B. Se retira contenido <br> 2C. Se publica contenido  |
+| Poscondiciones:    | Se guardan los cambios realizados  |
