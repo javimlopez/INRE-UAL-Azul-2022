@@ -128,6 +128,20 @@ Enunciado del bpmn
 |||Funcional|
 
 
+# Casos de uso
+
+## Diagrama SMET
+
+<img src="./svgs/SMET.svg">
+
+## Diagrama SIIT
+
+<img src="./svgs/SIIT.svg">
+
+## Diagrama Portal
+
+<img src="./svgs/Portal.svg">
+
 #### Actores diagrama SMET
 
 | Código | Actor | Descripcion |
@@ -226,20 +240,6 @@ Enunciado del bpmn
 #### Especificacion de Diagramas
 
 # Lista de diagrama de casos de uso del modelo
-
-# Diagramas de casos de uso
-
-## Diagrama SMET
-
-<img src="./svgs/SMET.svg">
-
-## Diagrama SIIT
-
-<img src="./svgs/SIIT.svg">
-
-## Diagrama Portal
-
-<img src="./svgs/Portal.svg">
 
 # Lista general de casos de uso y actores del proyecto
 
