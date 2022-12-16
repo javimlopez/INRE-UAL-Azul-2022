@@ -985,7 +985,17 @@ Enunciado del bpmn
 
 # Diagramas de clases asociados a los requisitos de información
 
-DIAGRAMAS DE CLASES
+## Diagrama SMET
+
+<img src="">
+
+## Diagrama SIIT
+
+<img src="">
+
+## Diagrama Portal
+
+<img src="./svgs/Portal.svg">
 
 ## Requisitos de información del portal
 
