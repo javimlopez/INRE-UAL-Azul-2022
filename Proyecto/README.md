@@ -128,21 +128,32 @@ Enunciado del bpmn
 |||Funcional|
 
 
-#### Actores
+#### Actores diagrama SMET
 
 | Código | Actor | Descripcion |
 | :-------: | :----------: | :--: |
-|ACT-01|Sistema||
-|ACT-02|Cliente||
-|ACT-03|Operadores||
-|ACT-04|Administradores||
-|ACT-05|Administrador(SIT)||
-|ACT-06|Cliente(SIT)||
-|ACT-07|Operador de transporte(SIT)||
-|ACT-08|Auxiliar edicion||
-|ACT-09|Sistema informacion||
-|ACT-10|Cliente||
-|ACT-11|Administrador||
+|ACT-01|Sistema de monitorizacion| Actor referente al sistema de gestion de pagos |
+|ACT-02|Cliente| Actor referente a los clientes del sistema|
+|ACT-03|Operadores de transporte| Actor referente a los usuarios que manejan el transporte publico|
+|ACT-04|Administradores| Actor referente a usuarios con privilegos en el sistema|
+
+#### Actores diagrama SIT
+
+| Código | Actor | Descripcion |
+| :-------: | :----------: | :--: |
+|ACT-05|Administrador(SIT)|Actor referente a usuario con privilegos en el sistema SIT|
+|ACT-06|Cliente(SIT)|Actor referente a los clientes del sistema SIT|
+|ACT-07|Operador de transporte(SIT)| Actor referente a los usuarios que manejan el transporte publico del sistema SIT|
+|ACT-08|Sistema informacion|Actor referente al sistema de informacion incluido en el sistema SIT|
+
+
+#### Actores diagrama PORTAL
+
+| Código | Actor | Descripcion |
+| :-------: | :----------: | :--: |
+|ACT-09|Usuario anonimo|Actor referente a los usuarios que acceden al portal sin registro|
+|ACT-10|Cliente|Actor referente a los clientes del portal|
+|ACT-11|Administrador|Actor referente a usuario con privilegos en el portal|
 
 #### Caso de uso
 
