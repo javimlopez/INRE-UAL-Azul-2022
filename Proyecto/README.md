@@ -148,74 +148,69 @@ Enunciado del bpmn
 
 | Código |                      Casos de uso                      | Descripción |
 | :-----: | :----------------------------------------------------: | :----------: |
-|  UC-01  |                     Enviar alarma                     |              |
-|  UC-02  |    Recabar informacion en tiempo real de operadores    |              |
-|  UC-03  |                      Mostrar mapa                      |              |
-|  UC-04  |                    Gestion de pagos                    |              |
-|  UC-05  |                  mostrar Mapa (admin)                  |              |
-|  UC-06  |                   Registrar periodos                   |              |
-|  UC-07  |                 Registrar situaciones                 |              |
-|  UC-08  |                     Definir evento                     |              |
-|  UC-09  |                     Generar aviso                     |              |
-|  UC-10  |                          sms                          |              |
-|  UC-11  |                   Visualizar alarma                   |              |
-|  UC-12  |                      Aviso sonoro                      |              |
-|  UC-13  |                     Ayuda en linea                     |              |
-|  UC-14  |                     Realizar pagos                     |              |
-|  UC-15  |                 mostrar Mapa (cliente)                 |              |
-|  UC-16  |                    Previsualizacion                    |              |
-|  UC-17  |                    Edicion sencilla                    |              |
-|  UC-18  |                    AÃ±adir pagina                    |              |
-|  UC-19  |                Mostrar paradas general                |              |
-|  UC-20  |                  Mostrar mapa general                  |              |
-|  UC-21  |                   Definir transbordo                   |              |
-|  UC-22  |            Calcular distancia entre paradas            |              |
-|  UC-23  |    Calculo de itinerarios recomendados tiempo real    |              |
-|  UC-24  |              Mostrar parada inicio y fin              |              |
-|  UC-25  |             Calcular tiempos de recorrido             |              |
-|  UC-26  |                  Ayuda en linea(SIT)                  |              |
-|  UC-27  |                      Localizacion                      |              |
-|  UC-28  |                        Consulta                        |              |
-|  UC-29  |                        Gestion                        |              |
-|  UC-30  |                Herramienta de analisis                |              |
-|  UC-31  |                  Definir inicio y fin                  |              |
-|  UC-32  |                Ubicar zonas de interes                |              |
-|  UC-33  | Consultar de forma dinamica la informacion de servicio |              |
-|  UC-34  |               Mostrar itinerario de mapa               |              |
-|  UC-35  |                     Definir zonas                     |              |
-|  UC-36  |              Introduccion manual de datos              |              |
-|  UC-37  |          Control y edicion de la informacion          |              |
-|  UC-38  |                 Modificacion de datos                 |              |
-|  UC-39  |                    Datos asociados                    |              |
-|  UC-40  |                    Mostrar paradas                    |              |
-|  UC-41  |                     Lista de datos                     |              |
-|  UC-42  |           Identificar zonas no transitables           |              |
-|  UC-43  |            Recoger informacion no recogida            |              |
-|  UC-44  |                        Centrar                        |              |
-|  UC-45  |                Mostar informacion linea                |              |
-|  UC-46  |            Presentar recorrido cierta linea            |              |
-|  UC-47  |                         Acecar                         |              |
-|  UC-48  |                     Ir a mapa base                     |              |
-|  UC-49  |                      Mostrar mapa                      |              |
-|  UC-50  |                       Desplazar                       |              |
-|  UC-51  |                         Alejar                         |              |
-|  UC-52  |                     Editor WYSYWYG                     |              |
-|  UC-53  |                       Modificar                       |              |
-|  UC-54  |                        Buscador                        |              |
-|  UC-55  |                  Mostrar estadisticas                  |              |
-|  UC-56  |                        Retirar                        |              |
-|  UC-57  |                        Publicar                        |              |
-|  UC-58  |                       Acceso Web                       |              |
-|  UC-59  |              Creacion de pagina sencilla              |              |
-|  UC-60  |                  Modificacion general                  |              |
-|  UC-61  |                    Previsualizacion                    |              |
-|  UC-62  |            Entorno de colaboracion cliente            |              |
-|  UC-63  |                          Blog                          |              |
-|  UC-64  |                        CloudTag                        |              |
-|  UC-65  |                Entorno de colaboracion                |              |
-|  UC-66  |                          Foro                          |              |
-|  UC-67  |                   Acceso Web Cliente                   |              |
-|  UC-68  |                    Buscador cliente                    |              |
+|  UC-01  |                     Enviar alarma                     |     Caso de uso referente a la creación y envio de alarmas del sistema         |
+|  UC-02  |    Recabar informacion en tiempo real Operadores    |     Caso de uso referente a la funcionalidad del sistema para conocer los datos en tiempo real de los operadores de transporte         |
+|  UC-03  |                      Mostrar mapa                      |    Caso de uso referente a la funcionalidad del sistema de mostrar el mapa          |
+|  UC-04  |                    Gestion de pagos                    |    Caso de uso referente a la gestion que realiza el sistema al recibir un pago          |
+|  UC-05  |                  Visualizar Mapa (Admin)                  |  Caso de uso referente a la funcionalidad del administrador de ver el mapa            |
+|  UC-06  |                   Registrar periodos                   |    Caso de uso referente a la funcionalidad de registrar un periodo concreto          |
+|  UC-07  |                 Registrar situaciones                 |   Flujo alternativo de UC-05. Registra situaciones inusuales/puntuales comunicadas al administrador           |
+|  UC-08  |                     Definir evento                     |      Añade un evento al sistema        |
+|  UC-09  |                     Generar aviso                     |         Funcion que genera una alarma especifica de un evento     |
+|  UC-10  |                          SMS                          |  Si la apliacion se encuentra cerrada, se envia un sms al cliente            |
+|  UC-11  |                   Visualizar alarma                   |    Visualiza una alarma recibida          |
+|  UC-12  |                      Aviso sonoro                      |   Si la apliacion se encuentra cerrada, se envia un aviso sonoro al cliente           |
+|  UC-13  |                     Ayuda en linea (SMET)(SMET)                     |     Funcion de ayuda en linea de uso general         |
+|  UC-14  |                     Realizar pagos                     |      Se realiza el pago de un billete        |
+|  UC-15  |                 Mostrar itinerarios en mapa                 |  Una opcion de visualizacion del itinerario ya definido por el cliente            |
+|  UC-16  |                    Definir itinerario                    |    Funcion por la que el cliente introduce los datos de itinerario para que el sistema calcule el itinerario mas recomendable          |
+|  UC-17  |                   Ver paradas                    |   Funcion por la que se pueden ver las paradas y lineas ya organizadas por el sistema           |
+|  UC-18  |                    Mostrar mapa general                    |   Funcion por la que los usuario pueden interactuar con el mapa interactivo renderizado por el sistema           |
+|  UC-19  |                Definir transbordo                |      Funcion por la cual el sistema, mediante los datos de las lineas, calcula los transbordos incluyendo entre vehiculos diferentes        |
+|  UC-20  |                  Calcular distancia entre paradas                  |      El sistema calcula la distancia entre las paradas        |
+|  UC-21  |                  Calculo de itinerarios recomendados tiempo real                 |   El sistema calcula los tiempos de recorrido segun los datos           |
+|  UC-22  |            Ayuda en linea (SMET)             |   Funcion de ayuda en linea de uso general           |
+|  UC-23  |    Localizacion    |          Funcion por la que el administrador localiza operadores de transporte en el sistema    |
+|  UC-24  |              Consulta               |    Funcion por la que el administrador consulta datos del servicio          |
+|  UC-25  |             Gestion             |   Funcion por la que se gestiona la informacion del servicio           |
+|  UC-26  |                  Herramienta de analisis                |      Funcion que permite al administrador gestionar la informacion del servicio de forma dinamica        |
+|  UC-27  |                     Definir inicio y fin                    |   Funcion para introducir el inicio y fin de un itinerario           |
+|  UC-28  |                        Ubicar zonas de interes                        |   Parte del flujo alternativo de CU-37. Funcion para introducir zonas marcadas como zonas de interes para el calculo de itinerarios           |
+|  UC-29  |                        Consultar de forma dinamica                        |   Funcion por la que el cliente puede consultar la informacion del servicio de forma dinamica           |
+|  UC-30  |                Definir zonas             |      El sistema usa los datos cartograficos para delimitar zonas, municipios y barrios        |
+|  UC-31  |                  Introduccion manual de datos                  |   Parte del flujo alternativo de CU-37. Metodo para la introduccion de datos necesarios para el calculo de itinerarios en el sistema           |
+|  UC-32  |                Control y edicion de la informacion               |     Desarrollo de los procesos de control, edicion de la informacion, carga inicial y mantenimiento de datos         |
+|  UC-33  | Modificacion de datos |      Parte del flujo alternativo de CU-37. Funcion para modificar los datos necesarios para el calculo de itinerarios        |
+|  UC-34  |              Datos asociados                |     Funcion por la que el sistema comprueba los datos de paradas y lineas introducidos por el administrador         |
+|  UC-35  |                   Organizar paradas y lineas                  |   Funcion por la cual el sistema organiza las paradas y lineas segun los datos que le ha dado el administrador           |
+|  UC-36  |              Listados de datos            |   Parte del flujo alternativo de CU-37. Proceso para visualizar listados de horarios y servicios necesarios para el calculo de itinerarios           |
+|  UC-37  |         Centrar         |    Funcion que centra el mapa          |
+|  UC-38  |               Mostrar informacion linea               |   Funcion que muestra la informacion de una linea           |
+|  UC-39  |               Acercar                |    Funcion que acerca el mapa          |
+|  UC-40  |                   Ir a mapa base                   |   Funcion que desplaza el mapa           |
+|  UC-41  |                  Mostrar mapa                  | Funcion encargada de mostrar el mapa interactivo de la aplicacion             |
+|  UC-42  |           Desplazar        |   Funcion que desplaza el mapa           |
+|  UC-43  |         Alejar           |     Funcion que aleja el mapa         |
+|  UC-44  |                      Editor WYSYWYG                    | Editor para el desarrollo de paginas web con previsualizador que usan los administradores             |
+|  UC-45  |              Modificar              |  Funcion por la cual el administrador puede modificar contenidos del portal            |
+|  UC-46  |         Buscador           |  Funcion que permite buscar informacion tanto en el foro como en la pagina            |
+|  UC-47  |                       Mostrar estadisticas                   | Funcion por la cual el administrador es capaz de visualizar las estadisticas del sitio             |
+|  UC-48  |                     Retirar                  |     Funcion por la que el administrador puede retirar contenido del portal         |
+|  UC-49  |                    Publicar                     |   Funcion por la que el administrador puede publicar contenidos en el portal           |
+|  UC-50  |                    Acceso web                   | Acceso web a la informacion de interes tanto turistica como del transporte             |
+|  UC-51  |                         Creacion de pagina sencilla                       |  Interfaz por la que los administradores mas novatos en html pueden editar la pagina de forma sencilla            |
+|  UC-52  |                    Modificacion general                 |    Funcion que permite modificar contenido en varias paginas o todas en general          |
+|  UC-53  |                       Previsualizacion                       | Previsualizacion de los cambios realizados durante la edicion de una pagina             |
+|  UC-54  |                        Entorno de colaboracion cliente                        |  Entorno de colaboracion donde se pueden acceder a varias funcionalidades            |
+|  UC-55  |                  Blog                  |Acceso al Blog              |
+|  UC-56  |                        CloudTag                        |   Acceso al cloudtag           |
+|  UC-57  |                      Entorno de colaboracion                        | Entorno de colaboracion donde se pueden acceder a varias funcionalidades y el administrador puede moderar             |
+|  UC-58  |                      Foro                   |   Acceso al foro           |
+|  UC-59  |             Acceso web cliente             |  Acceso web a la informacion de interes tanto turistica como del transporte            |
+|  UC-60  |                 Buscador cliente                |    Funcion que permite buscar informacion tanto en el foro como en la pagina          |
+|  UC-61  |                     Acceso web sin registro                    |   Acceso web a la informacion de interes tanto turistica como del transporte usuarios no registrados           |
+|  UC-62  |          Gestor de contenido    |     Gestor por el cual el administrador puede controlar contenidos del portal         |
+
 
 #### Especificacion de Diagramas
 
