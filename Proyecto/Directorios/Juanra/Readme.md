@@ -178,19 +178,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-<!--| UC-16                |   |
-| :----------------- | - |
-| Nombre:            | Previsualizacion  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
-
-| UC-17                |   |
+| UC-16               |   |
 | :----------------- | - |
 | Nombre:            | Definir itinerario  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -202,19 +190,7 @@
 | Flujo Alternativo: | 5A. El cliente acciona el boton de mostrar itinerario <br> 5A.1. El itinerario se muestra en el mapa <br> 5A.2. El cliente cierra el mapa   |
 | Poscondiciones:    | -  |
 
-<!---| UC-18                |   |
-| :----------------- | - |
-| Nombre:            | Añadir pagina  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
-
-| UC-19                |   |
+| UC-17              |   |
 | :----------------- | - |
 | Nombre:            | Ver paradas |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -226,7 +202,7 @@
 | Flujo Alternativo: | 2A. Se selecciona una linea <br> 2A.1. Se muestra la informacion de esa linea  |
 | Poscondiciones:    | -  |
 
-| UC-20                |   |
+| UC-18                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar mapa general  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -238,7 +214,7 @@
 | Flujo Alternativo: | 2A. Se centra el mapa <br> 2B. Se acerca el mapa <br> 2C. Se aleja el mapa  <br> 2D. Se desplaza el mapa en cualquier direccion <br> 2E. Se vuelve a colocar como el mapa en su estado inicial |
 | Poscondiciones:    | -  |
 
-| UC-21                |   |
+| UC-19                |   |
 | :----------------- | - |
 | Nombre:            | Definir transbordo  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -250,7 +226,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Los transbordos se guardan en la base de datos  |
 
-| UC-22                |   |
+| UC-20                |   |
 | :----------------- | - |
 | Nombre:            | Calcular distancia entre paradas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -262,7 +238,7 @@
 | Flujo Alternativo: | 2A. Se identifica que no se puede transitar de una parada a otra <br> 2B. Se ofrece una parada cercana sustituta  |
 | Poscondiciones:    | Se guardan las distancias en la base de datos  |
 
-| UC-23                |   |
+| UC-21                |   |
 | :----------------- | - |
 | Nombre:            | Calculo de itinerarios recomendados tiempo real  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -274,31 +250,7 @@
 | Flujo Alternativo: | 2A. El sistema encuentra que el recorrido no es transitable <br> 2A.1. Se ofrece un recorrido sustituto  |
 | Poscondiciones:    | -  |
 
-<!--| UC-24                |   |
-| :----------------- | - |
-| Nombre:            | Mostrar parada inicio y fin  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
-
-<!--| UC-25                |   |
-| :----------------- | - |
-| Nombre:            | Calcular tiempos de recorrido  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       | El sistema calcula los tiempos de recorrido segun los datos  |
-| Actores:           | Sistema  |
-| Precondiciones:    | Datos introducidos manualmente  |
-| Flujo Normal:      | 1. El sistema define el recorrido <br> 2. El sistema calcula el tiempo de recorrido |
-| Flujo Alternativo: | 2A. El sistema encuentra que el recorrido no es transitable <br> 2A.1. Se ofrece un recorrido sustituto  |
-| Poscondiciones:    | -  |-->
-
-| UC-26                |   |
+| UC-22               |   |
 | :----------------- | - |
 | Nombre:            | Ayuda en linea (SIT)  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -310,7 +262,7 @@
 | Flujo Alternativo: | 3A. El usuario no encuentra la informacion que necesita <br> 3.1A. El usuario se pone en contacto con AUTGC para indicar su duda <br> 3.2A. Se añade un apartado nuevo  |
 | Poscondiciones:    | -  |
 
-| UC-27                |   |
+| UC-23                |   |
 | :----------------- | - |
 | Nombre:            | Localizacion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -322,7 +274,7 @@
 | Flujo Alternativo: |  - |
 | Poscondiciones:    |  - |
 
-| UC-28                |   |
+| UC-24                |   |
 | :----------------- | - |
 | Nombre:            | Consulta  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -334,7 +286,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-29                |   |
+| UC-25                |   |
 | :----------------- | - |
 | Nombre:            | Gestion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -346,7 +298,7 @@
 | Flujo Alternativo: |  - |
 | Poscondiciones:    |  - |
 
-| UC-30                |   |
+| UC-26                |   |
 | :----------------- | - |
 | Nombre:            | Herramienta de analisis  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -358,7 +310,7 @@
 | Flujo Alternativo: | 2A. El administrador consulta datos del servicio <br> 2B. El administrador localiza operadores de transporte <br> 2C. El administrador gestiona la informacion del servicio  |
 | Poscondiciones:    | -  |
 
-| UC-31                |   |
+| UC-27                |   |
 | :----------------- | - |
 | Nombre:            | Definir inicio y fin  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -370,7 +322,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-32                |   |
+| UC-28                |   |
 | :----------------- | - |
 | Nombre:            | Ubicar zonas de interes  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -382,7 +334,7 @@
 | Flujo Alternativo: | - |
 | Poscondiciones:    | Los datos de la ubicacion de interes se introducen en la base de datos  |
 
-| UC-33                |   |
+| UC-29                |   |
 | :----------------- | - |
 | Nombre:            | Consultar de forma dinamica  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -394,19 +346,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-<!--| UC-34                |   |
-| :----------------- | - |
-| Nombre:            | Mostrar itinerario de mapa  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
-
-| UC-35                |   |
+| UC-30                |   |
 | :----------------- | - |
 | Nombre:            | Definir zonas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -418,7 +358,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Se añaden las zonas a la base de datos |
 
-| UC-36                |   |
+| UC-31                |   |
 | :----------------- | - |
 | Nombre:            | Introduccion manual de datos  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -430,7 +370,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Los datos introducidos se guardan en la base de datos  |
 
-| UC-37                |   |
+| UC-32                |   |
 | :----------------- | - |
 | Nombre:            | Control y edicion de la informacion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -442,7 +382,7 @@
 | Flujo Alternativo: | 2A. Se selecciona la opcion de listado de datos <br> 2A.1. Se visualizan los horarios y servicios disponibles <br> 2B. El administrador accede a la opcion de introduccion de datos manual <br> 2B.1. El administrador introduce los datos <br> 2B.2. El administrador guarda los datos <br> 2C. El administrador accede al menu de modificacion de datos <br> 2C.1. El administrador modifica datos <br> 2C.2. El administrador guarda los datos <br> 2D. El administrador accede a la opcion de ubicar zonas de interes <br> 2D.1. El administrador introduce los datos de la zona de interes <br> 2D.2. El administrador guarda los datos|
 | Poscondiciones:    |   |
 
-| UC-38                |   |
+| UC-33                |   |
 | :----------------- | - |
 | Nombre:            | Modificacion de datos  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -454,7 +394,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Datos se han modificado en la base de datos  |
 
-| UC-39                |   |
+| UC-34                |   |
 | :----------------- | - |
 | Nombre:            | Datos asociados  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -466,7 +406,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-40                |   |
+| UC-35                |   |
 | :----------------- | - |
 | Nombre:            | Organizar paradas y lineas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -478,7 +418,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Las paradas junto a las lineas se modifican y se guardan |
 
-| UC-41                |   |
+| UC-36                |   |
 | :----------------- | - |
 | Nombre:            | Listados de datos  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -490,31 +430,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-<!--| UC-42                |   |
-| :----------------- | - |
-| Nombre:            | Identificar zonas no transitables  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       | Funcion por la que el administrador añade zonas no transitables a la base de datos  |
-| Actores:           | Administrador  |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
-
-<!--| UC-43                |   |
-| :----------------- | - |
-| Nombre:            | Recoger informacion no recogida  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
-
-| UC-44                |   |
+| UC-37                |   |
 | :----------------- | - |
 | Nombre:            | Centrar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -526,7 +442,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-45                |   |
+| UC-38                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar informacion linea  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -538,19 +454,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-<!--| UC-46                |   |
-| :----------------- | - |
-| Nombre:            | Presentar recorrido cierta linea  |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
-| Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |   |
-| Precondiciones:    |   |
-| Flujo Normal:      |   |
-| Flujo Alternativo: |   |
-| Poscondiciones:    |   |-->
-
-| UC-47                |   |
+| UC-39                |   |
 | :----------------- | - |
 | Nombre:            | Acercar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -562,7 +466,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-48                |   |
+| UC-40                |   |
 | :----------------- | - |
 | Nombre:            | Ir a mapa base  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -574,7 +478,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-49                |   |
+| UC-41                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar mapa  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -586,7 +490,7 @@
 | Flujo Alternativo: | 2A. Se centra el mapa <br> 2B. Se acerca el mapa <br> 2C. Se aleja el mapa  <br> 2D. Se desplaza el mapa en cualquier direccion <br> 2E. Se vuelve a colocar como el mapa en su estado inicial |
 | Poscondiciones:    | -  |
 
-| UC-50                |   |
+| UC-42                |   |
 | :----------------- | - |
 | Nombre:            | Desplazar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -598,7 +502,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-51                |   |
+| UC-43                |   |
 | :----------------- | - |
 | Nombre:            | Alejar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -610,7 +514,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-52                |   |
+| UC-44                |   |
 | :----------------- | - |
 | Nombre:            | Editor WYSYWYG  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -622,8 +526,8 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Se guardan los cambios  |
 
-| UC-53                |   |
-| :----------------- | - |
+| UC-45                |   |
+| :---------------- | - |
 | Nombre:            | Modificar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
@@ -634,7 +538,7 @@
 | Flujo Alternativo: |  - |
 | Poscondiciones:    |  - |
 
-| UC-54                |   |
+| UC-46                |   |
 | :----------------- | - |
 | Nombre:            | Buscador  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -646,7 +550,7 @@
 | Flujo Alternativo: | 2A. No se localizan los terminos  |
 | Poscondiciones:    | -  |
 
-| UC-55                |   |
+| UC-47                |   |
 | :----------------- | - |
 | Nombre:            | Mostrar estadisticas  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -658,7 +562,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-56                |   |
+| UC-48                |   |
 | :----------------- | - |
 | Nombre:            | Retirar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -670,7 +574,7 @@
 | Flujo Alternativo: |  - |
 | Poscondiciones:    | Se guardan los cambios realizados  |
 
-| UC-57                |   |
+| UC-49                |   |
 | :----------------- | - |
 | Nombre:            | Publicar  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -682,7 +586,7 @@
 | Flujo Alternativo: |  - |
 | Poscondiciones:    |  Se guardan los cambios realizados |
 
-| UC-58                |   |
+| UC-50                |   |
 | :----------------- | - |
 | Nombre:            | Acceso web  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -694,7 +598,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-59                |   |
+| UC-51                |   |
 | :----------------- | - |
 | Nombre:            | Creacion de pagina sencilla  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -706,7 +610,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Se guardan los cambios  |
 
-| UC-60                |   |
+| UC-52                |   |
 | :----------------- | - |
 | Nombre:            | Modificacion general  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -718,7 +622,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Se guardan los cambios  |
 
-| UC-61               |   |
+| UC-53               |   |
 | :----------------- | - |
 | Nombre:            | Previsualizacion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -730,7 +634,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-62                |   |
+| UC-54                |   |
 | :----------------- | - |
 | Nombre:            | Entorno de colaboracion cliente  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -742,7 +646,7 @@
 | Flujo Alternativo: | 2A. Accede al blog <br> 2B. Acceso al cloudtag de la pagina principal del foro <br> 2C. Acceso al foro |
 | Poscondiciones:    | -  |
 
-| UC-63                |   |
+| UC-55                |   |
 | :----------------- | - |
 | Nombre:            | Blog  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -754,7 +658,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-64                |   |
+| UC-56                |   |
 | :----------------- | - |
 | Nombre:            | CloudTag  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -766,7 +670,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-65                |   |
+| UC-57                |   |
 | :----------------- | - |
 | Nombre:            | Entorno de colaboracion  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -778,7 +682,7 @@
 | Flujo Alternativo: | 2A. Accede al blog <br> 2B. Acceso al cloudtag de la pagina principal del foro <br> 2C. Acceso al foro |
 | Poscondiciones:    | -  |
 
-| UC-66                |   |
+| UC-58                |   |
 | :----------------- | - |
 | Nombre:            | Foro  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -790,7 +694,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-67                |   |
+| UC-59                |   |
 | :----------------- | - |
 | Nombre:            | Acceso web cliente  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -802,7 +706,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-68                |   |
+| UC-60                |   |
 | :----------------- | - |
 | Nombre:            | Buscador cliente  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -814,7 +718,7 @@
 | Flujo Alternativo: | 2A. No se localizan los terminos  |
 | Poscondiciones:    | -  |
 
-| UC-69                |   |
+| UC-61                |   |
 | :----------------- | - |
 | Nombre:            | Acceso web sin registro  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
@@ -826,7 +730,7 @@
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
-| UC-70                |   |
+| UC-62                |   |
 | :----------------- | - |
 | Nombre:            | Gestor de contenido  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
