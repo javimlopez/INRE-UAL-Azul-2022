@@ -264,7 +264,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                                                  |
 | Referencia:        | -                                                                                      |
 | Descripción:      | Información sobre el usuario Administrador                                            |
-| Datos especificos: | `<ul><li>`Nombre`</li><li>`Teléfono`</li><li>`Correo Electrónico`</li></ul>` |
+| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                                                         |
 | Estado:            | Aceptado                                                                               |
 | Comentar:          | -                                                                                      |
@@ -275,13 +275,37 @@ DIAGRAMAS DE CLASES
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:       | Información sobre cliente |
+| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-003:           | Operador                                             |
+| INF-003:           | Usuario anónimo                                            |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:       | Información usuario anónimo |
+| Datos especificos: |  |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-004:           | Estadísticas |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | <ul><li>Origen</li><li>Destino</li><li></li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-005:           | Web                                             |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -293,7 +317,7 @@ DIAGRAMAS DE CLASES
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-004:           | Sistema                                              |
+| INF-007:           | Blog                                                |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -305,43 +329,7 @@ DIAGRAMAS DE CLASES
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-005:           | Servicio                                             |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-006:           | Itinerario                                           |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-007:           | Datos                                                |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-008:           | Parada                                               |
+| INF-008:           | Foro                                               |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
@@ -353,7 +341,7 @@ DIAGRAMAS DE CLASES
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-009:           | Mapa                                                 |
+| INF-009:           | Cloud tag |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -365,19 +353,7 @@ DIAGRAMAS DE CLASES
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-010:           | Línea                                               |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-010:           | Alarma                                               |
+| INF-010:           | Contenido                                               |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -416,6 +392,42 @@ DIAGRAMAS DE CLASES
 | Comentar:          | -                                                    |
 
 | INF-003:           | Operador de transporte (SIIT) |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-004:           | Itinerario |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-005:           | Sistema Imformación |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      |                                                      |
+| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-006:           | Datos |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
