@@ -288,7 +288,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:       | Información sobre las estadísticas |
-| Datos especificos: | <ul><li>Acceso página web</li><li>Origen más solicitado</li><li>Destino más solicitado</li><li>Información más requerida</li><li>Pungos de información más solicitados</li></ul> |
+| Datos especificos: | <ul><li>Acceso página web</li><li>Origen más solicitado</li><li>Destino más solicitado</li><li>Información más requerida</li><li>Puntos de información más solicitados</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -299,8 +299,8 @@ DIAGRAMAS DE CLASES
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:       | Plantillas de contenido |
-| Datos especificos: |  |
+| Descripción:       | Información sobre páginas |
+| Datos especificos: | <ul><li>Contenido</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -341,15 +341,16 @@ DIAGRAMAS DE CLASES
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-008:           | Contenido                                               |
-| :----------------- | :--------------------------------------------------- |
+
+| INF-008:           | Usuario anónimo |
+| :-------- | :--------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond: |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los contenidos de la página web |
-| Datos especificos: | <ul><li>Información de texto</li><li>Contenidos visuales</li></ul>` |
-| Importancia:       | Muy Importante                                       |
+| Datos especificos: |  |
+| Importancia:       | Muy Importante    |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -   |
 
@@ -361,7 +362,7 @@ DIAGRAMAS DE CLASES
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
+| Descripción:  Información sobre el administrador |                                                      |
 | Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
@@ -373,7 +374,7 @@ DIAGRAMAS DE CLASES
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | - |
-| Descripción:      |                                                      |
+| Descripción: Información sobre cliente |                                                      |
 | Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
@@ -385,8 +386,8 @@ DIAGRAMAS DE CLASES
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
+| Descripción: Información sobre el operador |                                                      |
+| Datos especificos: | <ul><li>Identificador Operador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -398,7 +399,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |  Información relevante sobre itinerarios |
-| Datos especificos: | <ul><li>Fecha inicio</li><li>Fecha fin</li><li>Líneas</li><li>Ubicaciones</li></ul> |
+| Datos especificos: | <ul><li>Fecha inicio</li><li>Fecha fin</li><li>Líneas</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -422,7 +423,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información de líneas  |
-| Datos especificos: | <ul><li>Vehículo</li><li>Ubicaciones</li></ul>` |
+| Datos especificos: | <ul><li>Vehículo</li><li>Paradas</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
