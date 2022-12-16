@@ -95,17 +95,37 @@ Enunciado del bpmn
 
 #### Requisitos
 
-| Requisito | Descripción | Tipo |
-| :-------: | :----------: | :--: |
-|ACT-01|||
-|ACT-02|||
-|ACT-03|||
-|ACT-04|||
-|ACT-05|||
-|ACT-06|||
-|ACT-07|||
-|ACT-08|||
-|ACT-09|||
+|Requisito|Descripción|Tipo|
+|:--:|:--:|:--:|
+|Edicion sencilla|Interfaz que facilite la introduccion de datos a los menos versados en html|Funcional|
+|Mostrar paradas|Interfaz de usuario que muestra las paradas y sus datos asociados|Funcional|
+|Definir itinerario|Se ha de poder definir el itinerario de inicio a fin con la posibilidad de mostrarlo en el mapa|Funcional|
+|Ayuda en linea|Todo usuario ha de poder solicitar ayuda cuando sea necesario|Funcional|
+|Mostrar Mapa|Se requiere un mapa cartografico interactivo|Funcional|
+|Control y  edición de la informacion |Interfaz que nos permite ver una listados de datos ,introducir datos manualmente y modificar datos segun convenga |Funcional|
+|Identificar zonas no transitables|El sistema de informacion ha de ser capaza de identificar zonas no transitables y alterar los itinerarios segun sea necesario|Funcional|
+|calculo de itinerarios recomendados tiempo real|El sistema de informacion ha de ser capaz de calcular el mejor itinerario en tiempo real y una vez esta calculado lo muestra |Funcional|
+|Calcular tiempos de recorrido|El sistema de informacion ha de ser capaz de calcular el tiempo de recorrido|Funcional|
+|Calcular distancias entre paradas|El sistema de informacion ha de ser capaz de calcular distancias entre paradas|Funcional|
+|Definir transbordo|El sistema de informacion ha de ser capaz de definir si es necesario un transbordo |Funcional|
+|Ubicar zonas de interes|Los administradores han de ser capaces de ubicar zonas de interes |Funcional|
+|Definir zonas|Los administradores han de ser capaces de crear zonas|Funcional|
+|Presentar recorrido cierta linea|El sistema de informacion ha de poder mostrar el recorrido de una linea y si se quiere la informacion de la correspondiente linea|Funcional|
+|Herramientas de analisis|herramientas de analisis, consulta, localizacion y gestion, con el objeto de que el usuario del transporte publico pueda consultar de forma dinamica la informacion del servicio permitiendole conocer y programar con antelacion su viaje. |Funcional|
+||||
+|Realizar Pagos|El cliente ha de ser capaz de pagar con tarjeta y  que el sistema de monitorizacion sea capaz de gestionarlo|Funcional|
+|Recabar informacion en tiempo real Operadores|El sistema de monitorizacion se va a encargar de recabar informacion de los operadores de transporte |Funcional|
+|Gestion de Alarmas|El sistema de monitorizacion debe poder enviar Alarmas y los todos los usuarios han de poder visualizar las Alarmas on en el caso de que la app este cerrada recibir un sms o una norificacion sonora|Funcional|
+|Visualizar Mapa (Admin)|Los administradores han de poder visualizar en un mapa dado por el sistema de monitorizacion los datos de los conductores y de la explotacion donde tendran la opcion de registrar incidencias o periodos de tiempo|Funcional|
+|Definir eventos|Se han de poder registrar eventos por parte de los administradores|Funcional|
+||||
+|Editor WYSYWYG|El portal  tiene que tener un editor de este tipo|Funcional|
+|Mostrar estadisticas|El portal es capaz de mostrar la estadisticas de acceso a los administradores|Funcional|
+|Gestor de contenidos|El administrador ha de ser capaza de modificar ,retirar y publicar contenido segun su juicio|Funcional|
+|Creacion de pagina sencilla|En el portal se ha de poder modificar de forma sencilla una pagina o un conjunto de paginas siempre mostrando una previsualizacion antes de  aceptar la modificacion |Funcional|
+|Etorno de colaboracion | El portal ha de poseer un entorno de colaboracion accesible por los administradores y los clientes formado por un blog, un foro y el cloid tag que siempre esta en la pagina principal|Funcional|
+|Acceso Web|El portal ha de ser accesible por la web para administradores y clientes|Funcional|
+|||Funcional|
 
 
 #### Actores
