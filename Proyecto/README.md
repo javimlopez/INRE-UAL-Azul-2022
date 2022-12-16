@@ -239,31 +239,6 @@ Enunciado del bpmn
 
 #### Especificacion de Diagramas
 
-# Lista de diagrama de casos de uso del modelo
-
-# Lista general de casos de uso y actores del proyecto
-
-Diagrama SMET
-
-| Detalles de los actores |              |
-| :---------------------: | :----------: |
-|          Actor          | Descripción |
-|         Sistema         |              |
-|      Administrador      |              |
-|        Operador        |              |
-|         Cliente         |              |
-
-<!--|Nombre: |Descripción|
-|:--:|:--:|
-|Autor: ||
-|Fecha: ||
-|Descripcion: ||
-|Actores: ||
-|Precondiciones: ||
-|Flujo normal: ||
-|Flujo alternativo: ||
-|Post condiciones: ||-->
-
 # Detalle de los casos de uso
 
 | UC-01               |   |
