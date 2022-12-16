@@ -242,7 +242,7 @@ Diagrama SMET
 |        Operador        |              |
 |         Cliente         |              |
 
-|Nombre: |Descripción|
+<!--|Nombre: |Descripción|
 |:--:|:--:|
 |Autor: ||
 |Fecha: ||
@@ -251,7 +251,7 @@ Diagrama SMET
 |Precondiciones: ||
 |Flujo normal: ||
 |Flujo alternativo: ||
-|Post condiciones: ||
+|Post condiciones: ||-->
 
 # Detalle de los casos de uso
 
