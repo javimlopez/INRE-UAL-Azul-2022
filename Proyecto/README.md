@@ -236,9 +236,6 @@ Enunciado del bpmn
 |  UC-61  |                     Acceso web sin registro                    |   Acceso web a la informacion de interes tanto turistica como del transporte usuarios no registrados           |
 |  UC-62  |          Gestor de contenido    |     Gestor por el cual el administrador puede controlar contenidos del portal         |
 
-
-#### Especificacion de Diagramas
-
 # Detalle de los casos de uso
 
 | UC-01               |   |
