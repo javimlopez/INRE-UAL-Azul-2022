@@ -225,7 +225,16 @@ Enunciado del bpmn
 
 ## Diagrama SMET
 
-<img src="./svgs/DiagramaSmet.svg">
+<img src="./svgs/SMET.svg">
+
+## Diagrama SIIT
+
+<img src="./svgs/SIIT.svg">
+
+## Diagrama Portal
+
+<img src="./svgs/Portal.svg">
+
 # Lista general de casos de uso y actores del proyecto
 
 Diagrama SMET
