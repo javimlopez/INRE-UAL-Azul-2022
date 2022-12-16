@@ -276,94 +276,82 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:       | Información sobre cliente |
-| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-003:           | Usuario anónimo                                            |
+| INF-003:           | Estadísticas |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:       | Información usuario anónimo |
+| Descripción:       | Información sobre las estadísticas |
+| Datos especificos: | <ul><li>Acceso página web</li><li>Origen más solicitado</li><li>Destino más solicitado</li><li>Información más requerida</li><li>Pungos de información más solicitados</li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-004:           | Página |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:       | Plantillas de contenido |
 | Datos especificos: |  |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-004:           | Estadísticas |
+| INF-005:           | Blog                                                |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | <ul><li>Origen</li><li>Destino</li><li></li></ul> |
+| Descripción:      | Información sobre el contenido de los blogs |
+| Datos especificos: | <ul><li>Autor</li><li>Texto</li><li>Imagen</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-005:           | Web                                             |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-007:           | Blog                                                |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-008:           | Foro                                               |
+| INF-006:           | Foro                                               |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                        |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información sobre los foros |
+| Datos especificos: | <ul><li>Autor</li><li>Mensaje</li><li>Hora</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-009:           | Cloud tag |
+| INF-007:           | Cloud tag |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información sobre Cloud tags |
+| Datos especificos: | <ul><li>Enlace</li> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-010:           | Contenido                                               |
+| INF-008:           | Contenido                                               |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond: |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información sobre los contenidos de la página web |
+| Datos especificos: | <ul><li>Información de texto</li><li>Contenidos visuales</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
+| Comentar:          | -   |
 
 ## Requisitos de información del sistema interactivo de información del transporte (SIIT)
 
@@ -374,7 +362,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -386,7 +374,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | - |
 | Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -398,7 +386,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -409,45 +397,117 @@ DIAGRAMAS DE CLASES
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      |  Información relevante sobre itinerarios |
+| Datos especificos: | <ul><li>Fecha inicio</li><li>Fecha fin</li><li>Líneas</li><li>Ubicaciones</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-005:           | Sistema Imformación |
+| INF-005:           | Sistema Información |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información sobre el sistema de información |
+| Datos especificos: | <ul><li>Horario Servicio</li><li>Tipo servicio</li><li>Ubicaciones</li><li>Zonas no transitables</li><li>Rutas</li><li>barrios</li><li>municipios</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-006:           | Datos |
+| INF-006:           | Líneas |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
+| Descripción:      | Información de líneas  |
+| Datos especificos: | <ul><li>Vehículo</li><li>Ubicaciones</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-007:           | Ruta |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre rutas  |
+| Datos especificos: | <ul><li>Información turística</li><li>Ubicaciones</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-008:           | Ubicaciones |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre ubicaciones  |
+| Datos especificos: | <ul><li>Coordenadas</li><li>EsDeInteres</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-009:           | Horario |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre horario  |
+| Datos especificos: | <ul><li>Fecha</li><li>Hora</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-010:           | Paradas |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre paradas  |
+| Datos especificos: | <ul><li>Linea</li><li>Ubicacion</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-011:           | Datos cartográficos |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los datos cartográficos necesarios para generar el mapa  |
+| Datos especificos: | <ul><li>Coordenadas</li><li>Ubicacion</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-012:           | Vehículo |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los datos cartográficos necesarios para generar el mapa  |
+| Datos especificos: | <ul><li>Nombre Vehículo</li><li>Tipo Vehículo</li><li>Horario</li><li>Ubicación tiempo real </li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 ## Requisitos de información del sistema interactivo de información del transporte (SMET)
 
-| INF-001:           | Sistema                                       |
+| INF-001:           | Sistema de monitorización  |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |                                                      |
-| Datos especificos: | <ul><li>Tipo de billete</li><li>SMS</li><li>Aviso sonoro</li></ul>` |
+| Descripción:      | Información sobre el sistema de monitorización |
+| Datos especificos: | <ul><li>Tipo de billete</li><li>SMS</li><li>Alarma</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -459,7 +519,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información de los administradores |
-| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -471,7 +531,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los operadores de transporte |
-| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li><li>Correo Electrónico</li><li>Vehículo</li><li>Ruta asignada</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -483,7 +543,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones |
 | Referencia:        | - |
 | Descripción:      | Información de los clientes|
-| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li>Correo Electrónico</ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número tarjeta</li></ul> |
 | Importancia:       | Muy Importante |
 | Estado:            | Aceptado |
 | Comentar:          | - |
@@ -495,7 +555,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre las alarmas |
-| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li></ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li>li>Tipo alarma</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -512,14 +572,74 @@ DIAGRAMAS DE CLASES
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-007:           | Aviso |
+| INF-008:           | Pago |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      |  |
-| Datos especificos: | <ul><li>Tipo Aviso</li><li></li><li></li></ul>` |
+| Descripción:      | Información sobre los pagos |
+| Datos especificos: | <ul><li>Número tarjeta</li><li>Hora transacción</li><li>Fecha Transacción</li><li>Importe</li></ul>` |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-009:           | Vehículo |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los Vehículos  |
+| Datos especificos: | <ul><li>Nombre Vehículo</li><li>Tipo Vehículo</li><li>Horario</li><li>Ubicación tiempo real </li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-010:           | Evento |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los eventos  |
+| Datos especificos: | <ul><li>Nombre evento</li><li>Fecha</li><li>Hora</li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-011:           | Situación |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre las situaciones inesperadas  |
+| Datos especificos: | <ul><li>Ubicacion</li><li>Fecha</li><li>Hora</li><li>InformaciónSituación</li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-012:           | Período |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los operadores en un período de tiempo  |
+| Datos especificos: | <ul><li>Ubicacion en tiempo real</li><li>Vehículo</li><li>Ruta</li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-013:           | Tipo Alarma |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los tipos de alarma  |
+| Datos especificos: | <ul><li>Tipo de alarma</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
