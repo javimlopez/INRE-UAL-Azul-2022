@@ -91,6 +91,7 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 #### Diagrama
 
 <img src="./svgs/pagoygestionbilletes.svg">
+
 #### Envio Notificaciones
 
 El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarmas  ,cuando se cumplen se envia una alarma a la aplicación del operador de transporte, en el caso de que la app este abierta sera visual en el caso de que este cerrada se comprobara cual es la especificacion del operador ya sea que prefiera que  le envie la notificacion por sms o prefiera recibir una notificacion sonora.
