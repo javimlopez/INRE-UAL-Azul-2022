@@ -1227,7 +1227,7 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre el sistema de monitorización |
-| Datos especificos: | <ul><li>Tipo de billete</li><li>SMS</li><li>Alarma</li></ul>` |
+| Datos especificos: | <ul><li>Tipo de billete</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1235,11 +1235,11 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 | INF-002:           | Administrador                                        |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond: |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información de los administradores |
-| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1251,7 +1251,7 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los operadores de transporte |
-| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li><li>Correo Electrónico</li><li>Vehículo</li><li>Ruta asignada</li></ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Apellidos</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1275,24 +1275,12 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre las alarmas |
-| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li>li>Tipo alarma</li></ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li><li>Tipo alarma</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-006:           | Dato |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      | Información sobre datos |
-| Datos especificos: | `<ul><li>``</li><li>``</li><li>``</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-008:           | Pago |
+| INF-006:           | Pago |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -1304,19 +1292,7 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-009:           | Vehículo |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      | Información sobre los Vehículos  |
-| Datos especificos: | <ul><li>Nombre Vehículo</li><li>Tipo Vehículo</li><li>Horario</li><li>Ubicación tiempo real </li></ul> |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-010:           | Evento |
+| INF-007:           | Evento |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -1328,7 +1304,7 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-011:           | Situación |
+| INF-008:           | Situación |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -1340,29 +1316,19 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-012:           | Período |
+| INF-009:           | Período |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los operadores en un período de tiempo  |
-| Datos especificos: | <ul><li>Ubicacion en tiempo real</li><li>Vehículo</li><li>Ruta</li></ul> |
+| Datos especificos: | |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-013:           | Tipo Alarma |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      | Información sobre los tipos de alarma  |
-| Datos especificos: | <ul><li>Tipo de alarma</li></ul> |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
+
 # Apéndices
 
 ## Detalles de entrevista
