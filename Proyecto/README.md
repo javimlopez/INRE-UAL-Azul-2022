@@ -995,15 +995,15 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 
 ## Diagrama SMET
 
-<img src="">
+<img src="./svgs/DiagramaSMET.drawio (1).svg">
 
 ## Diagrama SIIT
 
-<img src="">
+<img src="./svgs/DiagramaSIIT.drawio (1).svg">
 
 ## Diagrama Portal
 
-<img src="./svgs/Portal.svg">
+<img src="./svgs/DiagramaPortal.drawio (1).svg">
 
 ## Requisitos de información del portal
 
