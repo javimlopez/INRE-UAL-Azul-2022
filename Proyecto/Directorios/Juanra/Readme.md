@@ -4,7 +4,7 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la creación y envio de alarmas del sistema|
-| Actores:           | Sistema  |
+| Actores:           | Sistema de monitorizacion |
 | Precondiciones:    |  - |
 | Flujo Normal:      | 1. El sistema recibe un evento a avisar <br> 2. El sistema crea una alarma <br> 3. El sistema envia una alarma a los destinatarios  |
 | Flujo Alternativo: |  - |
@@ -16,7 +16,7 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la funcionalidad del sistema para conocer los datos en tiempo real de los operadores de transporte  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de monitorizacion |
 | Precondiciones:    | Operador de transporte habilitado en el sistema  |
 | Flujo Normal:      | 1. El operador de transporte activa el dispositivo de seguimiento <br> 2. El dispositivo envia constantemente los datos del operador de transporte y su posición <br> 3. El sistema recibe estos datos |
 | Flujo Alternativo: | 3A. El sistema deja de recibir la informacion <br> 3.1A. El sistema muestra el mensaje "operador de transporte deslocalizado"  |
@@ -28,7 +28,7 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la funcionalidad del sistema de mostrar el mapa  |
-| Actores:           | Sistema, Administrador  |
+| Actores:           | Sistema de monitorizacion  |
 | Precondiciones:    | Usuario administrador registrado en el sistema. Mapa creado en el sistema. Información sobre el mapa |
 | Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion de los operadores de transporte que se le ha añadido |
 | Flujo Alternativo: | 2A. El sistema puede no localizar algo en el mapa por un error al introducir los datos <br> 2.1A El sistema muestra que hay un error en la informacion introducida  |
@@ -40,7 +40,7 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Caso de uso referente a la gestion que realiza el sistema al recibir un pago  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de monitorizacion |
 | Precondiciones:    | Un cliente realiza un pago  |
 | Flujo Normal:      | 1. El sistema comprueba que el pago se ha realizado correctamente <br> 2. El sistema busca en la base de datos al cliente <br> 3. El sistema añade el articulo asociado al pago realizado  |
 | Flujo Alternativo: | 1A. El pago no se ha realizado correctamente <br> 1.1A. El sistema muestra el mensaje "El pago no se ha realizado correctamente" <br> 2A. El sistema no encuentra al cliente <br> 2.1A. El sistema muestra el mensaje "cliente no encontrado" <br> 2.2A. El sistema realiza la devolucion del importe pagado |
@@ -51,12 +51,12 @@
 | Nombre:            | Visualizar Mapa (Admin)  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       | Caso de uso referente a la funcionalidad del administrador de ver el mapa |
+| Descripción:       | Caso de uso referente a la funcionalidad del administrador de ver el mapa con los datos de los operadores sobre el |
 | Actores:           | Administrador  |
 | Precondiciones:    | Usuario administrador registrado en el sistema. Mapa creado en el sistema. Información sobre el mapa  |
-| Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion que se le ha añadido <br> 3. El usuario clicka en el boton que lleva al mapa <br> 4. El sistema muestra el mapa con la iformacion asociada |
-| Flujo Alternativo: | 2A. El sistema puede no localizar algo en el mapa por un error al introducir los datos <br> 2.1A El sistema muestra que hay un error en la informacion introducida <br> 5A. El administrador recibe el aviso de una situacion inusual/puntual <br> 5A.1. El administrador añade dicha situacion a la informacion del mapa <br> 5A.2. El sistema modifica la informacion que se muestra en el mapa <br> 5B. Un administrador accede al mapa <br> 5.1B. Clicka el boton de grabacion <br> 5.2B. El sistema registra toda la informacion de lo que va pasando <br> 5.2B.1. El sistema no tiene espacio para realizar el registro de la informacion. <br> 5.2B.2. El sistema muestra el mensaje "No hay espacio suficiente" <br> 5.3B. Clicka el boton de detener grabacion <br> 5.4B. El sistema guarda la informacion registrada  |
-| Poscondiciones:    |   |
+| Flujo Normal:      | 1. El sistema organiza la informacion del mapa <br> 2. El sistema crea el mapa con la informacion de los operadores de transporte que se le ha añadido  <br> 3. El sistema muestra el mapa con la iformacion asociada |
+| Flujo Alternativo: | 2A. El sistema puede no localizar algo en el mapa por un error al introducir los datos <br> 2.1A El sistema muestra que hay un error en la informacion introducida <br> 3A. El administrador recibe el aviso de una situacion inusual/puntual <br> 3A.1. El administrador añade dicha situacion a la informacion del mapa <br> 3A.2. El sistema modifica la informacion que se muestra en el mapa <br> 3B. Un administrador accede al mapa <br> 3.1B. El sistema registra toda la informacion de lo que va pasando <br> 3.1B.1. El sistema no tiene espacio para realizar el registro de la informacion. <br> 3.1B.2. El sistema muestra el mensaje "No hay espacio suficiente" <br>  |
+| Poscondiciones:    | El sistema guarda la informacion registrada, Se cambia la informacion del mapa|
 
 | UC-06                |   |
 | :----------------- | - |
@@ -66,7 +66,7 @@
 | Descripción:       | Caso de uso referente a la funcionalidad de registrar un periodo concreto  |
 | Actores:           | Administrador  |
 | Precondiciones:    | Usuario administrador registrado en el sistema  |
-| Flujo Normal:      | 1. Un administrador accede al mapa <br> 2. Clicka el boton de grabacion <br> 3. El sistema registra toda la informacion de lo que va pasando <br> 4. Clicka el boton de detener grabacion <br> 5. El sistema guarda la informacion registrada |
+| Flujo Normal:      | 1. Un administrador accede al mapa <br> 2. El sistema registra toda la informacion de lo que va pasando |
 | Flujo Alternativo: | 3A. El sistema no tiene espacio para realizar el registro de la informacion. <br> 3.1A. El sistema muestra el mensaje "No hay espacio suficiente"  |
 | Poscondiciones:    | El sistema guarda todo lo transcurrido en el periodo de tiempo grabado  |
 
@@ -90,7 +90,7 @@
 | Descripción:       | Añade un evento al sistema  |
 | Actores:           | Administrador  |
 | Precondiciones:    | Evento existente  |
-| Flujo Normal:      | 1. El administrador accede al sistema <br> 2. El administrador accede al aparatado de creacion de eventos <br> 3. El administrador guarda el evento <br> 4. Se cumplen las condiciones del evento <br> 5. Se genera la alarma del aviso <br> 6. Se envia la alarma al sistema |
+| Flujo Normal:      | 1. El administrador accede al sistema <br> 2. El administrador accede al aparatado de creacion de eventos <br> 3. Se cumplen las condiciones del evento <br> 4. Se genera la alarma del aviso <br> 5. Se envia la alarma al sistema |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Se añade el evento a la base de datos  |
 
@@ -112,9 +112,9 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Si la apliacion se encuentra cerrada, se envia un sms al cliente  |
-| Actores:           | Sistema  |
+| Actores:           | Operador de transporte, Cliente, Administrador |
 | Precondiciones:    | El cliente ha seleccionado sms como metodo de aviso. Apliacion cerrada  |
-| Flujo Normal:      | 1. Se envia un sms al cliente  |
+| Flujo Normal:      | 1. La aplicacion esta cerrada <br> 2. Se envia un sms al cliente  |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
@@ -136,9 +136,9 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Si la apliacion se encuentra cerrada, se envia un aviso sonoro al cliente  |
-| Actores:           | Sistema |
+| Actores:           | Operador de transporte, Cliente, Administrador |
 | Precondiciones:    | El cliente ha seleccionado aviso sonoro como metodo de aviso. Apliacion cerrada  |
-| Flujo Normal:      | 1. Se envia un aviso sonoro al cliente  |
+| Flujo Normal:      | 1. La aplicacion esta cerrada <br> 2. Se envia un aviso sonoro al cliente  |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
@@ -147,12 +147,12 @@
 | Nombre:            |Ayuda en linea (SMET)  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
+| Descripción:       | Funcion de ayuda en linea de uso general |
 | Actores:           |Operadores de transporte , Clientes, Administradores  |
 | Precondiciones:    | Informacion de ayuda añadida a la base de datos  |
-| Flujo Normal:      | 1. El usuario accede a la aplicacion <br> 2. El usuario accede al apartado de ayuda en linea <br> 3. El usuario consulta la informacion correspondiente a sus necesidades  |
-| Flujo Alternativo: | 3A. El usuario no encuentra la informacion que necesita <br> 3.1A. El usuario se pone en contacto con AUTGC para indicar su duda <br> 3.2A. Se añade un apartado nuevo  |
-| Poscondiciones:    | -  |
+| Flujo Normal:      | 1. El usuario consulta la informacion correspondiente a sus necesidades  |
+| Flujo Alternativo: | 1A. El usuario no encuentra la informacion que necesita <br> 1.1A. El usuario se pone en contacto con AUTGC para indicar su duda <br> 1.1A.1 Se añade un apartado nuevo  |
+| Poscondiciones:    | Se almacenan los nuevos apartados |
 
 | UC-14                |   |
 | :----------------- | - |
@@ -174,7 +174,7 @@
 | Descripción:       | Una opcion de visualizacion del itinerario ya definido por el cliente  |
 | Actores:           | Cliente  |
 | Precondiciones:    | itinerario definido por el cliente  |
-| Flujo Normal:      | 1. El cliente acciona el boton de mostrar itinerario <br> 2. El itinerario se muestra en el mapa <br> 3. El cliente cierra el mapa   |
+| Flujo Normal:      | 1. El itinerario se muestra en el mapa  |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
@@ -186,9 +186,9 @@
 | Descripción:       | Funcion por la que el cliente introduce los datos de itinerario para que el sistema calcule el itinerario mas recomendable |
 | Actores:           | Cliente  |
 | Precondiciones:    | Itinerarios calculados por el sistema  |
-| Flujo Normal:      | 1. El cliente define inicio <br> 2. El cliente define fin  <br> 3. El cliente guarda los datos <br> 4. El cliente selecciona calcular itinerario <br> 5. Se muestra una representacion sencilla del itinerario |
-| Flujo Alternativo: | 5A. El cliente acciona el boton de mostrar itinerario <br> 5A.1. El itinerario se muestra en el mapa <br> 5A.2. El cliente cierra el mapa   |
-| Poscondiciones:    | -  |
+| Flujo Normal:      | 1. El cliente define inicio <br> 2. El cliente define fin  <br> 3. El cliente selecciona calcular itinerario <br> 4. Se muestra una representacion sencilla del itinerario |
+| Flujo Alternativo: | 4A. El itinerario se muestra en el mapa|
+| Poscondiciones:    | Se guardan los datos  |
 
 | UC-17              |   |
 | :----------------- | - |
@@ -198,8 +198,8 @@
 | Descripción:       | Funcion por la que se pueden ver las paradas y lineas ya organizadas por el sistema  |
 | Actores:           | Cliente, Operador de transporte, Administrador  |
 | Precondiciones:    | El sistema ha de tener organizadas las paradas y lineas  |
-| Flujo Normal:      | 1. El usuario cualquiera selecciona la opcion para ver lineas <br> 2. Se muestran las lineas y paradas <br> 3. Se cierra la vista |
-| Flujo Alternativo: | 2A. Se selecciona una linea <br> 2A.1. Se muestra la informacion de esa linea  |
+| Flujo Normal:      | 1. Se muestran las lineas y paradas |
+| Flujo Alternativo: | 1A. Se selecciona una linea <br> 1A.1. Se muestra la informacion de esa linea  |
 | Poscondiciones:    | -  |
 
 | UC-18                |   |
@@ -220,9 +220,9 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Funcion por la cual el sistema, mediante los datos de las lineas, calcula los transbordos incluyendo entre vehiculos diferentes  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de informacion |
 | Precondiciones:    | Datos de la linea presentados  |
-| Flujo Normal:      | 1. El sistema obtiene los datos <br> 2. El sistema organiza los transbordos <br> 3. Los transbordos se guardan |
+| Flujo Normal:      | 1. El sistema obtiene los datos <br> 2. El sistema organiza los transbordos|
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Los transbordos se guardan en la base de datos  |
 
@@ -232,9 +232,9 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | El sistema calcula la distancia entre las paradas  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de informacion |
 | Precondiciones:    | Datos de las paradas introducidos manualmente  |
-| Flujo Normal:      | 1. El sistema obtiene los datos <br> 2. Se calcula la distancia <br> 3. Se almacena en la base de datos  |
+| Flujo Normal:      | 1. El sistema obtiene los datos <br> 2. Se calcula la distancia |
 | Flujo Alternativo: | 2A. Se identifica que no se puede transitar de una parada a otra <br> 2B. Se ofrece una parada cercana sustituta  |
 | Poscondiciones:    | Se guardan las distancias en la base de datos  |
 
@@ -244,7 +244,7 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | El sistema calcula los tiempos de recorrido segun los datos  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de informacion |
 | Precondiciones:    | Datos introducidos manualmente  |
 | Flujo Normal:      | 1. El sistema define el recorrido <br> 2. El sistema calcula el recorrido |
 | Flujo Alternativo: | 2A. El sistema encuentra que el recorrido no es transitable <br> 2A.1. Se ofrece un recorrido sustituto  |
@@ -252,15 +252,15 @@
 
 | UC-22               |   |
 | :----------------- | - |
-| Nombre:            | Ayuda en linea (SIT)  |
+| Nombre:            |Ayuda en linea (SMET)  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
-| Descripción:       |   |
-| Actores:           |Operadores de transporte , Clientes, Administradores  |
+| Descripción:       | Funcion de ayuda en linea de uso general |
+| Actores:           | Operadores de transporte , Clientes, Administradores  |
 | Precondiciones:    | Informacion de ayuda añadida a la base de datos  |
-| Flujo Normal:      | 1. El usuario accede a la aplicacion <br> 2. El usuario accede al apartado de ayuda en linea <br> 3. El usuario consulta la informacion correspondiente a sus necesidades  |
-| Flujo Alternativo: | 3A. El usuario no encuentra la informacion que necesita <br> 3.1A. El usuario se pone en contacto con AUTGC para indicar su duda <br> 3.2A. Se añade un apartado nuevo  |
-| Poscondiciones:    | -  |
+| Flujo Normal:      | 1. El usuario consulta la informacion correspondiente a sus necesidades  |
+| Flujo Alternativo: | 1A. El usuario no encuentra la informacion que necesita <br> 1.1A. El usuario se pone en contacto con AUTGC para indicar su duda <br> 1.1A.1 Se añade un apartado nuevo  |
+| Poscondiciones:    | Se almacenan los nuevos apartados |
 
 | UC-23                |   |
 | :----------------- | - |
@@ -318,9 +318,9 @@
 | Descripción:       | Funcion para introducir el inicio y fin de un itinerario  |
 | Actores:           | Cliente  |
 | Precondiciones:    | -  |
-| Flujo Normal:      | 1. El cliente define inicio <br> 2. El cliente define fin  <br> 3. El cliente guarda los datos  |
+| Flujo Normal:      | 1. El cliente define inicio <br> 2. El cliente define fin |
 | Flujo Alternativo: | -  |
-| Poscondiciones:    | -  |
+| Poscondiciones:    | Se guardan los datos  |
 
 | UC-28                |   |
 | :----------------- | - |
@@ -330,7 +330,7 @@
 | Descripción:       | Parte del flujo alternativo de CU-37. Funcion para introducir zonas marcadas como zonas de interes para el calculo de itinerarios |
 | Actores:           | Administrador  |
 | Precondiciones:    | -  |
-| Flujo Normal:      | 1. El administrador accede a la opcion de ubicar zonas de interes <br> 2. El administrador introduce los datos de la zona de interes <br> 3. El administrador guarda los datos  |
+| Flujo Normal:      | 1. El administrador introduce los datos de la zona de interes |
 | Flujo Alternativo: | - |
 | Poscondiciones:    | Los datos de la ubicacion de interes se introducen en la base de datos  |
 
@@ -352,11 +352,11 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | El sistema usa los datos cartograficos para delimitar zonas, municipios y barrios  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de informacion |
 | Precondiciones:    | -  |
-| Flujo Normal:      | 1. El sistema obtiene los datos cartograficos <br> 2. El sistema delimita las zonas <br> 3. El sistema delimita municipios <br> 4. El sistema delimita barrios <br> 5. El sistema guarda los datos en la base de datos |
+| Flujo Normal:      | 1. El sistema obtiene los datos cartograficos <br> 2. El sistema delimita las zonas <br> 3. El sistema delimita municipios <br> 4. El sistema delimita barrios |
 | Flujo Alternativo: | -  |
-| Poscondiciones:    | Se añaden las zonas a la base de datos |
+| Poscondiciones:    | Se añaden los datos de las zonas, municipios y barrios a la base de datos |
 
 | UC-31                |   |
 | :----------------- | - |
@@ -366,7 +366,7 @@
 | Descripción:       | Parte del flujo alternativo de CU-37. Metodo para la introduccion de datos necesarios para el calculo de itinerarios en el sistema  |
 | Actores:           | Administrador  |
 | Precondiciones:    | -  |
-| Flujo Normal:      | 1. El administrador accede a la opcion de introduccion de datos manual <br> 2. El administrador introduce los datos <br> 3. El administrador guarda los datos  |
+| Flujo Normal:      | 1. El administrador introduce los datos <br>  |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Los datos introducidos se guardan en la base de datos  |
 
@@ -376,11 +376,11 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Desarrollo de los procesos de control, edicion de la informacion, carga inicial y mantenimiento de datos  |
-| Actores:           | Administrador  |
+| Actores:           | Administrador |
 | Precondiciones:    |   |
-| Flujo Normal:      | 1. El administrador accede al menu de control y edicion de la informacion <br> 2. Se selecciona una opcion <br> 3. Se cierra el menu  |
-| Flujo Alternativo: | 2A. Se selecciona la opcion de listado de datos <br> 2A.1. Se visualizan los horarios y servicios disponibles <br> 2B. El administrador accede a la opcion de introduccion de datos manual <br> 2B.1. El administrador introduce los datos <br> 2B.2. El administrador guarda los datos <br> 2C. El administrador accede al menu de modificacion de datos <br> 2C.1. El administrador modifica datos <br> 2C.2. El administrador guarda los datos <br> 2D. El administrador accede a la opcion de ubicar zonas de interes <br> 2D.1. El administrador introduce los datos de la zona de interes <br> 2D.2. El administrador guarda los datos|
-| Poscondiciones:    |   |
+| Flujo Normal:      | 1. Se selecciona una opcion |
+| Flujo Alternativo: | 1A. Se visualizan los horarios y servicios disponibles <br> 1B. El administrador modifica datos <br> 1C. El administrador introduce los datos <br> 1D. El administrador introduce los datos de la zona de interes|
+| Poscondiciones:    | Los datos introducidos se guardan en la base de datos, Los datos introducidos se guardan en la base de datos, Los datos de la ubicacion de interes se introducen en la base de datos |
 
 | UC-33                |   |
 | :----------------- | - |
@@ -390,7 +390,7 @@
 | Descripción:       | Parte del flujo alternativo de CU-37. Funcion para modificar los datos necesarios para el calculo de itinerarios  |
 | Actores:           | Adminstrador  |
 | Precondiciones:    | Realizacion de introduccion manual de datos  |
-| Flujo Normal:      | 1. El administrador accede al menu de modificacion de datos <br> 2. El administrador modifica datos <br> 3. El administrador guarda los datos  |
+| Flujo Normal:      | 1. El administrador modifica datos |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Datos se han modificado en la base de datos  |
 
@@ -400,7 +400,7 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Funcion por la que el sistema comprueba los datos de paradas y lineas introducidos por el administrador  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de informacion |
 | Precondiciones:    | Datos introducidos manualmente  |
 | Flujo Normal:      | 1. El sistema compureba los datos asociados a las paradas y lineas  |
 | Flujo Alternativo: | -  |
@@ -412,9 +412,9 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Funcion por la cual el sistema organiza las paradas y lineas segun los datos que le ha dado el administrador  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de informacion |
 | Precondiciones:    | Datos introducidos manualmente  |
-| Flujo Normal:      | 1. El sistema comprueba los datos asociados a las paradas y lineas <br> 2. Las paradas y lineas se organizan segun los datos asociados <br> 3. Las paradas y lineas se guardan  |
+| Flujo Normal:      | 1. El sistema comprueba los datos asociados a las paradas y lineas <br> 2. Las paradas y lineas se organizan segun los datos asociados|
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | Las paradas junto a las lineas se modifican y se guardan |
 
@@ -426,7 +426,7 @@
 | Descripción:       | Parte del flujo alternativo de CU-37. Proceso para visualizar listados de horarios y servicios necesarios para el calculo de itinerarios |
 | Actores:           | Administrador  |
 | Precondiciones:    | Horarios y servicios introducidos en el sistema  |
-| Flujo Normal:      | 1. Se selecciona la opcion de listado de datos <br> 2. Se visualizan los horarios y servicios disponibles  |
+| Flujo Normal:      | 1. Se visualizan los horarios y servicios disponibles  |
 | Flujo Alternativo: | -  |
 | Poscondiciones:    | -  |
 
@@ -484,11 +484,11 @@
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:  |
 | Fecha:             | 14/12/2022  |
 | Descripción:       | Funcion encargada de mostrar el mapa interactivo de la aplicacion  |
-| Actores:           | Sistema  |
+| Actores:           | Sistema de informacion |
 | Precondiciones:    | -  |
 | Flujo Normal:      | 1. El sistema crea el mapa en base a los datos cartograficos <br> 2. El sistema renderiza el mapa|
 | Flujo Alternativo: | 2A. Se centra el mapa <br> 2B. Se acerca el mapa <br> 2C. Se aleja el mapa  <br> 2D. Se desplaza el mapa en cualquier direccion <br> 2E. Se vuelve a colocar como el mapa en su estado inicial |
-| Poscondiciones:    | -  |
+| Poscondiciones:    | - |
 
 | UC-42                |   |
 | :----------------- | - |
@@ -536,7 +536,7 @@
 | Precondiciones:    |  - |
 | Flujo Normal:      | 1. Se modifican contenidos  |
 | Flujo Alternativo: |  - |
-| Poscondiciones:    |  - |
+| Poscondiciones:    | Se guardan los cambios |
 
 | UC-46                |   |
 | :----------------- | - |
@@ -607,7 +607,7 @@
 | Actores:           | Administrador  |
 | Precondiciones:    | -  |
 | Flujo Normal:      | 1. Se modifica la pagina <br> 2. Se previsualiza la pagina  |
-| Flujo Alternativo: | -  |
+| Flujo Alternativo: | 1A. Se modifican varias paginas  |
 | Poscondiciones:    | Se guardan los cambios  |
 
 | UC-52                |   |
@@ -643,7 +643,7 @@
 | Actores:           | Cliente  |
 | Precondiciones:    | -  |
 | Flujo Normal:      | 1. Se concede acceso al entorno de colaboracion  |
-| Flujo Alternativo: | 2A. Accede al blog <br> 2B. Acceso al cloudtag de la pagina principal del foro <br> 2C. Acceso al foro |
+| Flujo Alternativo: | 1A. Accede al blog <br> 1B. Acceso al cloudtag de la pagina principal del foro <br> 1C. Acceso al foro |
 | Poscondiciones:    | -  |
 
 | UC-55                |   |
@@ -679,7 +679,7 @@
 | Actores:           | Administrador  |
 | Precondiciones:    | -  |
 | Flujo Normal:      | 1. Se concede acceso al entorno de colaboracion  |
-| Flujo Alternativo: | 2A. Accede al blog <br> 2B. Acceso al cloudtag de la pagina principal del foro <br> 2C. Acceso al foro |
+| Flujo Alternativo: | 1A. Accede al blog <br> 1B. Acceso al cloudtag de la pagina principal del foro <br> 1C. Acceso al foro |
 | Poscondiciones:    | -  |
 
 | UC-58                |   |
@@ -739,5 +739,5 @@
 | Actores:           | Administrador  |
 | Precondiciones:    | -  |
 | Flujo Normal:      | 1. El administrador escoge una opcion  |
-| Flujo Alternativo: | 2A. Se modifican contenidos <br> 2B. Se retira contenido <br> 2C. Se publica contenido  |
+| Flujo Alternativo: | 1A. Se modifican contenidos <br> 1B. Se retira contenido <br> 1C. Se publica contenido  |
 | Poscondiciones:    | Se guardan los cambios realizados  |
