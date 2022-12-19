@@ -84,7 +84,7 @@ En este documento se va a tratar la recopilación de toda la información necesa
 ## Modelos de negocio
 
 ### Subprocesos y tareas
-#### Pago y gestion de billetes
+#### Pago y gestion de billetes online
 
 El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce los datos de pago. Los datos de pago y del articulo se envian al gestor de pagos para procesar dicho pago, si el pago es incorrecto, se envia un mensaje al cliente y se finaliza el proceso, sin embargo, si el pago es correcto, los datos del cliente y el articulo se envian al sistema para que este busque y añada el articulo que ha pagado, en caso de que el sistema no encuentre al cliente, se le devulve el importe. En cualquier caso, se le envia un mensaje indicandole lo sucedido y el proceso finaliza.
 
