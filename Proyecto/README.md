@@ -91,7 +91,7 @@ El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce
 #### Diagrama
 
 <img src="./svgs/pagoygestionbilletes.svg">
-
+<img src="./svgs/pagoygestionbilletes.svg">
 # Requisitos del sistema a desarrollar
 
 #### Requisitos
