@@ -133,7 +133,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 |Creacion de pagina sencilla|En el portal se ha de poder modificar de forma sencilla una pagina o un conjunto de paginas siempre mostrando una previsualizacion antes de  aceptar la modificacion |Funcional|
 |Etorno de colaboracion | El portal ha de poseer un entorno de colaboracion accesible por los administradores y los clientes formado por un blog, un foro y el cloid tag que siempre esta en la pagina principal|Funcional|
 |Acceso Web|El portal ha de ser accesible por la web para administradores y clientes|Funcional|
-|||Funcional|
+
 
 
 # Casos de uso
