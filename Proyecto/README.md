@@ -363,7 +363,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:  Información sobre el administrador |                                                      |
-| Datos especificos: | <ul><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
+| Datos especificos: | <ul><li>Identificador administrador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -404,18 +404,6 @@ DIAGRAMAS DE CLASES
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-005:           | Sistema Información |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      | Información sobre el sistema de información |
-| Datos especificos: | <ul><li>Horario Servicio</li><li>Tipo servicio</li><li>Ubicaciones</li><li>Zonas no transitables</li><li>Rutas</li><li>barrios</li><li>municipios</li></ul> |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
 | INF-006:           | Líneas |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
@@ -423,7 +411,7 @@ DIAGRAMAS DE CLASES
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información de líneas  |
-| Datos especificos: | <ul><li>Vehículo</li><li>Paradas</li></ul> |
+| Datos especificos: | <ul><li>Vehículo</li><li>Parada</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -436,18 +424,6 @@ DIAGRAMAS DE CLASES
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre rutas  |
 | Datos especificos: | <ul><li>Información turística</li><li>Ubicaciones</li></ul>` |
-| Importancia:       | Muy Importante                                       |
-| Estado:            | Aceptado                                             |
-| Comentar:          | -                                                    |
-
-| INF-008:           | Ubicaciones |
-| :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
-| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
-| Fuente:            | Pliego de condiciones                                |
-| Referencia:        | -                                                    |
-| Descripción:      | Información sobre ubicaciones  |
-| Datos especificos: | <ul><li>Coordenadas</li><li>EsDeInteres</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
