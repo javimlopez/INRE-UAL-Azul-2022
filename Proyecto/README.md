@@ -86,12 +86,18 @@ En este documento se va a tratar la recopilación de toda la información necesa
 ### Subprocesos y tareas
 #### Pago y gestion de billetes
 
-El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce los datos de pago. Los datos de pago y del articulo se envian al gestor de pagos para procesar dicho pago, si el pago es incorrecto, se envia un mensaje al cliente y se finaliza el proces, sin embargo, si el pago es correcto, los datos del cliente y el articulo se envian al sistema para que este busque y añada el articulo que ha pagado, en caso de que el sistema no encuentre al cliente, se le devulve el importe. En cualquier caso, se le envia un mensaje indicandole lo sucedido y el proceso finaliza.
+El cliente selecciona el tipo de billete, accede al  portal de pagos e introduce los datos de pago. Los datos de pago y del articulo se envian al gestor de pagos para procesar dicho pago, si el pago es incorrecto, se envia un mensaje al cliente y se finaliza el proceso, sin embargo, si el pago es correcto, los datos del cliente y el articulo se envian al sistema para que este busque y añada el articulo que ha pagado, en caso de que el sistema no encuentre al cliente, se le devulve el importe. En cualquier caso, se le envia un mensaje indicandole lo sucedido y el proceso finaliza.
 
 #### Diagrama
 
 <img src="./svgs/pagoygestionbilletes.svg">
-<img src="./svgs/pagoygestionbilletes.svg">
+#### Envio Notificaciones
+
+El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarmas  ,cuando se cumplen se envia una alarma a la aplicación del operador de transporte, en el caso de que la app este abierta sera visual en el caso de que este cerrada se comprobara cual es la especificacion del operador ya sea que prefiera que  le envie la notificacion por sms o prefiera recibir una notificacion sonora.
+
+#### Diagrama
+<img src="./svgs/DiagramaNotificaciones.drawio.svg">
+
 # Requisitos del sistema a desarrollar
 
 #### Requisitos
