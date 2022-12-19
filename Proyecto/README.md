@@ -1113,14 +1113,14 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:  Información sobre el administrador |                                                      |
-| Datos especificos: | <ul><li>Identificador administrador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
+| Datos especificos: | <ul><li>Identificador administrador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
 | INF-002:  | Cliente (SIIT) |
 | :----------------- | :--------------------------------------------------- |
-| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Versión:          | 1.0 (Diciembre-2022)  |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | - |
@@ -1137,7 +1137,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción: Información sobre el operador |                                                      |
-| Datos especificos: | <ul><li>Identificador Operador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li></ul> |
+| Datos especificos: | <ul><li>Identificador Operador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número Tarjeta<li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1149,12 +1149,12 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      |  Información relevante sobre itinerarios |
-| Datos especificos: | <ul><li>Fecha inicio</li><li>Fecha fin</li><li>Líneas</li></ul> |
+| Datos especificos: | <ul><li>Origen</li><li>Destino</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-006:           | Líneas |
+| INF-005:           | Línea |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -1166,68 +1166,117 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-007:           | Ruta |
+| INF-006:           | Zona |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      | Información sobre rutas  |
-| Datos especificos: | <ul><li>Información turística</li><li>Ubicaciones</li></ul>` |
+| Descripción:      | Información sobre zonas  |
+| Datos especificos: | <ul><li>IdentificadorZona</li><li>Transitable</li><li>InformaciónZona</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-009:           | Horario |
+| INF-007:           | Horario |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre horario  |
-| Datos especificos: | <ul><li>Fecha</li><li>Hora</li></ul>` |
+| Datos especificos: | <ul><li>Fecha</li><li>Hora</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-010:           | Paradas |
+| INF-008:           | Parada |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre paradas  |
-| Datos especificos: | <ul><li>Linea</li><li>Ubicacion</li></ul>` |
+| Datos especificos: | <ul><li>InformaciónInterés</li><li>Ubicacion</li></ul>` |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-011:           | Datos cartográficos |
+| INF-009:           | Vehículo |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      | Información sobre los datos cartográficos necesarios para generar el mapa  |
-| Datos especificos: | <ul><li>Coordenadas</li><li>Ubicacion</li></ul>` |
+| Descripción:      | Información sobre los vehículos |
+| Datos especificos: | <ul><li>Nombre Vehículo</li><li>Tipo Vehículo</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 
-| INF-012:           | Vehículo |
+| INF-010:           | Municipio |
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
-| Descripción:      | Información sobre los datos cartográficos necesarios para generar el mapa  |
-| Datos especificos: | <ul><li>Nombre Vehículo</li><li>Tipo Vehículo</li><li>Horario</li><li>Ubicación tiempo real </li></ul> |
+| Descripción:      | Información sobre los municipios  |
+| Datos especificos: |  |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-011:           | Barrio |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre los barrios |
+| Datos especificos: |  |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-012:           | Conducir |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Tabla intermedia entre operador y vehículo  |
+| Datos especificos: | <ul><li>Vehículo</li><li>IdentificadorOperador</li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+
+| INF-013:           | Ubicación |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información sobre ubicación  |
+| Datos especificos: | <ul><li>Coordenada</li><li>EsDeInterés</li></ul> |
+| Importancia:       | Muy Importante                                       |
+| Estado:            | Aceptado                                             |
+| Comentar:          | -                                                    |
+
+| INF-014:           | Sistema de información |
+| :----------------- | :--------------------------------------------------- |
+| Versión:          | 1.0 (Diciembre-2022)                                 |
+| Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
+| Fuente:            | Pliego de condiciones                                |
+| Referencia:        | -                                                    |
+| Descripción:      | Información del sistema  |
+| Datos especificos: | <ul><li>Datos</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
 ## Requisitos de información del sistema interactivo de información del transporte (SMET)
 
-| INF-001:           | Sistema de monitorización  |
+| INF-001:           | Sistema de monitorización  | 
 | :----------------- | :--------------------------------------------------- |
 | Versión:          | 1.0 (Diciembre-2022)                                 |
 | Autor:             | :large_blue_diamond: Equipo Azul :large_blue_diamond:                         |
@@ -1282,7 +1331,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre las alarmas |
-| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li><li>Tipo alarma</li></ul> |
+| Datos especificos: | <ul><li>Nombre</li><li>Duración</li><li>Información</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1330,7 +1379,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los operadores en un período de tiempo  |
-| Datos especificos: | |
+| Datos especificos: | <ul><li>Operador</li><li>Inicio</li><li>Fin</li></ul>|
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
