@@ -1060,7 +1060,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre el contenido de los blogs |
-| Datos especificos: | <ul><li>Autor</li><li>Texto</li><li>Imagen</li></ul>` |
+| Datos especificos: | <ul><li>Autor</li><li>Texto</li><li>Imagen</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1072,7 +1072,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los foros |
-| Datos especificos: | <ul><li>Autor</li><li>Mensaje</li><li>Hora</li></ul>` |
+| Datos especificos: | <ul><li>Autor</li><li>Mensaje</li><li>Hora</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1135,7 +1135,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción: Información sobre el operador |                                                      |
-| Datos especificos: | <ul><li>Identificador Operador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número Tarjeta<li></ul> |
+| Datos especificos: | <ul><li>Identificador Operador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número Tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1195,7 +1195,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre paradas  |
-| Datos especificos: | <ul><li>InformaciónInterés</li><li>Ubicacion</li></ul>` |
+| Datos especificos: | <ul><li>InformaciónInterés</li><li>Ubicacion</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1341,7 +1341,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los pagos |
-| Datos especificos: | <ul><li>Número tarjeta</li><li>Hora transacción</li><li>Fecha Transacción</li><li>Importe</li></ul>` |
+| Datos especificos: | <ul><li>Número tarjeta</li><li>Hora transacción</li><li>Fecha Transacción</li><li>Importe</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
