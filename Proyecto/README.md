@@ -101,7 +101,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 
 #### Recibo en el transporte
 
-El cliente entra en el transporte, contacta con el empleado, el empreado le indica el precio, el cliente abona el precio estimado, el empleado recibe el precio de manera exacta o por encima del precio marcado, el empleado manda el ticket y el cambio, en caso de ser precio exacto el cambio será 0, y el proceso se termina cuando el usuario recibe el dinero y el ticket
+El cliente entra en el transporte, contacta con el operador del transporte, el operador del transporte le indica el precio, el cliente abona el precio estimado, el operador del transporte recibe el precio de manera exacta o por encima del precio marcado, el operador del transporte manda el ticket y el cambio, en caso de ser precio exacto el cambio será 0, y el proceso se termina cuando el usuario recibe el dinero y el ticket
 
 #### Diagrama
 
