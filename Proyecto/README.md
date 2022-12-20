@@ -120,20 +120,18 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 |Definir zonas|Los administradores han de ser capaces de crear zonas|Funcional|
 |Presentar recorrido cierta linea|El sistema de informacion ha de poder mostrar el recorrido de una linea y si se quiere la informacion de la correspondiente linea|Funcional|
 |Herramientas de analisis|herramientas de analisis, consulta, localizacion y gestion, con el objeto de que el usuario del transporte publico pueda consultar de forma dinamica la informacion del servicio permitiendole conocer y programar con antelacion su viaje. |Funcional|
-||||
 |Realizar Pagos|El cliente ha de ser capaz de pagar con tarjeta y  que el sistema de monitorizacion sea capaz de gestionarlo|Funcional|
 |Recabar informacion en tiempo real Operadores|El sistema de monitorizacion se va a encargar de recabar informacion de los operadores de transporte |Funcional|
 |Gestion de Alarmas|El sistema de monitorizacion debe poder enviar Alarmas y los todos los usuarios han de poder visualizar las Alarmas on en el caso de que la app este cerrada recibir un sms o una norificacion sonora|Funcional|
 |Visualizar Mapa (Admin)|Los administradores han de poder visualizar en un mapa dado por el sistema de monitorizacion los datos de los conductores y de la explotacion donde tendran la opcion de registrar incidencias o periodos de tiempo|Funcional|
 |Definir eventos|Se han de poder registrar eventos por parte de los administradores|Funcional|
-||||
 |Editor WYSYWYG|El portal  tiene que tener un editor de este tipo|Funcional|
 |Mostrar estadisticas|El portal es capaz de mostrar la estadisticas de acceso a los administradores|Funcional|
 |Gestor de contenidos|El administrador ha de ser capaza de modificar ,retirar y publicar contenido segun su juicio|Funcional|
 |Creacion de pagina sencilla|En el portal se ha de poder modificar de forma sencilla una pagina o un conjunto de paginas siempre mostrando una previsualizacion antes de  aceptar la modificacion |Funcional|
 |Etorno de colaboracion | El portal ha de poseer un entorno de colaboracion accesible por los administradores y los clientes formado por un blog, un foro y el cloid tag que siempre esta en la pagina principal|Funcional|
 |Acceso Web|El portal ha de ser accesible por la web para administradores y clientes|Funcional|
-|||Funcional|
+
 
 
 # Casos de uso
@@ -1062,7 +1060,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre el contenido de los blogs |
-| Datos especificos: | <ul><li>Autor</li><li>Texto</li><li>Imagen</li></ul>` |
+| Datos especificos: | <ul><li>Autor</li><li>Texto</li><li>Imagen</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1074,7 +1072,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los foros |
-| Datos especificos: | <ul><li>Autor</li><li>Mensaje</li><li>Hora</li></ul>` |
+| Datos especificos: | <ul><li>Autor</li><li>Mensaje</li><li>Hora</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1137,7 +1135,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción: Información sobre el operador |                                                      |
-| Datos especificos: | <ul><li>Identificador Operador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número Tarjeta<li></ul> |
+| Datos especificos: | <ul><li>Identificador Operador</li><li>Nombre</li><li>Teléfono</li><li>Correo Electrónico</li><li>Número Tarjeta</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1197,7 +1195,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre paradas  |
-| Datos especificos: | <ul><li>InformaciónInterés</li><li>Ubicacion</li></ul>` |
+| Datos especificos: | <ul><li>InformaciónInterés</li><li>Ubicacion</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
@@ -1343,7 +1341,7 @@ El sistema comprueba cada 5 minutos que se cumplen las condiciones de las alarma
 | Fuente:            | Pliego de condiciones                                |
 | Referencia:        | -                                                    |
 | Descripción:      | Información sobre los pagos |
-| Datos especificos: | <ul><li>Número tarjeta</li><li>Hora transacción</li><li>Fecha Transacción</li><li>Importe</li></ul>` |
+| Datos especificos: | <ul><li>Número tarjeta</li><li>Hora transacción</li><li>Fecha Transacción</li><li>Importe</li></ul> |
 | Importancia:       | Muy Importante                                       |
 | Estado:            | Aceptado                                             |
 | Comentar:          | -                                                    |
